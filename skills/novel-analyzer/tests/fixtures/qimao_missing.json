@@ -1,0 +1,11 @@
+{"retrieved_at":"2026-07-16","entries":[
+  {"gender":"male","rank_type":"hot","rank":1,"title":"男热"},
+  {"gender":"male","rank_type":"new","rank":1,"title":"男新"},
+  {"gender":"male","rank_type":"finished","rank":1,"title":"男完"},
+  {"gender":"male","rank_type":"favorites","rank":1,"title":"男藏"},
+  {"gender":"male","rank_type":"updates","rank":1,"title":"男更"},
+  {"gender":"female","rank_type":"hot","rank":1,"title":"女热"},
+  {"gender":"female","rank_type":"new","rank":1,"title":"女新"},
+  {"gender":"female","rank_type":"finished","rank":1,"title":"女完"},
+  {"gender":"female","rank_type":"favorites","rank":1,"title":"女藏"}
+]}

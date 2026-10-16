@@ -1,0 +1,61 @@
+{
+  "document_type": "privacy_safe_aggregates_not_raw_evidence",
+  "verified_at": "2026-10-11",
+  "scan": {
+    "date": "2026-10-09",
+    "platform": "fanqie",
+    "source_coverage": {
+      "required": 9,
+      "passed": 9
+    },
+    "story_atoms_accepted": 70,
+    "rank_groups": [
+      {
+        "audience": "male",
+        "chart": "new",
+        "categories": 19,
+        "records": 190,
+        "status": "success"
+      },
+      {
+        "audience": "male",
+        "chart": "read",
+        "categories": 19,
+        "records": 190,
+        "status": "success"
+      },
+      {
+        "audience": "female",
+        "chart": "new",
+        "categories": 18,
+        "records": 180,
+        "status": "success"
+      },
+      {
+        "audience": "female",
+        "chart": "read",
+        "categories": 18,
+        "records": 180,
+        "status": "success"
+      }
+    ],
+    "categories_total": 74,
+    "records_total": 740,
+    "historical_font_decoder_required": true
+  },
+  "historical_candidate": {
+    "date": "2026-09-05",
+    "lane": "short",
+    "platform": "qimao",
+    "channel": "male",
+    "control_policy": "quality_strict",
+    "kernels_generated": 9,
+    "passed_review": 5,
+    "final_delivery": 5,
+    "formal_verify": "passed",
+    "verify_rechecked": "2026-10-08",
+    "curated_real_cards_in_review_repo": true,
+    "curated_cards_count": 5
+  },
+  "caution": "The scan and real delivered cards are separate historical runs. Original short-form production used quality_strict; 4.4.2 has no full-model delivery pass. Public book titles/metadata and owner-generated creative card fields are curated in separate preview files, but no full third-party text, signed image links, account data or private model receipts are bundled. Publication still requires owner approval."
+}

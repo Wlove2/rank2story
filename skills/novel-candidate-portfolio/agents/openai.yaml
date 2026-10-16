@@ -1,0 +1,4 @@
+interface:
+  display_name: "Novel Candidate Portfolio"
+  short_description: "Create controller-verified candidate portfolios"
+  default_prompt: "Use $novel-candidate-portfolio to generate and verify 4-6 novel candidate cards from a sealed evidence packet."

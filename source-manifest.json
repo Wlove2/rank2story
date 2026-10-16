@@ -1,0 +1,648 @@
+{
+  "run_id": "cand-20260905-132200-11f9484c",
+  "files": [
+    {
+      "file": "skills/novel-analyzer/SKILL.md",
+      "baseline_sha256": "d6e6698c2f54cee7efcaae7f63c57e786a44d909ea496bccb311430c59df43d4",
+      "release_sha256": "d3082b0856594f43b692cb8c0b5221a8f40317d570d9f2b858e1f4b5a931e01b",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/agents/openai.yaml",
+      "baseline_sha256": "fe310a01fd5387524b023fdd127422cb55a8b6d8e9671a426e7bfce70e511a06",
+      "release_sha256": "fe310a01fd5387524b023fdd127422cb55a8b6d8e9671a426e7bfce70e511a06",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/config/fanqie-current.json",
+      "baseline_sha256": "b02a970e76b29c8417b09443b91fba6f5e927eac3391f4cea34f2d542ec5c39a",
+      "release_sha256": "b02a970e76b29c8417b09443b91fba6f5e927eac3391f4cea34f2d542ec5c39a",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/references/fanqie-scraping.md",
+      "baseline_sha256": "8cc548a6952df174485f248026e85f81dd674a3d135e34df2cb35018165e10b0",
+      "release_sha256": "f9456f5ff7df934f04d8dfe26e72fb1ef3308d9cdaf88295bb7c228215b4af30",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/references/generation-artifact-schema.md",
+      "baseline_sha256": "0a725cbdea7a727e44a304b1560b768c2953a1755e5dcdd344ad81047a81d77f",
+      "release_sha256": "0a725cbdea7a727e44a304b1560b768c2953a1755e5dcdd344ad81047a81d77f",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/references/platform-scraping.md",
+      "baseline_sha256": "46cad03e43e9ec71ccd0a98bd910f6ba4d3cfacf1ec494f5073ceb272ce8df23",
+      "release_sha256": "0611b8773aa409336230b30ddded3f8f5fa7629ad903408afd4fabbc98a6eb8c",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/references/qimao-scraping.md",
+      "baseline_sha256": "f03aec6e611bd6cfa3feb408ebb64a8abc692037c621ca4a8ce003220d49ae47",
+      "release_sha256": "f03aec6e611bd6cfa3feb408ebb64a8abc692037c621ca4a8ce003220d49ae47",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/references/social-source-policy.md",
+      "baseline_sha256": null,
+      "release_sha256": "6c5b089d34f97c5b1dace7f18133f872413ba3669782ea839265744cff15e3e6",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/references/source-registry.json",
+      "baseline_sha256": "092cbb8f3cfefaa64f7db9db6da570eae130679228a675da315f128501828fe0",
+      "release_sha256": "5c829bcb5248b0343070ce5c6e76d1d0c5e1c4b6df362962290ef9ce3dc69259",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/adapt_long_reader_sources.py",
+      "baseline_sha256": "ce7e1e2b03726f139794212cd3d84fc2f49609c7ba752cbc0d38775961c6b6dc",
+      "release_sha256": "ce7e1e2b03726f139794212cd3d84fc2f49609c7ba752cbc0d38775961c6b6dc",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/build_analysis_sample.py",
+      "baseline_sha256": "32169f6c23ea4140b968418e48d3378d18fc43b4be6c83e8a723c937ac879001",
+      "release_sha256": "32169f6c23ea4140b968418e48d3378d18fc43b4be6c83e8a723c937ac879001",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/build_blind_packet.py",
+      "baseline_sha256": "3f6ab50058f04b155056927e458820212529f1a3cec0e7fc2baad27a5bb0f8de",
+      "release_sha256": "3f6ab50058f04b155056927e458820212529f1a3cec0e7fc2baad27a5bb0f8de",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/build_short_evidence_catalog.py",
+      "baseline_sha256": "e66fd99c4ad3c18faaf9aa88a779d4167013887d94b37728cc7c24da153facfe",
+      "release_sha256": "7c5f1cf2c5e85d558594a5b11f55a72dfbdbd09db571a3d0cce3bf810ec1b750",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/candidate_executor.py",
+      "baseline_sha256": "3cc479f937e9046a3376328c14d8b50731ef378ec90ca23fb4698bf712266966",
+      "release_sha256": "c47c954a1ef7196a7ccb2efe32a029d38d9b8047f0dfc5b644e4d7fc9ad90e59",
+      "changed": true,
+      "origin": "release_only_generic_endpoint_configuration"
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/candidate_portfolio.py",
+      "baseline_sha256": "89f700dd5142760466e4529bc3f4e45a7b869ac8241644ffe04ad2b860a32047",
+      "release_sha256": "89f700dd5142760466e4529bc3f4e45a7b869ac8241644ffe04ad2b860a32047",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/candidate_workflow.py",
+      "baseline_sha256": "671ba37470355d41bd9e00c3cfa223b09ef5e26c46be842a2318983e8497466a",
+      "release_sha256": "671ba37470355d41bd9e00c3cfa223b09ef5e26c46be842a2318983e8497466a",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/collect_bilibili_public_videos.py",
+      "baseline_sha256": null,
+      "release_sha256": "b73b66157729f10ab669bf57bdadd1923360a21e695f074f277b44a608d38d51",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/collect_fanqie_reader_ranks.py",
+      "baseline_sha256": "c26821cd30f4059aa929caf6956e5652edf17b51839db4403fba42dbdcacbbc9",
+      "release_sha256": "c26821cd30f4059aa929caf6956e5652edf17b51839db4403fba42dbdcacbbc9",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/collect_fanqie_writer_cookies.py",
+      "baseline_sha256": "175d54e7711bb433ffba3de4e97b1c2bcae26339f1f2a9593cbb16b9710eb3b8",
+      "release_sha256": "57f8233b7368a082e7ef098d6f23c28964091a572187b360ff55a93ea020f324",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/collect_fanqie_writer_hot.py",
+      "baseline_sha256": "8b1f360d2ee465fb74a20639345019b21b264d9f049fe227523254f10e982040",
+      "release_sha256": "39a5b416f192a14a989959654894eacefc1efc87c99e33ddd5d83784459290e4",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/collect_paid_platform_ranks.py",
+      "baseline_sha256": "d5ca5a73009afbd644870b464df4e69f81ca9fcfc77fe71d9821febb4b29df06",
+      "release_sha256": "d5ca5a73009afbd644870b464df4e69f81ca9fcfc77fe71d9821febb4b29df06",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/collect_qidian_browser_ranks.ps1",
+      "baseline_sha256": "05c009ef32bbfa60374c333af1deafc8b448dd4781d3ce1d3644511ca987e491",
+      "release_sha256": "054b241fdb09eccd73aab23526cb237a1a4b37ee7cdc499f6f11310798d5e743",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/collect_qimao_reader_ranks.py",
+      "baseline_sha256": "120ab52793c2a303a9ba1f99448041015c351cc1d54c39aa0acf13fcd5e256b3",
+      "release_sha256": "120ab52793c2a303a9ba1f99448041015c351cc1d54c39aa0acf13fcd5e256b3",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/collect_qimao_web_ranks.py",
+      "baseline_sha256": "7b7ff6404ca9fece3b95158a69407a17a9ad40d733bdf1102c94c4e97e163056",
+      "release_sha256": "7b7ff6404ca9fece3b95158a69407a17a9ad40d733bdf1102c94c4e97e163056",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/collect_xiaohongshu_public_notes.py",
+      "baseline_sha256": null,
+      "release_sha256": "c588ecebd4c76d5e34f6a25d2ee3ea6a0b303aefbb74afd6462e4f425b66d8d0",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/deliberation_recovery.py",
+      "baseline_sha256": "946c898b66d4c90e42f0c9b97b5e798a1b37fd804c97e07ef32f40b09a1ad698",
+      "release_sha256": "a989b040bc652fa00ecfb98ff761dee9ff1dcb44846854fb384675cf9d81cd8a",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/fanqie_decoder.py",
+      "baseline_sha256": null,
+      "release_sha256": "bc3e520e499d79df089b1bb9998e190f2deca32237639b767eb17491611e5e71",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/fanqie_detail_metadata.py",
+      "baseline_sha256": null,
+      "release_sha256": "ccc2becd4364050afe0aee92629f7829edb1c79dff501be0b1b5f37728bc86c5",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/fanqie_refresh.py",
+      "baseline_sha256": "dc063d339df01ea102425e33efb18a76f15a80c5cdf2dbef76d8fb83cdc8ca9f",
+      "release_sha256": "3635f7b071025fe7e19a8f1562973830656a5012017b48dcde630b112325a84c",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/freeze_evidence_packet.py",
+      "baseline_sha256": "1970518c548d5f08825726b4d2cf780ea3f562cebd0e4641d2e61ae88bf0320c",
+      "release_sha256": "1970518c548d5f08825726b4d2cf780ea3f562cebd0e4641d2e61ae88bf0320c",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/long_candidate_batch.py",
+      "baseline_sha256": "b88c1acc0d9ca6684efb60f1d27e0d616f54d137cbf26352e628ea0676152a40",
+      "release_sha256": "b88c1acc0d9ca6684efb60f1d27e0d616f54d137cbf26352e628ea0676152a40",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/long_market_scan.py",
+      "baseline_sha256": "7593d32854679f0799a29a12a3c4db7d80009342e703b623cf44708daa93ec25",
+      "release_sha256": "7593d32854679f0799a29a12a3c4db7d80009342e703b623cf44708daa93ec25",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/long_market_scan_core.py",
+      "baseline_sha256": "e9b551cf60907a41ad5cb507a228d5633b816885cfd1e8e628ec2a76db5dc76b",
+      "release_sha256": "e9b551cf60907a41ad5cb507a228d5633b816885cfd1e8e628ec2a76db5dc76b",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/long_market_scan_entry.py",
+      "baseline_sha256": "8ac2dc3fa9fef739aeb25a9dac784e68add7fd40b31228f5042edb93fd7f2574",
+      "release_sha256": "8ac2dc3fa9fef739aeb25a9dac784e68add7fd40b31228f5042edb93fd7f2574",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/long_source_refresh.py",
+      "baseline_sha256": "f07cd465aad08fa5745134b02e143844a2912d491febe51014edeb55376c84ad",
+      "release_sha256": "d79e73816af7ba9828dae5323026849ea0cc6da81533377a35dae9a4d7cb47c4",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/normalize_current_run_sources.py",
+      "baseline_sha256": "a2d76ce16f902d028a6a25b14221fea3106c05c1d340dcf87d346c7f70197926",
+      "release_sha256": "81bbb32a2c9e5e938a3c380926d48b39d58f11db0628ddfbf2fcdffe74fd1c3f",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/rank_scraper.py",
+      "baseline_sha256": "082e4f83a0f802186787f371a2ed10912b65c35c8c6fc6f4aebadbb87d4ac4e6",
+      "release_sha256": "082e4f83a0f802186787f371a2ed10912b65c35c8c6fc6f4aebadbb87d4ac4e6",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/resolve_scan_request.py",
+      "baseline_sha256": "d7783d4f3b6592105bb24d51841038a6603d941009a3444e4aafa05758f56761",
+      "release_sha256": "d7783d4f3b6592105bb24d51841038a6603d941009a3444e4aafa05758f56761",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/review_envelope_compat.py",
+      "baseline_sha256": null,
+      "release_sha256": "ed5ecf1d06a6e490b8429d12f809d90a6248eedc16eb54004e5c3299feee8dfa",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/run_candidate_portfolio_replay.py",
+      "baseline_sha256": "01f8d79c68419070aafd2314dfc7aa08208f053617c9d3042b85514dae19323a",
+      "release_sha256": "01f8d79c68419070aafd2314dfc7aa08208f053617c9d3042b85514dae19323a",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/run_short_v3.py",
+      "baseline_sha256": "16b4717218fc6d13b5bf506702d4e27f2f1835971875c9afc54554c86e67d557",
+      "release_sha256": "16b4717218fc6d13b5bf506702d4e27f2f1835971875c9afc54554c86e67d557",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/run_wor41_regression.py",
+      "baseline_sha256": "484bdced30fc68939ccb1043c6069875ce80638f62fd96f947eff8a83098494b",
+      "release_sha256": "484bdced30fc68939ccb1043c6069875ce80638f62fd96f947eff8a83098494b",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/scan_preflight.py",
+      "baseline_sha256": "3abd7cbf140950312eecc3c722ba89fdc7bdf878ee48bb13a71d9c89ac4ff29a",
+      "release_sha256": "0bfdb68665fbc65614c0cb02ccc7db9d341852ba0c594684c1f8b189e7daa647",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/scan_run_guard.py",
+      "baseline_sha256": "13521e3b198d9eefd2d604ef793f67b39846d3dd6373c06844102e3bdbdcf8e7",
+      "release_sha256": "f4f27db20fbf6355ca172961b650370626281d4a3e3481febaee98f62d3223d9",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/scan_start.py",
+      "baseline_sha256": "efc8ce1eeab321dded9bab8fb2c8a9d1a09fb3e84a43bae3ef9d42c0a45a1c5f",
+      "release_sha256": "384d9c2a9b4e0a93b6fe739f76e0aa0292f9a55bb7fd9dd91b6bb75e747197ab",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/short_candidate_batch.py",
+      "baseline_sha256": "a8a64815a520c3a41dbdfb0443038e7a97ef894c837293c1347250fc44287c44",
+      "release_sha256": "a8a64815a520c3a41dbdfb0443038e7a97ef894c837293c1347250fc44287c44",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/short_candidate_pool.py",
+      "baseline_sha256": "a4146ed21df4a369560cd589c6d847f4d918fd2f12f27c257a2c540877305e06",
+      "release_sha256": "a4146ed21df4a369560cd589c6d847f4d918fd2f12f27c257a2c540877305e06",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/social_evidence.py",
+      "baseline_sha256": "17ac48d65e900e69e24c2da94c4d1911b9203e930140c2938b10c47b018c7569",
+      "release_sha256": "eaa4225e10889da7186f7d10cb425c6e06ecb0761b7f4559bfda1df1d07b3425",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/sync_acquisition_manifest.py",
+      "baseline_sha256": "fd612b4b8f2f1e87d94b8d6ce40f95406602ae78e5da8ef198d3cc8b35aa7583",
+      "release_sha256": "cdaa1ef83e50768fb59edad8158f34f1ba567f8912c1a119dcb52c018d3220ef",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/validate_deliberation.py",
+      "baseline_sha256": "9554fa077ff235787cee035fe604061e3fd21b1e868e01b8cac26ab71ca05071",
+      "release_sha256": "3d6916bc8c8503403922956630ff81074190c04826154374527ff28ebc140563",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/validate_source_coverage.py",
+      "baseline_sha256": "f4b2a082836c01e67e4c5efa957e22d1051a7c2ad1519c89486733853de70a9e",
+      "release_sha256": "3baee1d9758144c391c1ab5788ec21b11ef7176ba393d367df365e3a31349f0a",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/scripts/xiaohongshu_local_vision.py",
+      "baseline_sha256": null,
+      "release_sha256": "199b871f21c0f7e1ad4e73a5e91f58f61d1060dc8a52a2dc3b44d58ffc7a80cc",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/fixtures/fanqie/20260709/fanqie_female_new_ranks_20260709.json",
+      "baseline_sha256": "679831d22175be215a5ef7e96d319ecf179671a2091debe23e2d02a4924642c8",
+      "release_sha256": "679831d22175be215a5ef7e96d319ecf179671a2091debe23e2d02a4924642c8",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/fixtures/fanqie/20260709/fanqie_female_read_ranks_20260709.json",
+      "baseline_sha256": "679831d22175be215a5ef7e96d319ecf179671a2091debe23e2d02a4924642c8",
+      "release_sha256": "679831d22175be215a5ef7e96d319ecf179671a2091debe23e2d02a4924642c8",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/fixtures/fanqie/20260709/fanqie_male_new_ranks_20260709.json",
+      "baseline_sha256": "679831d22175be215a5ef7e96d319ecf179671a2091debe23e2d02a4924642c8",
+      "release_sha256": "679831d22175be215a5ef7e96d319ecf179671a2091debe23e2d02a4924642c8",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/fixtures/fanqie/20260709/fanqie_male_read_ranks_20260709.json",
+      "baseline_sha256": "679831d22175be215a5ef7e96d319ecf179671a2091debe23e2d02a4924642c8",
+      "release_sha256": "679831d22175be215a5ef7e96d319ecf179671a2091debe23e2d02a4924642c8",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/fixtures/qimao_full.json",
+      "baseline_sha256": "ca7b129aadb989ce4a6c52eae84ef09f1c36812948ab3b10a579c38458919ffa",
+      "release_sha256": "ca7b129aadb989ce4a6c52eae84ef09f1c36812948ab3b10a579c38458919ffa",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/fixtures/qimao_missing.json",
+      "baseline_sha256": "686a94ac1a9013b614aa1ee1e739be75091c3c3f66d16cccfb78bef126b29920",
+      "release_sha256": "686a94ac1a9013b614aa1ee1e739be75091c3c3f66d16cccfb78bef126b29920",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_bilibili_public_collector.py",
+      "baseline_sha256": null,
+      "release_sha256": "5d7071ecc7b111ddf2792647a8c890f318d74c5620c8e06f5845b2ffc75d6aae",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_build_short_evidence_catalog.py",
+      "baseline_sha256": "144d5ec6a41d5d18bbe0655a79febb444502245c57448377412976edef872ad4",
+      "release_sha256": "e44f064dcf37b314cdd92e0406175cb1f9772aa1771749f1190cfba5e3a4fd5a",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_builtin_fanqie_decoder.py",
+      "baseline_sha256": null,
+      "release_sha256": "ec0cdcc8c4db5dbfe51bf07d0c7c0453b3c105e09a5ac381f877a3fe9ab690c4",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_candidate_controller_e2e.py",
+      "baseline_sha256": "4ad99f53987c9ba308d6175c3f7025d881f80343d3f8e8a5a3867da39d211b6c",
+      "release_sha256": "4d84422063cccb64a355756a9fe0aa909ca75bd4025a0c66b48efe99b6234d19",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_candidate_executor.py",
+      "baseline_sha256": "f37042da006eea661e2e27597c1b51dff5e3d80b457d2c650899a66d348caa9b",
+      "release_sha256": "d1bff4137da5068914b8e5cc9adeba5e7d35448678d86e9e73ff8906ee21f532",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_candidate_l2_channel.py",
+      "baseline_sha256": "c56159f532a3d860ab1b54bb2016a87f04cb72af5de130f9e0e7a7b250fd79f4",
+      "release_sha256": "c56159f532a3d860ab1b54bb2016a87f04cb72af5de130f9e0e7a7b250fd79f4",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_candidate_portfolio.py",
+      "baseline_sha256": "df0ba15220bb572689a3487eabe50861556946916661b6bc603187ea7da56137",
+      "release_sha256": "df0ba15220bb572689a3487eabe50861556946916661b6bc603187ea7da56137",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_candidate_workflow.py",
+      "baseline_sha256": "4af190e65ce3b5e5037022791b8473bb8c265d6fb301eb632db38c4511eaf3a4",
+      "release_sha256": "aec571e6cf09d3c8e094754adb6dd4866c0a36c007c3103acdd2168be636ee50",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_collect_fanqie_writer_hot.py",
+      "baseline_sha256": "24e10f4401a952d62dcdca31aaf6b582a48a6fe1ecf824185c11ca7671f195a0",
+      "release_sha256": "24e10f4401a952d62dcdca31aaf6b582a48a6fe1ecf824185c11ca7671f195a0",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_current_run_normalizer.py",
+      "baseline_sha256": "f81d2f17ca54189a19c8d46b1ff9d4e43dfb27c8339f84a6c739b540355e026e",
+      "release_sha256": "1bd1a3cfafa55f1083bf1460589a60bc64a4a501f1a2d017ed556029c622b75c",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_delegated_deliberation.py",
+      "baseline_sha256": "f2b73f9328c03f0a8e0c52eef97aeec8a1a3ff4f9d9cbe804cd0eb17026cdb59",
+      "release_sha256": "e1838dbcc56afa40159db9e557dca22e81fa8263ca8cf66c86bf85aa25d6b81a",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_deliberation_current_attempt.py",
+      "baseline_sha256": "f2d04a523ab5958bae7fdd54f7610945911e82c9040c88c73364019e3ac028fb",
+      "release_sha256": "f2d04a523ab5958bae7fdd54f7610945911e82c9040c88c73364019e3ac028fb",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_deliberation_recovery.py",
+      "baseline_sha256": "1309f516f6ef9934be9bab0ffea6cb9d9b60088b15e14a9914dc8f6646760774",
+      "release_sha256": "1309f516f6ef9934be9bab0ffea6cb9d9b60088b15e14a9914dc8f6646760774",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_fanqie_official_metadata.py",
+      "baseline_sha256": null,
+      "release_sha256": "10431fb280105e9a9d07666350e7308327369ab5da27672024499b27e8fe0abf",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_freeze_attestation.py",
+      "baseline_sha256": "fa1510ea2a88d3703cccf1c26bd9e328ef76dae0cc8042c3aad132c18cfa8530",
+      "release_sha256": "fa1510ea2a88d3703cccf1c26bd9e328ef76dae0cc8042c3aad132c18cfa8530",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_hardened_production_gates.py",
+      "baseline_sha256": "19175acf12db3b0fe28563d217ac8f3e0b96f60b68d3adb4c8743c3c7e5d4974",
+      "release_sha256": "30dcad30b89627594f5a178a5c268c313a5d856af4192cbc8e7c7883798b08c8",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_long_current_contract.py",
+      "baseline_sha256": "7e03934bb63c4726ab272fb3d1ea9a7d03228893883b4c210a538e9d2e11bfa4",
+      "release_sha256": "c0a56f23ccdd697400b6b1db365a76d4828dd3c59d1381a8dc97b00b8c72ed83",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_long_pipeline.py",
+      "baseline_sha256": "e7cc11d92603b6b2761ff21e966a555a7c5727ae74cd0b6c0d13ce329636b4f0",
+      "release_sha256": "e7cc11d92603b6b2761ff21e966a555a7c5727ae74cd0b6c0d13ce329636b4f0",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_model_endpoint_probe.py",
+      "baseline_sha256": null,
+      "release_sha256": "231043d677a58f7518a04e4330565bbf395c3ba7ec7bf86e1ce0000bc42a7bb4",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_paid_social_adapters.py",
+      "baseline_sha256": "057669b9d0e45bcd9121b4b7cd7995a7cf217ca37fa4d3b9fbe16f9b149d22cc",
+      "release_sha256": "057669b9d0e45bcd9121b4b7cd7995a7cf217ca37fa4d3b9fbe16f9b149d22cc",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_production_batch_contracts.py",
+      "baseline_sha256": "af65be593214d3d5b00efd02a50bbd63593d37eff5d063a79488245b7dfd0354",
+      "release_sha256": "af65be593214d3d5b00efd02a50bbd63593d37eff5d063a79488245b7dfd0354",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_qidian_manifest_sync.py",
+      "baseline_sha256": null,
+      "release_sha256": "04c57c5194e0a185588e20601a7a9d21c9552414df5669a9048db229b1da6d68",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_release_scan_root.py",
+      "baseline_sha256": null,
+      "release_sha256": "ff94da482e69a39e680f3bfa61d58007c5b0667b4c2f1292d6928e06fbf06fcc",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_run_path_contract.py",
+      "baseline_sha256": "423ff8fbc5bd75dfe0668cec348d51444629cdeccf4702ba2e4bdb6a32ba3c09",
+      "release_sha256": "122878e993b0b42b9b5d253807fd39cf8ac4308fb29d31c081ea0111c6004d64",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_runtime_fail_closed.py",
+      "baseline_sha256": "d7102cd91b9590e74a6e87c97db41659bc26f994b092b6c80efa04e8225ef320",
+      "release_sha256": "d7102cd91b9590e74a6e87c97db41659bc26f994b092b6c80efa04e8225ef320",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_s3_review_metadata_guard.py",
+      "baseline_sha256": null,
+      "release_sha256": "51663080d686c6ede1473a5de6c1e66ffdec4676d94ed37899fc8d825a5a4ffc",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_sampling_and_stage_split.py",
+      "baseline_sha256": "3d182cc1d98e0f160368e840ce7b7e47f1ab8881629637a7898705a75f65be66",
+      "release_sha256": "3d182cc1d98e0f160368e840ce7b7e47f1ab8881629637a7898705a75f65be66",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_scan_preflight_and_run_guard.py",
+      "baseline_sha256": "badaa063ad6eecc1523a614287a28076a8f9cf85b329be8b546376773713aa15",
+      "release_sha256": "5f7fd29f285f2a66a242540d9ed1506cb4eb82ea6d72802e6098924b0d1c42ba",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_scan_request_and_coverage.py",
+      "baseline_sha256": "1dfab9f04e9c2bb8645965b8deda3bc1cd17c199981bf7273a354a330f20842a",
+      "release_sha256": "1aeb09f4b0402710a0575faaa4da6ee07bff932364ec2b17e5ec2acf0759657d",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_scan_to_candidate_handoff.py",
+      "baseline_sha256": null,
+      "release_sha256": "f1098e5843af7fe00ffccb2317b17eb2d1f6a4916c76335aaaf35b04abf3a20e",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_short_candidate_pool.py",
+      "baseline_sha256": "de4b6037bbae8c43d18c293df19566e574290c31c060112702b68304df42b5f6",
+      "release_sha256": "de4b6037bbae8c43d18c293df19566e574290c31c060112702b68304df42b5f6",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_social_freshness_opt_in.py",
+      "baseline_sha256": "2fc5db1e5311a1baccc43f1d775c669eb6c998a50e86bedacf06c6a469c634d9",
+      "release_sha256": "2fc5db1e5311a1baccc43f1d775c669eb6c998a50e86bedacf06c6a469c634d9",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_source_registry.py",
+      "baseline_sha256": "c45f9ad3fc5704380e8469745ab6400a4babcb8b7ebbb8b304e0123dfa7b9c32",
+      "release_sha256": "4b3eea0bba0f9587c53f9a2bb1b1b4f403bff8dc5a4193ba58cc040c08c74aae",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_verified_collectors.py",
+      "baseline_sha256": "7cc606978c9b6962fd287d9dfc41e3d831f1710cb770ac9e71a158c6fab64a74",
+      "release_sha256": "37666717a522eb53417960f8f1f8a0f4063521af6f86d89199fd2da02bf24319",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_xhs_owner_policy.py",
+      "baseline_sha256": null,
+      "release_sha256": "fa4b04967f25f57e86260fcd20ee4a0ad68043e44a74ac20d129e66319c35f0f",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-analyzer/tests/test_xhs_public_collector.py",
+      "baseline_sha256": null,
+      "release_sha256": "16a75b5c4abf45cdd342ac158714f54f94b9aab391a1b742ac78a0f2037e3b14",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
+      "file": "skills/novel-candidate-portfolio/SKILL.md",
+      "baseline_sha256": "f746f5013d1a559e41255104f5401cccbd46d07996e82b7f2f76acee128d9aac",
+      "release_sha256": "8828a1666d5f328bf89bccdf58991444198afeebd0b4edc6a5ba5c699556226b",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-candidate-portfolio/agents/openai.yaml",
+      "baseline_sha256": "ee72ce893efd8f8bb3c9066beefd2ed37b998451d6de7f62aee0659652621f71",
+      "release_sha256": "ee72ce893efd8f8bb3c9066beefd2ed37b998451d6de7f62aee0659652621f71",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-candidate-portfolio/references/operations.md",
+      "baseline_sha256": "c20676e9ba0ccea6c4d3e8335b724b4724ae865563c21265131a74ff4b183473",
+      "release_sha256": "5ea650136286de911a717a0fcc4be8aa57eaf700498c58f203429b2fb901dc91",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-candidate-portfolio/references/packet-lookup.md",
+      "baseline_sha256": "80c48360a8227b752ecb0cb0e0bcad7a437329f0dab7a72c471be6cbdb73a3f1",
+      "release_sha256": "1b817c0036f6fad15835824095ae0bdd674189dcfe73674df5381fa4674e0fd5",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-candidate-portfolio/scripts/candidate.py",
+      "baseline_sha256": "e100bb7477ab105177281a45e739174c1689a354c1e54d01dd3f7d13edc85378",
+      "release_sha256": "e100bb7477ab105177281a45e739174c1689a354c1e54d01dd3f7d13edc85378",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-market-scan/SKILL.md",
+      "baseline_sha256": "48f5363d7e46baf67db6328d827eefe0d8ee7e8deec29c875fd07e00bd7b2ed6",
+      "release_sha256": "f532f8095654fb0b8d6a2d76525f3f4e7b284597d8dc776cb1aab7d5d1f3e6d7",
+      "changed": true
+    },
+    {
+      "file": "skills/novel-market-scan/agents/openai.yaml",
+      "baseline_sha256": "46b4684b26d14eef11bb1030d98fa02f30e0fea57cb597654fcb3ef210b23519",
+      "release_sha256": "46b4684b26d14eef11bb1030d98fa02f30e0fea57cb597654fcb3ef210b23519",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-market-scan/scripts/qimao_web.py",
+      "baseline_sha256": "97849660dab27d52bf9a208d9e44bf3371cd859909e516916d480c94e53a55ba",
+      "release_sha256": "97849660dab27d52bf9a208d9e44bf3371cd859909e516916d480c94e53a55ba",
+      "changed": false
+    },
+    {
+      "file": "skills/novel-market-scan/scripts/start.py",
+      "baseline_sha256": "afe1f5eee159641810414e87f73532ac2460d63261b4c6f8f772c37fefb4614f",
+      "release_sha256": "afe1f5eee159641810414e87f73532ac2460d63261b4c6f8f772c37fefb4614f",
+      "changed": false
+    }
+  ],
+  "excluded": [
+    "novel-analyzer/references/opencli-browser-bridge.md",
+    "novel-analyzer/replay/wor47_historical_replay.json",
+    "novel-analyzer/scripts/_bili_*",
+    "novel-analyzer/scripts/_xhs_*",
+    "novel-analyzer/scripts/_short_freeze_prep.py"
+  ]
+}

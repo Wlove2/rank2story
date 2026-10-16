@@ -1,0 +1,2044 @@
+{
+  "type": "actual_historical_public_metadata_preview",
+  "date": "2026-10-09",
+  "full_categories": 74,
+  "full_records": 740,
+  "samples_per_category": 3,
+  "note": "Book title, public pen name, displayed reads and official page only; no intro, full text, signed cover URL, cookie or account data.",
+  "groups": [
+    {
+      "key": "male_new",
+      "label": "男频新榜",
+      "category_count": 19,
+      "book_record_count": 190,
+      "raw_sha256": "4b4cfe4e1339128fdb80b933c7e90f10e230494bd9186471a876e35dbe1434dd",
+      "categories": [
+        {
+          "name": "西方奇幻",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "异世界被俘虏后我拿捏龙族女圣主",
+              "author": "法名無有",
+              "reads_display": "8.6万",
+              "official_page": "https://fanqienovel.com/page/7668330207194926105"
+            },
+            {
+              "rank": 2,
+              "title": "让你当魔王，你去养成萝莉勇者？",
+              "author": "烤焦的云",
+              "reads_display": "7.3万",
+              "official_page": "https://fanqienovel.com/page/7676046769456696382"
+            },
+            {
+              "rank": 3,
+              "title": "圣女堕落，从哥布林巢穴开始",
+              "author": "烤莲蓬",
+              "reads_display": "6.4万",
+              "official_page": "https://fanqienovel.com/page/7639206317420186649"
+            }
+          ]
+        },
+        {
+          "name": "东方仙侠",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "洪荒：唯一金乌一心只想拐婆娘",
+              "author": "早上祁不来",
+              "reads_display": "12.9万",
+              "official_page": "https://fanqienovel.com/page/7686871846477630488"
+            },
+            {
+              "rank": 2,
+              "title": "洪荒八景宫中有逆徒",
+              "author": "玲玲宝贝",
+              "reads_display": "9.8万",
+              "official_page": "https://fanqienovel.com/page/7669258362248236094"
+            },
+            {
+              "rank": 3,
+              "title": "我，原始首徒，封神开局整顿阐教",
+              "author": "平凡的脑洞君",
+              "reads_display": "10.6万",
+              "official_page": "https://fanqienovel.com/page/7678700298868624409"
+            }
+          ]
+        },
+        {
+          "name": "科幻末世",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "废土黑作坊：从造一级弹开始",
+              "author": "狗儿书",
+              "reads_display": "18.4万",
+              "official_page": "https://fanqienovel.com/page/7681239069396831294"
+            },
+            {
+              "rank": 2,
+              "title": "序列车队：我能无限升级奇物",
+              "author": "喜欢吃酸菜鱼",
+              "reads_display": "18.3万",
+              "official_page": "https://fanqienovel.com/page/7684517695760387097"
+            },
+            {
+              "rank": 3,
+              "title": "选择求生：只有我能看到正确答案",
+              "author": "念淑云",
+              "reads_display": "18.1万",
+              "official_page": "https://fanqienovel.com/page/7677635558834719768"
+            }
+          ]
+        },
+        {
+          "name": "都市日常",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "我拿钱就走，九个姐姐全变病娇了",
+              "author": "酒浓不烈",
+              "reads_display": "25.4万",
+              "official_page": "https://fanqienovel.com/page/7658171939646622744"
+            },
+            {
+              "rank": 2,
+              "title": "女尊：我的大号老婆占有欲爆棚！",
+              "author": "星语墨",
+              "reads_display": "17.4万",
+              "official_page": "https://fanqienovel.com/page/7615648875533061182"
+            },
+            {
+              "rank": 3,
+              "title": "法庭暴君：从反杀讹诈犯开始",
+              "author": "TTTTTTTT",
+              "reads_display": "17.8万",
+              "official_page": "https://fanqienovel.com/page/7684200001769049112"
+            }
+          ]
+        },
+        {
+          "name": "都市修真",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "游走神话时代，开局拜师道门天师",
+              "author": "六个大脑瓜",
+              "reads_display": "35.6万",
+              "official_page": "https://fanqienovel.com/page/7673521851523419198"
+            },
+            {
+              "rank": 2,
+              "title": "凤流高手",
+              "author": "无名平淡",
+              "reads_display": "24.2万",
+              "official_page": "https://fanqienovel.com/page/7660888284909800472"
+            },
+            {
+              "rank": 3,
+              "title": "阴阳群芳谱",
+              "author": "睡个好觉了",
+              "reads_display": "9.4万",
+              "official_page": "https://fanqienovel.com/page/7686450749156379672"
+            }
+          ]
+        },
+        {
+          "name": "都市高武",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "开箱必出神话级，阁下如何应对？",
+              "author": "天狼北望",
+              "reads_display": "25.7万",
+              "official_page": "https://fanqienovel.com/page/7675956201393245246"
+            },
+            {
+              "rank": 2,
+              "title": "国运求生：我的幸运值拉满了",
+              "author": "喝可乐要插吸管",
+              "reads_display": "16.6万",
+              "official_page": "https://fanqienovel.com/page/7681562275647343640"
+            },
+            {
+              "rank": 3,
+              "title": "全民副本：我能打造九九八十一难",
+              "author": "嫁纱",
+              "reads_display": "16.5万",
+              "official_page": "https://fanqienovel.com/page/7678199696703114264"
+            }
+          ]
+        },
+        {
+          "name": "历史古代",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "大明：开局政变，请洪武赴死！",
+              "author": "小小西下士",
+              "reads_display": "15.3万",
+              "official_page": "https://fanqienovel.com/page/7685592130961558552"
+            },
+            {
+              "rank": 2,
+              "title": "大唐：我娶你姐，李世民你兴奋啥",
+              "author": "天命在我",
+              "reads_display": "12万",
+              "official_page": "https://fanqienovel.com/page/7683839176755661849"
+            },
+            {
+              "rank": 3,
+              "title": "红楼：勋门儒将",
+              "author": "良月廿壹",
+              "reads_display": "12万",
+              "official_page": "https://fanqienovel.com/page/7459915247088847896"
+            }
+          ]
+        },
+        {
+          "name": "战神赘婿",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "退伍上大学，教官竟是我带的兵",
+              "author": "错失螺狮粉",
+              "reads_display": "10.9万",
+              "official_page": "https://fanqienovel.com/page/7682986187195173950"
+            },
+            {
+              "rank": 2,
+              "title": "老婆不让碰？我离婚怒娶她死对头",
+              "author": "开心快乐的繁星",
+              "reads_display": "5.3万",
+              "official_page": "https://fanqienovel.com/page/7678552380601797694"
+            },
+            {
+              "rank": 3,
+              "title": "五个未婚妻，我大佬身份藏不住了",
+              "author": "在吃瓜的猹",
+              "reads_display": "1.3万",
+              "official_page": "https://fanqienovel.com/page/7678148252935408702"
+            }
+          ]
+        },
+        {
+          "name": "传统玄幻",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "大劫将至，从边军开始马踏天下",
+              "author": "帝国具装骑兵",
+              "reads_display": "10.9万",
+              "official_page": "https://fanqienovel.com/page/7682675065451711513"
+            },
+            {
+              "rank": 2,
+              "title": "海吞天",
+              "author": "鸟飞鱼",
+              "reads_display": "10.1万",
+              "official_page": "https://fanqienovel.com/page/7671369182901963800"
+            },
+            {
+              "rank": 3,
+              "title": "我在儒道世界以诗词文章成圣人",
+              "author": "流光之羽",
+              "reads_display": "8.7万",
+              "official_page": "https://fanqienovel.com/page/7680055561957674046"
+            }
+          ]
+        },
+        {
+          "name": "历史脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "李承乾拥兵百万，三千剑仙逼宫！",
+              "author": "魅力四射的世界",
+              "reads_display": "19.9万",
+              "official_page": "https://fanqienovel.com/page/7686035497394654233"
+            },
+            {
+              "rank": 2,
+              "title": "大明国舅：开局赐婚徐妙云",
+              "author": "儒雅祝星",
+              "reads_display": "15.6万",
+              "official_page": "https://fanqienovel.com/page/7684977785206475801"
+            },
+            {
+              "rank": 3,
+              "title": "大明第一国舅，开局治好朱雄英！",
+              "author": "咖啡苦到喉",
+              "reads_display": "14.2万",
+              "official_page": "https://fanqienovel.com/page/7681266971039501336"
+            }
+          ]
+        },
+        {
+          "name": "悬疑脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "什么叫我成了灭世级怪谈？",
+              "author": "狂拽酷炫鲨",
+              "reads_display": "60.2万",
+              "official_page": "https://fanqienovel.com/page/7669372598957919256"
+            },
+            {
+              "rank": 2,
+              "title": "诡舍2",
+              "author": "夜来风雨声丶",
+              "reads_display": "47.8万",
+              "official_page": "https://fanqienovel.com/page/7656758374066834457"
+            },
+            {
+              "rank": 3,
+              "title": "九叔：让你请祖师，你请雷部天将",
+              "author": "花朵凛然绽放",
+              "reads_display": "16.2万",
+              "official_page": "https://fanqienovel.com/page/7687884278176173081"
+            }
+          ]
+        },
+        {
+          "name": "都市脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "从小学三年级开始的完美人生",
+              "author": "记得少吃薄荷糖",
+              "reads_display": "34.6万",
+              "official_page": "https://fanqienovel.com/page/7680442123375610904"
+            },
+            {
+              "rank": 2,
+              "title": "大一开学300斤，减一斤一个亿",
+              "author": "小明同学2",
+              "reads_display": "31.4万",
+              "official_page": "https://fanqienovel.com/page/7655943304609025086"
+            },
+            {
+              "rank": 3,
+              "title": "玩家都说我是赛博女鬼？",
+              "author": "好坏二象性",
+              "reads_display": "28.6万",
+              "official_page": "https://fanqienovel.com/page/7677690309794352152"
+            }
+          ]
+        },
+        {
+          "name": "玄幻脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "开局九选四，生来便是误闯天家",
+              "author": "真想起飞",
+              "reads_display": "46.4万",
+              "official_page": "https://fanqienovel.com/page/7683524540084784153"
+            },
+            {
+              "rank": 2,
+              "title": "全球修仙：只有我商城降价十亿倍",
+              "author": "就想搞点钱",
+              "reads_display": "40.7万",
+              "official_page": "https://fanqienovel.com/page/7685692505861393470"
+            },
+            {
+              "rank": 3,
+              "title": "莫欺老年穷：我一个铜板一年功力",
+              "author": "一碗流年",
+              "reads_display": "22.2万",
+              "official_page": "https://fanqienovel.com/page/7685330498985413657"
+            }
+          ]
+        },
+        {
+          "name": "悬疑灵异",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "刚出马，就被国家收编了",
+              "author": "萱草幽兰",
+              "reads_display": "10.8万",
+              "official_page": "https://fanqienovel.com/page/7673499912692059198"
+            },
+            {
+              "rank": 2,
+              "title": "盗墓：八岁创雷法，震惊张海琪",
+              "author": "爱吃石榴呀",
+              "reads_display": "9.7万",
+              "official_page": "https://fanqienovel.com/page/7680119437491457086"
+            },
+            {
+              "rank": 3,
+              "title": "东北凶案，独行悍匪",
+              "author": "方告",
+              "reads_display": "6.4万",
+              "official_page": "https://fanqienovel.com/page/7682210013632269337"
+            }
+          ]
+        },
+        {
+          "name": "抗战谍战",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "光门连通淞户，大国倾国以赴",
+              "author": "寒霜一夜",
+              "reads_display": "20.3万",
+              "official_page": "https://fanqienovel.com/page/7684086469006543897"
+            },
+            {
+              "rank": 2,
+              "title": "抗美援朝：什么叫这是四合院世界",
+              "author": "安如华",
+              "reads_display": "17.7万",
+              "official_page": "https://fanqienovel.com/page/7677682334161718296"
+            },
+            {
+              "rank": 3,
+              "title": "回到二战，我成了美国大兵",
+              "author": "秋风江",
+              "reads_display": "15.5万",
+              "official_page": "https://fanqienovel.com/page/7681500858130893849"
+            }
+          ]
+        },
+        {
+          "name": "游戏体育",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "末日海上求生，开局SSS级天赋",
+              "author": "发光的闲鱼",
+              "reads_display": "14.2万",
+              "official_page": "https://fanqienovel.com/page/7674809102563822654"
+            },
+            {
+              "rank": 2,
+              "title": "三角洲：手游主播的我误入巅峰赛",
+              "author": "阿糖炒栗子",
+              "reads_display": "13.1万",
+              "official_page": "https://fanqienovel.com/page/7679743630419971097"
+            },
+            {
+              "rank": 3,
+              "title": "三角洲：能恋与洲，谁还打职业啊",
+              "author": "蚀金玫瑰",
+              "reads_display": "14.1万",
+              "official_page": "https://fanqienovel.com/page/7683312326123981886"
+            }
+          ]
+        },
+        {
+          "name": "动漫衍生",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "精灵：杀穿超古代的我只想退休",
+              "author": "爱吃酱肘子的靓仔",
+              "reads_display": "40.3万",
+              "official_page": "https://fanqienovel.com/page/7675679877239933976"
+            },
+            {
+              "rank": 2,
+              "title": "奥特综漫直播：什么叫人类灭绝了",
+              "author": "黑光永存",
+              "reads_display": "25.4万",
+              "official_page": "https://fanqienovel.com/page/7667200693928725566"
+            },
+            {
+              "rank": 3,
+              "title": "成龙历险记，不过我是斯卡蒂",
+              "author": "向伟大的普瑞塞斯致敬",
+              "reads_display": "24.4万",
+              "official_page": "https://fanqienovel.com/page/7680181871480687641"
+            }
+          ]
+        },
+        {
+          "name": "男频衍生",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "不拱火我来汉东干什么？",
+              "author": "黄四强本强",
+              "reads_display": "49.5万",
+              "official_page": "https://fanqienovel.com/page/7679903132029029401"
+            },
+            {
+              "rank": 2,
+              "title": "名义：汉东怼人王，创飞所有人",
+              "author": "三菜书生",
+              "reads_display": "40.7万",
+              "official_page": "https://fanqienovel.com/page/7679429603210824728"
+            },
+            {
+              "rank": 3,
+              "title": "1955，归国带飞国家工业",
+              "author": "黑底白花",
+              "reads_display": "34.4万",
+              "official_page": "https://fanqienovel.com/page/7684272279282256958"
+            }
+          ]
+        },
+        {
+          "name": "都市种田",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "停下吧苏总，国家已经兜不住了！",
+              "author": "全球高能",
+              "reads_display": "23.1万",
+              "official_page": "https://fanqienovel.com/page/7685070745231182872"
+            },
+            {
+              "rank": 2,
+              "title": "重回70美女班长跟我下乡",
+              "author": "白酒草",
+              "reads_display": "9.3万",
+              "official_page": "https://fanqienovel.com/page/7676024185264540697"
+            },
+            {
+              "rank": 3,
+              "title": "重生06，开局被校花未婚夫堵门",
+              "author": "会飞的猪zz",
+              "reads_display": "8.2万",
+              "official_page": "https://fanqienovel.com/page/7686748173905169433"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "male_read",
+      "label": "男频阅读榜",
+      "category_count": 19,
+      "book_record_count": 190,
+      "raw_sha256": "16976e2a60c8e2b12f24b86e11ff411656580c3406809e17968660841eca75ae",
+      "categories": [
+        {
+          "name": "西方奇幻",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "人在诡异，靠第四天灾登顶至高",
+              "author": "我时糕手",
+              "reads_display": "67.5万",
+              "official_page": "https://fanqienovel.com/page/7654593151348247614"
+            },
+            {
+              "rank": 2,
+              "title": "领主：我在苦痛世界，养成少女",
+              "author": "嘎嘎乱写",
+              "reads_display": "34.7万",
+              "official_page": "https://fanqienovel.com/page/7320218217488600126"
+            },
+            {
+              "rank": 3,
+              "title": "魔女金词条？我反派先薅为敬！",
+              "author": "南安很难安",
+              "reads_display": "26.5万",
+              "official_page": "https://fanqienovel.com/page/7662321215717002264"
+            }
+          ]
+        },
+        {
+          "name": "东方仙侠",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "凡骨",
+              "author": "壹更大师",
+              "reads_display": "64.8万",
+              "official_page": "https://fanqienovel.com/page/7077516958534470656"
+            },
+            {
+              "rank": 2,
+              "title": "从金丹仙族开始的老祖之路！",
+              "author": "辣椒炒肉冯冯",
+              "reads_display": "51万",
+              "official_page": "https://fanqienovel.com/page/7624183298310278168"
+            },
+            {
+              "rank": 3,
+              "title": "聚宝仙盆",
+              "author": "香果味奶茶",
+              "reads_display": "45.8万",
+              "official_page": "https://fanqienovel.com/page/7445188900496083992"
+            }
+          ]
+        },
+        {
+          "name": "科幻末世",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "末世选择：开局一亿只美洲大蠊",
+              "author": "忆临",
+              "reads_display": "108.6万",
+              "official_page": "https://fanqienovel.com/page/7663700682670623768"
+            },
+            {
+              "rank": 2,
+              "title": "末日生存方案供应商",
+              "author": "板面王仔",
+              "reads_display": "57.4万",
+              "official_page": "https://fanqienovel.com/page/7496026299845053465"
+            },
+            {
+              "rank": 3,
+              "title": "我合成了全世界",
+              "author": "王自律",
+              "reads_display": "47.5万",
+              "official_page": "https://fanqienovel.com/page/7394785891752889369"
+            }
+          ]
+        },
+        {
+          "name": "都市日常",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "都重生了，谁还装富二代啊",
+              "author": "爱和美式",
+              "reads_display": "102.8万",
+              "official_page": "https://fanqienovel.com/page/7630067790849788953"
+            },
+            {
+              "rank": 2,
+              "title": "我的沪上野妻",
+              "author": "月下冰河",
+              "reads_display": "86.6万",
+              "official_page": "https://fanqienovel.com/page/7625848078783761432"
+            },
+            {
+              "rank": 3,
+              "title": "公安局长之扫黑风暴",
+              "author": "南至",
+              "reads_display": "80万",
+              "official_page": "https://fanqienovel.com/page/7646327973087300670"
+            }
+          ]
+        },
+        {
+          "name": "都市修真",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "从修仙回到都市，坏消息修为没了",
+              "author": "绫波丽",
+              "reads_display": "76.7万",
+              "official_page": "https://fanqienovel.com/page/7665609321647983640"
+            },
+            {
+              "rank": 2,
+              "title": "全民地仙：开局紫金葫芦辟福地",
+              "author": "喜欢宅在家",
+              "reads_display": "36.2万",
+              "official_page": "https://fanqienovel.com/page/7659545384489847833"
+            },
+            {
+              "rank": 3,
+              "title": "娱乐圈风水秘闻",
+              "author": "苦瓜炒花蟹",
+              "reads_display": "34.9万",
+              "official_page": "https://fanqienovel.com/page/7546231091758107673"
+            }
+          ]
+        },
+        {
+          "name": "都市高武",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "我不是戏神",
+              "author": "三九音域",
+              "reads_display": "183.8万",
+              "official_page": "https://fanqienovel.com/page/7276384138653862966"
+            },
+            {
+              "rank": 2,
+              "title": "我在精神病院学斩神",
+              "author": "三九音域",
+              "reads_display": "124万",
+              "official_page": "https://fanqienovel.com/page/6982529841564224526"
+            },
+            {
+              "rank": 3,
+              "title": "我都宇宙之主了，你们还在地球？",
+              "author": "吒牛",
+              "reads_display": "102.3万",
+              "official_page": "https://fanqienovel.com/page/7644040936980220953"
+            }
+          ]
+        },
+        {
+          "name": "历史古代",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "魏家孽种成首辅，全族跪求我认祖",
+              "author": "生活中的咸鱼",
+              "reads_display": "68.6万",
+              "official_page": "https://fanqienovel.com/page/7612158980839722046"
+            },
+            {
+              "rank": 2,
+              "title": "冒姓琅琊",
+              "author": "东周公子南",
+              "reads_display": "57.2万",
+              "official_page": "https://fanqienovel.com/page/7414011485757639704"
+            },
+            {
+              "rank": 3,
+              "title": "朱标私生子，老朱逼我当皇帝！",
+              "author": "红胜火",
+              "reads_display": "56万",
+              "official_page": "https://fanqienovel.com/page/7667415571012520985"
+            }
+          ]
+        },
+        {
+          "name": "战神赘婿",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "从零开始，打造华夏首支特种部队",
+              "author": "KID大魔王",
+              "reads_display": "30.6万",
+              "official_page": "https://fanqienovel.com/page/7434480377638439960"
+            },
+            {
+              "rank": 2,
+              "title": "出门捡垃圾，我被美女总裁强推了",
+              "author": "花纸桃",
+              "reads_display": "21.7万",
+              "official_page": "https://fanqienovel.com/page/7649291620185017369"
+            },
+            {
+              "rank": 3,
+              "title": "领证三天，我被未婚妻杀死",
+              "author": "衣冠南渡0",
+              "reads_display": "12.3万",
+              "official_page": "https://fanqienovel.com/page/7591492894649748542"
+            }
+          ]
+        },
+        {
+          "name": "都市种田",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "重生之我卖的真是高压锅",
+              "author": "v桔梗",
+              "reads_display": "44.1万",
+              "official_page": "https://fanqienovel.com/page/7665161075213487166"
+            },
+            {
+              "rank": 2,
+              "title": "重生后，姐姐非要嫁给我",
+              "author": "城区哲学家",
+              "reads_display": "34.9万",
+              "official_page": "https://fanqienovel.com/page/7654057366010219582"
+            },
+            {
+              "rank": 3,
+              "title": "年代1958，从搬运工开始！",
+              "author": "南方的落叶",
+              "reads_display": "34.8万",
+              "official_page": "https://fanqienovel.com/page/7650652420585835544"
+            }
+          ]
+        },
+        {
+          "name": "传统玄幻",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "神通者",
+              "author": "天蚕土豆",
+              "reads_display": "230.3万",
+              "official_page": "https://fanqienovel.com/page/7665193065501445145"
+            },
+            {
+              "rank": 2,
+              "title": "天渊",
+              "author": "沐潇三生",
+              "reads_display": "111.4万",
+              "official_page": "https://fanqienovel.com/page/7138249318909086727"
+            },
+            {
+              "rank": 3,
+              "title": "惊鸿",
+              "author": "一夕烟雨",
+              "reads_display": "86万",
+              "official_page": "https://fanqienovel.com/page/6883748331202284558"
+            }
+          ]
+        },
+        {
+          "name": "历史脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "一心求死，反倒成为千古一帝？",
+              "author": "me小气猪",
+              "reads_display": "32.7万",
+              "official_page": "https://fanqienovel.com/page/7609931463961627710"
+            },
+            {
+              "rank": 2,
+              "title": "镇国杀神：从拯救落难母女开始",
+              "author": "好大的茄子",
+              "reads_display": "31.7万",
+              "official_page": "https://fanqienovel.com/page/7627044537780669464"
+            },
+            {
+              "rank": 3,
+              "title": "穿越乱世：每天一份拼好饭",
+              "author": "与天竞自由",
+              "reads_display": "28.1万",
+              "official_page": "https://fanqienovel.com/page/7660134591012817982"
+            }
+          ]
+        },
+        {
+          "name": "悬疑脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "骇夜：我在恐怖游戏里暴富",
+              "author": "阿一不是阿二",
+              "reads_display": "194.2万",
+              "official_page": "https://fanqienovel.com/page/7617740782291651646"
+            },
+            {
+              "rank": 2,
+              "title": "十日终焉",
+              "author": "杀虫队队员",
+              "reads_display": "187.8万",
+              "official_page": "https://fanqienovel.com/page/7143038691944959011"
+            },
+            {
+              "rank": 3,
+              "title": "规则怪谈：无所谓，系统会出手",
+              "author": "巡山主神",
+              "reads_display": "156.8万",
+              "official_page": "https://fanqienovel.com/page/7552067105378536473"
+            }
+          ]
+        },
+        {
+          "name": "都市脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "系统想害我，我选择上交国家",
+              "author": "超级吹宝泡泡糖",
+              "reads_display": "113.8万",
+              "official_page": "https://fanqienovel.com/page/7650499837250522137"
+            },
+            {
+              "rank": 2,
+              "title": "直播我和徐妙云，老朱全家破防了",
+              "author": "馒头不香吧",
+              "reads_display": "72.7万",
+              "official_page": "https://fanqienovel.com/page/7658515148906187800"
+            },
+            {
+              "rank": 3,
+              "title": "点子王行动哥随便弟，三人行很刑",
+              "author": "么十一",
+              "reads_display": "75.5万",
+              "official_page": "https://fanqienovel.com/page/7673830652382301209"
+            }
+          ]
+        },
+        {
+          "name": "玄幻脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "封神：开局反出西岐，我死守渑池",
+              "author": "一千元",
+              "reads_display": "182.5万",
+              "official_page": "https://fanqienovel.com/page/7679083199242193982"
+            },
+            {
+              "rank": 2,
+              "title": "这个游戏不对劲，我挖矿成神！",
+              "author": "道不易",
+              "reads_display": "181.1万",
+              "official_page": "https://fanqienovel.com/page/7590221243043826712"
+            },
+            {
+              "rank": 3,
+              "title": "文字武侠：开局破庙夜会帮主夫人",
+              "author": "我想下海",
+              "reads_display": "114.8万",
+              "official_page": "https://fanqienovel.com/page/7636702239288986649"
+            }
+          ]
+        },
+        {
+          "name": "悬疑灵异",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "我以狐仙镇百鬼",
+              "author": "紫梦游龙",
+              "reads_display": "77.9万",
+              "official_page": "https://fanqienovel.com/page/7087872099557051400"
+            },
+            {
+              "rank": 2,
+              "title": "镇龙棺，阎王命",
+              "author": "匪夷",
+              "reads_display": "33.5万",
+              "official_page": "https://fanqienovel.com/page/7287726057069743138"
+            },
+            {
+              "rank": 3,
+              "title": "完美犯罪？在我的眼里全是破绽！",
+              "author": "只抽半颗烟的老登",
+              "reads_display": "29.8万",
+              "official_page": "https://fanqienovel.com/page/7637415246868515902"
+            }
+          ]
+        },
+        {
+          "name": "抗战谍战",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "我是皇帝我怕谁？",
+              "author": "鸢尾鸟1",
+              "reads_display": "51.3万",
+              "official_page": "https://fanqienovel.com/page/7613355241370553406"
+            },
+            {
+              "rank": 2,
+              "title": "谍战：这个外科医生潜伏得很深",
+              "author": "红尘阡陌客",
+              "reads_display": "24.5万",
+              "official_page": "https://fanqienovel.com/page/7597010023822150681"
+            },
+            {
+              "rank": 3,
+              "title": "别人穿四合院，我为啥上战场",
+              "author": "中兵",
+              "reads_display": "21.6万",
+              "official_page": "https://fanqienovel.com/page/7665606419873287192"
+            }
+          ]
+        },
+        {
+          "name": "游戏体育",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "全民公路求生：我的房车无限进化",
+              "author": "橙汁加盐",
+              "reads_display": "41万",
+              "official_page": "https://fanqienovel.com/page/7577210392514939929"
+            },
+            {
+              "rank": 2,
+              "title": "网游：我的药剂永久持续",
+              "author": "小陆苍",
+              "reads_display": "32.3万",
+              "official_page": "https://fanqienovel.com/page/7672649076847954968"
+            },
+            {
+              "rank": 3,
+              "title": "全民大航海，我开局一条幽灵船",
+              "author": "新买的桃子",
+              "reads_display": "30.6万",
+              "official_page": "https://fanqienovel.com/page/7357660681379793982"
+            }
+          ]
+        },
+        {
+          "name": "动漫衍生",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "综漫：异种族评鉴指南",
+              "author": "细节到胃",
+              "reads_display": "39.2万",
+              "official_page": "https://fanqienovel.com/page/7635399493684300825"
+            },
+            {
+              "rank": 2,
+              "title": "三角洲：我有1哈夫币秒杀系统！",
+              "author": "大懒之王9527",
+              "reads_display": "27.8万",
+              "official_page": "https://fanqienovel.com/page/7647395494527781913"
+            },
+            {
+              "rank": 3,
+              "title": "我在战锤抽词条，帝皇站起来了？",
+              "author": "忠不可言呐",
+              "reads_display": "28.5万",
+              "official_page": "https://fanqienovel.com/page/7631418979428355097"
+            }
+          ]
+        },
+        {
+          "name": "男频衍生",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "四合院：从李云龙战友开始",
+              "author": "放千山",
+              "reads_display": "45万",
+              "official_page": "https://fanqienovel.com/page/7653676539866778648"
+            },
+            {
+              "rank": 2,
+              "title": "神雕：全真出了个记仇真人！",
+              "author": "GLANG",
+              "reads_display": "30.6万",
+              "official_page": "https://fanqienovel.com/page/7636445564585921598"
+            },
+            {
+              "rank": 3,
+              "title": "美综：谁说美剧没有人情世故？",
+              "author": "骑士妖娆",
+              "reads_display": "31.2万",
+              "official_page": "https://fanqienovel.com/page/7668899924158729278"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "female_new",
+      "label": "女频新榜",
+      "category_count": 18,
+      "book_record_count": 180,
+      "raw_sha256": "fd03220c70a65c250ad51fda36e78141c03301319cf43da2c1102ac3cf6a8243",
+      "categories": [
+        {
+          "name": "古风世情",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "溺爱成瘾：被权臣哥哥娇养",
+              "author": "折腰",
+              "reads_display": "7.9万",
+              "official_page": "https://fanqienovel.com/page/7613387142500191294"
+            },
+            {
+              "rank": 2,
+              "title": "误春令",
+              "author": "半盏不闲",
+              "reads_display": "5.6万",
+              "official_page": "https://fanqienovel.com/page/7677210511573781566"
+            },
+            {
+              "rank": 3,
+              "title": "权宦大人的神医娘子",
+              "author": "楼梯子",
+              "reads_display": "2.4万",
+              "official_page": "https://fanqienovel.com/page/7671280455387188286"
+            }
+          ]
+        },
+        {
+          "name": "科幻末世",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "列车求生：我的金手指是瓶邪黑花",
+              "author": "遍迹天涯",
+              "reads_display": "16.9万",
+              "official_page": "https://fanqienovel.com/page/7672013403740703806"
+            },
+            {
+              "rank": 2,
+              "title": "异世求生：神在末世卖房包租",
+              "author": "由鹿",
+              "reads_display": "11.9万",
+              "official_page": "https://fanqienovel.com/page/7671254094496943129"
+            },
+            {
+              "rank": 3,
+              "title": "末世女配：忠犬保镖竟是丧尸皇",
+              "author": "张穆九",
+              "reads_display": "10万",
+              "official_page": "https://fanqienovel.com/page/7676704673822149657"
+            }
+          ]
+        },
+        {
+          "name": "游戏体育",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "欧皇鼠鼠捡到的破产哥是魔王护",
+              "author": "吃饱了没事做吖",
+              "reads_display": "20.5万",
+              "official_page": "https://fanqienovel.com/page/7677911895101148222"
+            },
+            {
+              "rank": 2,
+              "title": "公路求生：老头乐拉来一车盗墓的",
+              "author": "噗噗葡萄干",
+              "reads_display": "8.9万",
+              "official_page": "https://fanqienovel.com/page/7685435505911008281"
+            },
+            {
+              "rank": 3,
+              "title": "万人嫌反派炮灰成了早逝白月光",
+              "author": "烤串梦女",
+              "reads_display": "6.7万",
+              "official_page": "https://fanqienovel.com/page/7645267155046370366"
+            }
+          ]
+        },
+        {
+          "name": "女频衍生",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "开局皇子！穿成华妃掌心宠",
+              "author": "春日序海",
+              "reads_display": "17万",
+              "official_page": "https://fanqienovel.com/page/7679105297457105945"
+            },
+            {
+              "rank": 2,
+              "title": "综：请放过这个漂亮炮灰",
+              "author": "爱吃麻辣韭菜的端木安",
+              "reads_display": "12.5万",
+              "official_page": "https://fanqienovel.com/page/7676712000235244568"
+            },
+            {
+              "rank": 3,
+              "title": "HP给黑魔王当前妻的日子",
+              "author": "盛婳婳",
+              "reads_display": "10.9万",
+              "official_page": "https://fanqienovel.com/page/7656120348756151321"
+            }
+          ]
+        },
+        {
+          "name": "玄幻言情",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "恶役女配她只想活命",
+              "author": "暴躁123",
+              "reads_display": "23.4万",
+              "official_page": "https://fanqienovel.com/page/7654607579082935321"
+            },
+            {
+              "rank": 2,
+              "title": "我那柔弱可欺的夫君竟是大魔头？",
+              "author": "奔跑的桃子",
+              "reads_display": "14.4万",
+              "official_page": "https://fanqienovel.com/page/7678244803783429144"
+            },
+            {
+              "rank": 3,
+              "title": "穿成假千金，我靠加点活成了仙",
+              "author": "漫在凉意",
+              "reads_display": "8.6万",
+              "official_page": "https://fanqienovel.com/page/7675395894786673688"
+            }
+          ]
+        },
+        {
+          "name": "种田",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "十二朵金花家有耀祖要科举",
+              "author": "蘑菇梦哩",
+              "reads_display": "14.8万",
+              "official_page": "https://fanqienovel.com/page/7681566741347961918"
+            },
+            {
+              "rank": 2,
+              "title": "空间堆满仓：姐要躺平，不扶贫！",
+              "author": "孤军一炙",
+              "reads_display": "11.1万",
+              "official_page": "https://fanqienovel.com/page/7669096627969199128"
+            },
+            {
+              "rank": 3,
+              "title": "睁眼被卖？我搬空家底独自逃荒",
+              "author": "昭木",
+              "reads_display": "6.5万",
+              "official_page": "https://fanqienovel.com/page/7665695788491623449"
+            }
+          ]
+        },
+        {
+          "name": "年代",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "八零大学生，靠签到扶摇直上",
+              "author": "十二澜",
+              "reads_display": "33.4万",
+              "official_page": "https://fanqienovel.com/page/7669019858272521278"
+            },
+            {
+              "rank": 2,
+              "title": "毕业后，将乡下老公和孩子接进城",
+              "author": "一只笨愚",
+              "reads_display": "16万",
+              "official_page": "https://fanqienovel.com/page/7664902605075663896"
+            },
+            {
+              "rank": 3,
+              "title": "女兵王重生六零，赶山狩猎养全家",
+              "author": "一树火花",
+              "reads_display": "11.9万",
+              "official_page": "https://fanqienovel.com/page/7680558713161124888"
+            }
+          ]
+        },
+        {
+          "name": "现言脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "男团内部消化，可我是女扮男装啊",
+              "author": "君有猫否",
+              "reads_display": "31.5万",
+              "official_page": "https://fanqienovel.com/page/7682458000279227416"
+            },
+            {
+              "rank": 2,
+              "title": "C级向导？全星际哨兵都不够她治",
+              "author": "可爱滴妹妹",
+              "reads_display": "21.9万",
+              "official_page": "https://fanqienovel.com/page/7660811678094724120"
+            },
+            {
+              "rank": 3,
+              "title": "惊！穿成清冷校草的粘人精前女友",
+              "author": "妖狐殿下",
+              "reads_display": "17.9万",
+              "official_page": "https://fanqienovel.com/page/7646732618666347545"
+            }
+          ]
+        },
+        {
+          "name": "宫斗宅斗",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "贵妃有孕，皇帝日日偏爱",
+              "author": "宋呱呱",
+              "reads_display": "9.4万",
+              "official_page": "https://fanqienovel.com/page/7669410753367002174"
+            },
+            {
+              "rank": 2,
+              "title": "帝王娇宠，不做太子妃做皇后",
+              "author": "应雪泥",
+              "reads_display": "9万",
+              "official_page": "https://fanqienovel.com/page/7680148815046773822"
+            },
+            {
+              "rank": 3,
+              "title": "长公主又野又撩，清冷将军跪着哄",
+              "author": "花花绿绿的猪",
+              "reads_display": "8.2万",
+              "official_page": "https://fanqienovel.com/page/7679045203868535832"
+            }
+          ]
+        },
+        {
+          "name": "悬疑脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "长触手了还能当路人甲吗？",
+              "author": "小橘兔",
+              "reads_display": "13.3万",
+              "official_page": "https://fanqienovel.com/page/7680581182005726233"
+            },
+            {
+              "rank": 2,
+              "title": "穿成漫恐主角正太私生弟弟咋办？",
+              "author": "南凌风起",
+              "reads_display": "13.1万",
+              "official_page": "https://fanqienovel.com/page/7626804996272573465"
+            },
+            {
+              "rank": 3,
+              "title": "盗笔：解雨臣捡了个想死的崽",
+              "author": "淮迟栖",
+              "reads_display": "10.2万",
+              "official_page": "https://fanqienovel.com/page/7661673738508717080"
+            }
+          ]
+        },
+        {
+          "name": "古言脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "万人嫌小可怜重生成皇帝亲生的崽",
+              "author": "芒果笑笑",
+              "reads_display": "14.4万",
+              "official_page": "https://fanqienovel.com/page/7667970171918634008"
+            },
+            {
+              "rank": 2,
+              "title": "要杀死一个疯子怎么这么难！",
+              "author": "奔跑的桃子",
+              "reads_display": "13.3万",
+              "official_page": "https://fanqienovel.com/page/7663441262376143896"
+            },
+            {
+              "rank": 3,
+              "title": "穿成恶婆婆，我靠抓鬼旺全家",
+              "author": "明媚的阿山",
+              "reads_display": "9万",
+              "official_page": "https://fanqienovel.com/page/7660899401971289150"
+            }
+          ]
+        },
+        {
+          "name": "快穿",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "快穿：恶毒女配抢男主上位",
+              "author": "我从不吃香菜",
+              "reads_display": "30.2万",
+              "official_page": "https://fanqienovel.com/page/7677536086322596926"
+            },
+            {
+              "rank": 2,
+              "title": "快穿：漂亮女配被男主一见钟情了",
+              "author": "枸杞明目",
+              "reads_display": "19万",
+              "official_page": "https://fanqienovel.com/page/7677082603291167806"
+            },
+            {
+              "rank": 3,
+              "title": "系统强制攻略，祖国，速捞！",
+              "author": "虞笑",
+              "reads_display": "18.7万",
+              "official_page": "https://fanqienovel.com/page/7676716781234293785"
+            }
+          ]
+        },
+        {
+          "name": "青春甜宠",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "阴湿毒舌妹被天龙人线下真实了",
+              "author": "永远喜欢你的小兔子",
+              "reads_display": "16.1万",
+              "official_page": "https://fanqienovel.com/page/7680621320165395480"
+            },
+            {
+              "rank": 2,
+              "title": "漂亮女配觉醒，高冷校草后悔了",
+              "author": "月野山狐",
+              "reads_display": "12万",
+              "official_page": "https://fanqienovel.com/page/7640429134237142041"
+            },
+            {
+              "rank": 3,
+              "title": "背景板女配也要万人迷吗？",
+              "author": "辣条泡饭",
+              "reads_display": "9.9万",
+              "official_page": "https://fanqienovel.com/page/7653800021170588697"
+            }
+          ]
+        },
+        {
+          "name": "星光璀璨",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "缺德女爱豆今天也在作死吗？",
+              "author": "Decha",
+              "reads_display": "7.7万",
+              "official_page": "https://fanqienovel.com/page/7681389146711002174"
+            },
+            {
+              "rank": 2,
+              "title": "重生韩娱：我打造的团体全登顶！",
+              "author": "晴天天雨蒙蒙",
+              "reads_display": "4.9万",
+              "official_page": "https://fanqienovel.com/page/7660025577805450264"
+            },
+            {
+              "rank": 3,
+              "title": "当高考状元穿成娱乐圈黑红女星",
+              "author": "祈舟舟",
+              "reads_display": "4.9万",
+              "official_page": "https://fanqienovel.com/page/7526812477347073086"
+            }
+          ]
+        },
+        {
+          "name": "女频悬疑",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "盗墓：开局沙海，宝宝你好香啊！",
+              "author": "江图南n",
+              "reads_display": "7.2万",
+              "official_page": "https://fanqienovel.com/page/7680042725411933209"
+            },
+            {
+              "rank": 2,
+              "title": "九门：乖，姐是兽医",
+              "author": "花果山嫡系继承人",
+              "reads_display": "3.9万",
+              "official_page": "https://fanqienovel.com/page/7675049575752666137"
+            },
+            {
+              "rank": 3,
+              "title": "盗笔：小哥捡的奶团子被宠上天",
+              "author": "cdtfycyc",
+              "reads_display": "3.9万",
+              "official_page": "https://fanqienovel.com/page/7683768426107505726"
+            }
+          ]
+        },
+        {
+          "name": "职场婚恋",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "重生千禧：她靠一把手术刀杀疯了",
+              "author": "徐七娘",
+              "reads_display": "10.8万",
+              "official_page": "https://fanqienovel.com/page/7642626745501240345"
+            },
+            {
+              "rank": 2,
+              "title": "天才前妻飒爆全城，陆总后悔了",
+              "author": "屈曲崖",
+              "reads_display": "10.5万",
+              "official_page": "https://fanqienovel.com/page/7674545654986722329"
+            },
+            {
+              "rank": 3,
+              "title": "揣崽穿到六年前，大佬老公忙疯了",
+              "author": "软之",
+              "reads_display": "9.7万",
+              "official_page": "https://fanqienovel.com/page/7662223431215107096"
+            }
+          ]
+        },
+        {
+          "name": "豪门总裁",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "备用联系人",
+              "author": "绒绒冬眠期",
+              "reads_display": "38.7万",
+              "official_page": "https://fanqienovel.com/page/7666468801357040665"
+            },
+            {
+              "rank": 2,
+              "title": "我截胡了个高富帅",
+              "author": "爱吃盐山羊汤的曼丽娜",
+              "reads_display": "38.8万",
+              "official_page": "https://fanqienovel.com/page/7679469947466042430"
+            },
+            {
+              "rank": 3,
+              "title": "致宝珠",
+              "author": "美绿哔哔",
+              "reads_display": "31.3万",
+              "official_page": "https://fanqienovel.com/page/7673829510566923289"
+            }
+          ]
+        },
+        {
+          "name": "民国言情",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "穿越之我在民国当魔丸",
+              "author": "三种星盘",
+              "reads_display": "4.6万",
+              "official_page": "https://fanqienovel.com/page/7656417656664230936"
+            },
+            {
+              "rank": 2,
+              "title": "哑女救下少帅后，他求我开口",
+              "author": "富而千万",
+              "reads_display": "1.6万",
+              "official_page": "https://fanqienovel.com/page/7665358062294666265"
+            },
+            {
+              "rank": 3,
+              "title": "九岁匪女，我为父仇踏东北",
+              "author": "巴黎花街的冷",
+              "reads_display": "1.6万",
+              "official_page": "https://fanqienovel.com/page/7673070405334076440"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "female_read",
+      "label": "女频阅读榜",
+      "category_count": 18,
+      "book_record_count": 180,
+      "raw_sha256": "fb11d5fc7b2beef1c3d6a6aab3d77c5f62e0a60c96d913d0ffc994dd2ea5b473",
+      "categories": [
+        {
+          "name": "古风世情",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "父皇他两辈子都在装",
+              "author": "托尔图加岛的沐辉",
+              "reads_display": "25.6万",
+              "official_page": "https://fanqienovel.com/page/7638631629665078297"
+            },
+            {
+              "rank": 2,
+              "title": "惹金枝",
+              "author": "空留",
+              "reads_display": "22.4万",
+              "official_page": "https://fanqienovel.com/page/7231424472606051384"
+            },
+            {
+              "rank": 3,
+              "title": "穿乱世，疯癫公主她靠抢劫建国了",
+              "author": "点墨成墨",
+              "reads_display": "21.7万",
+              "official_page": "https://fanqienovel.com/page/7423691438321323070"
+            }
+          ]
+        },
+        {
+          "name": "科幻末世",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "末世经营：四位大佬蹲我小店打杂",
+              "author": "丰年",
+              "reads_display": "35万",
+              "official_page": "https://fanqienovel.com/page/7649966056949173273"
+            },
+            {
+              "rank": 2,
+              "title": "末日入侵：从无限列车开始求生",
+              "author": "小橘兔",
+              "reads_display": "24.4万",
+              "official_page": "https://fanqienovel.com/page/7613039278343326745"
+            },
+            {
+              "rank": 3,
+              "title": "末世大佬难攀？可他夜夜喊我宝宝",
+              "author": "妩眠夏",
+              "reads_display": "23.2万",
+              "official_page": "https://fanqienovel.com/page/7668625311868652569"
+            }
+          ]
+        },
+        {
+          "name": "游戏体育",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "游戏入侵：抢男女主机缘会上瘾诶",
+              "author": "猫不秃",
+              "reads_display": "122.5万",
+              "official_page": "https://fanqienovel.com/page/7361653460183288894"
+            },
+            {
+              "rank": 2,
+              "title": "公路求生榜一说她要走到公路尽头",
+              "author": "张泡泡",
+              "reads_display": "47.3万",
+              "official_page": "https://fanqienovel.com/page/7448581895861849112"
+            },
+            {
+              "rank": 3,
+              "title": "全球木筏求生：我开局幽灵船打劫",
+              "author": "弥山月",
+              "reads_display": "23.4万",
+              "official_page": "https://fanqienovel.com/page/7523091212388027454"
+            }
+          ]
+        },
+        {
+          "name": "女频衍生",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "宜修换嫁年羹尧，摆烂躺赢了",
+              "author": "桂魄西沉",
+              "reads_display": "21.9万",
+              "official_page": "https://fanqienovel.com/page/7577701639453150233"
+            },
+            {
+              "rank": 2,
+              "title": "穿成华妃崽，团宠公主拿捏全后宫",
+              "author": "花滟滟",
+              "reads_display": "9.6万",
+              "official_page": "https://fanqienovel.com/page/7654457270595488792"
+            },
+            {
+              "rank": 3,
+              "title": "hp：我当黑魔王？真的假的",
+              "author": "花迢",
+              "reads_display": "9.1万",
+              "official_page": "https://fanqienovel.com/page/7654436405078150169"
+            }
+          ]
+        },
+        {
+          "name": "玄幻言情",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "剑宗小魔童，三岁半超凶",
+              "author": "脑洞炸了锅",
+              "reads_display": "41万",
+              "official_page": "https://fanqienovel.com/page/7613292466841586713"
+            },
+            {
+              "rank": 2,
+              "title": "听说我死后成了反派白月光",
+              "author": "甜甜的瓜",
+              "reads_display": "41.3万",
+              "official_page": "https://fanqienovel.com/page/7383825464940317720"
+            },
+            {
+              "rank": 3,
+              "title": "满门反派疯批，唯有师妹逗比",
+              "author": "未小兮",
+              "reads_display": "40.8万",
+              "official_page": "https://fanqienovel.com/page/7134523177480227854"
+            }
+          ]
+        },
+        {
+          "name": "种田",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "夫君战死五年归来：我携婆家出族",
+              "author": "余生无悲欢",
+              "reads_display": "32.1万",
+              "official_page": "https://fanqienovel.com/page/7654779071276010520"
+            },
+            {
+              "rank": 2,
+              "title": "重生妹妹抢亲？我换亲嫁糙汉暴富",
+              "author": "麻辣牛肉粉",
+              "reads_display": "35.3万",
+              "official_page": "https://fanqienovel.com/page/7660557904553987134"
+            },
+            {
+              "rank": 3,
+              "title": "开局分家？我有空间我怕啥！",
+              "author": "柳叶芳菲",
+              "reads_display": "25万",
+              "official_page": "https://fanqienovel.com/page/7634513813265452094"
+            }
+          ]
+        },
+        {
+          "name": "年代",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "穿书八零，易孕媳妇攻略禁欲军官",
+              "author": "二月冰",
+              "reads_display": "50.1万",
+              "official_page": "https://fanqienovel.com/page/7579841863868222526"
+            },
+            {
+              "rank": 2,
+              "title": "六零冲喜？拐个军爷回家生娃！",
+              "author": "豌豆饼干",
+              "reads_display": "49.8万",
+              "official_page": "https://fanqienovel.com/page/7567613609786739736"
+            },
+            {
+              "rank": 3,
+              "title": "七零，植物人老公会读心",
+              "author": "寸草心8",
+              "reads_display": "49.3万",
+              "official_page": "https://fanqienovel.com/page/7567565536578505752"
+            }
+          ]
+        },
+        {
+          "name": "现言脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "我在韩国贵族高中假装财阀二代",
+              "author": "一树挽歌",
+              "reads_display": "91.1万",
+              "official_page": "https://fanqienovel.com/page/7663152833243401278"
+            },
+            {
+              "rank": 2,
+              "title": "小炮灰变美后，抢了财阀太子爷",
+              "author": "草莓糖心",
+              "reads_display": "51.2万",
+              "official_page": "https://fanqienovel.com/page/7654572647035964440"
+            },
+            {
+              "rank": 3,
+              "title": "穿成财阀太子爷的作精前女友",
+              "author": "雀鸣灯",
+              "reads_display": "45.6万",
+              "official_page": "https://fanqienovel.com/page/7641635688978336792"
+            }
+          ]
+        },
+        {
+          "name": "宫斗宅斗",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "疯批暴戾九千岁转头对我轻声哄",
+              "author": "今晚吃烤鱼",
+              "reads_display": "74.5万",
+              "official_page": "https://fanqienovel.com/page/7256682048616664098"
+            },
+            {
+              "rank": 2,
+              "title": "满宫不孕，唯我三年抱俩！",
+              "author": "酸辣鱼丸粉",
+              "reads_display": "65.8万",
+              "official_page": "https://fanqienovel.com/page/7630526178771618841"
+            },
+            {
+              "rank": 3,
+              "title": "不是疯批反派吗？怎么红眼要抱抱",
+              "author": "赵小爻",
+              "reads_display": "61.3万",
+              "official_page": "https://fanqienovel.com/page/7613718162839718937"
+            }
+          ]
+        },
+        {
+          "name": "悬疑脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "宿舍求生：从刷广告开始变强",
+              "author": "气發財我了",
+              "reads_display": "41万",
+              "official_page": "https://fanqienovel.com/page/7632978161973595161"
+            },
+            {
+              "rank": 2,
+              "title": "没血条？你管这绝美NPC叫病弱",
+              "author": "大天使伽百列",
+              "reads_display": "31.8万",
+              "official_page": "https://fanqienovel.com/page/7633433896964590617"
+            },
+            {
+              "rank": 3,
+              "title": "全民躲猫猫：疯批美人她满级天眼",
+              "author": "油炸雪梨",
+              "reads_display": "31.5万",
+              "official_page": "https://fanqienovel.com/page/7615645509008493593"
+            }
+          ]
+        },
+        {
+          "name": "古言脑洞",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "脑子一热，强吻了我哥的同窗好友",
+              "author": "摆烂的步履",
+              "reads_display": "46.3万",
+              "official_page": "https://fanqienovel.com/page/7640326222639008792"
+            },
+            {
+              "rank": 2,
+              "title": "枝上蘅",
+              "author": "中书君jun",
+              "reads_display": "27.7万",
+              "official_page": "https://fanqienovel.com/page/7655245523447729177"
+            },
+            {
+              "rank": 3,
+              "title": "爹别贪了！我哥爬龙床我散财爆红",
+              "author": "大风刮来的啊",
+              "reads_display": "25.7万",
+              "official_page": "https://fanqienovel.com/page/7624055630587759640"
+            }
+          ]
+        },
+        {
+          "name": "快穿",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "吃软饭！是人设",
+              "author": "心心负心心",
+              "reads_display": "42.3万",
+              "official_page": "https://fanqienovel.com/page/7664245263321533465"
+            },
+            {
+              "rank": 2,
+              "title": "修仙快穿之信女缺钱还缺德",
+              "author": "知白道人",
+              "reads_display": "33.3万",
+              "official_page": "https://fanqienovel.com/page/7579978898054581310"
+            },
+            {
+              "rank": 3,
+              "title": "快穿：白莲花又在抢男主",
+              "author": "何包满满",
+              "reads_display": "22.8万",
+              "official_page": "https://fanqienovel.com/page/7644154024186350617"
+            }
+          ]
+        },
+        {
+          "name": "青春甜宠",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "亲一下就软！",
+              "author": "朝凤鸣",
+              "reads_display": "45万",
+              "official_page": "https://fanqienovel.com/page/7529586528876497945"
+            },
+            {
+              "rank": 2,
+              "title": "溯雨信笺",
+              "author": "奶糖酥",
+              "reads_display": "44万",
+              "official_page": "https://fanqienovel.com/page/7582240771588230206"
+            },
+            {
+              "rank": 3,
+              "title": "认路人甲当爹后我喜提反派全家桶",
+              "author": "明月望",
+              "reads_display": "36.8万",
+              "official_page": "https://fanqienovel.com/page/7574398565431135256"
+            }
+          ]
+        },
+        {
+          "name": "星光璀璨",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "万人迷神颜顶流只想演炮灰",
+              "author": "番茄土豆楠",
+              "reads_display": "52.3万",
+              "official_page": "https://fanqienovel.com/page/7652765843931024446"
+            },
+            {
+              "rank": 2,
+              "title": "癫，都癫，癫点好啊",
+              "author": "小盐子",
+              "reads_display": "48.1万",
+              "official_page": "https://fanqienovel.com/page/7342400869209492542"
+            },
+            {
+              "rank": 3,
+              "title": "太好了是咸鱼后妈，孩子有救了！",
+              "author": "流泪的偷码头",
+              "reads_display": "19.1万",
+              "official_page": "https://fanqienovel.com/page/7444110909280111678"
+            }
+          ]
+        },
+        {
+          "name": "女频悬疑",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "卧底十年归，女局长她雷厉风行",
+              "author": "爱吃多肉的排骨",
+              "reads_display": "17.5万",
+              "official_page": "https://fanqienovel.com/page/7647133281619545150"
+            },
+            {
+              "rank": 2,
+              "title": "全网围观，病弱学妹戏耍刑侦王牌",
+              "author": "依然觉得寒冷",
+              "reads_display": "11.6万",
+              "official_page": "https://fanqienovel.com/page/7610658109807135768"
+            },
+            {
+              "rank": 3,
+              "title": "心理解剖者",
+              "author": "虫宝宝",
+              "reads_display": "10.9万",
+              "official_page": "https://fanqienovel.com/page/7277923354739215422"
+            }
+          ]
+        },
+        {
+          "name": "职场婚恋",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "远嫁八年，回娘家难如登天！",
+              "author": "穷追不舍的雪恨",
+              "reads_display": "58.9万",
+              "official_page": "https://fanqienovel.com/page/7567928097673055256"
+            },
+            {
+              "rank": 2,
+              "title": "新婚羔羊",
+              "author": "夏柚子",
+              "reads_display": "27.1万",
+              "official_page": "https://fanqienovel.com/page/7586483614892690457"
+            },
+            {
+              "rank": 3,
+              "title": "恶毒女友提分手，太子爷他疯批了",
+              "author": "厘椰",
+              "reads_display": "25.1万",
+              "official_page": "https://fanqienovel.com/page/7657927088350956606"
+            }
+          ]
+        },
+        {
+          "name": "豪门总裁",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "老实员工和魅魔总裁一夜过后",
+              "author": "椒江梁七",
+              "reads_display": "77.8万",
+              "official_page": "https://fanqienovel.com/page/7660590811435781182"
+            },
+            {
+              "rank": 2,
+              "title": "作精不吸血后，恋爱脑糙汉追着亲",
+              "author": "肆月六",
+              "reads_display": "65.8万",
+              "official_page": "https://fanqienovel.com/page/7654827436672044056"
+            },
+            {
+              "rank": 3,
+              "title": "舔你时你出轨，提离婚你后悔",
+              "author": "赵也行",
+              "reads_display": "54万",
+              "official_page": "https://fanqienovel.com/page/7616938527665703998"
+            }
+          ]
+        },
+        {
+          "name": "民国言情",
+          "collected": 10,
+          "preview": [
+            {
+              "rank": 1,
+              "title": "夫人离婚后，军阀大佬一夜白头",
+              "author": "初点点",
+              "reads_display": "9.5万",
+              "official_page": "https://fanqienovel.com/page/7350963810682817598"
+            },
+            {
+              "rank": 2,
+              "title": "天降小福星，帅府全家宠上天",
+              "author": "小鸭不吃草",
+              "reads_display": "8.4万",
+              "official_page": "https://fanqienovel.com/page/7486788802925579288"
+            },
+            {
+              "rank": 3,
+              "title": "穿书，反派一家的富豪亲戚回来了",
+              "author": "爱吃手工麦饺的天阳峰",
+              "reads_display": "7.6万",
+              "official_page": "https://fanqienovel.com/page/7488197947532790809"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": "4.4.2-input-efficiency",
+  "parent_policy": "4.4.1-branch-one",
+  "changes": [
+    "The established 4.4.2 A/B/C, independent veto and final delivery policy remain unchanged",
+    "Story creation reads the frozen branch context instead of redundantly naming the whole evidence-atom corpus",
+    "S3 model review input includes only candidate-cited and counter-evidence indexes; full evidence packet and deterministic source registry remain preserved",
+    "Adds opt-in offline per-stage model usage inspection without generating or reviewing candidates"
+  ],
+  "source_hashes": {
+    "skills/novel-analyzer/SKILL.md": "d6e6698c2f54cee7efcaae7f63c57e786a44d909ea496bccb311430c59df43d4",
+    "skills/novel-candidate-portfolio/SKILL.md": "04fdbb9739043272e72592cac924e9864899d573b9f3049cc35be731a91a3d26",
+    "skills/novel-analyzer/references/generation-artifact-schema.md": "0a725cbdea7a727e44a304b1560b768c2953a1755e5dcdd344ad81047a81d77f",
+    "skills/novel-analyzer/scripts/candidate_executor.py": "c47c954a1ef7196a7ccb2efe32a029d38d9b8047f0dfc5b644e4d7fc9ad90e59",
+    "skills/novel-analyzer/scripts/candidate_portfolio.py": "643745c76331852051f8704c10801bca6a7036b566f4ee1d39174cd540a6606d",
+    "skills/novel-analyzer/scripts/candidate_workflow.py": "e24843f34939ba757aa69f49f4d2414c614b31c243460bd552e27a8d6aa169f0",
+    "skills/novel-analyzer/scripts/freeze_evidence_packet.py": "2b5fb7ec07d616c05e40e24f70460f47df135502e826190ccdf47b61e0470de3",
+    "skills/novel-candidate-portfolio/scripts/candidate.py": "e100bb7477ab105177281a45e739174c1689a354c1e54d01dd3f7d13edc85378",
+    "skills/novel-candidate-portfolio/references/operations.md": "5208b1625a14a8cb30bcfd0b9051225b30d895ed153b68b8dd4a506a5847b132",
+    "skills/novel-candidate-portfolio/references/packet-lookup.md": "1b817c0036f6fad15835824095ae0bdd674189dcfe73674df5381fa4674e0fd5"
+  },
+  "bytecode_excluded_from_attestation": true,
+  "repository_variant": "opt_in_4.4.2_standalone_skill_workflow",
+  "source": "Stable 4.4.2 policy with small context-efficiency improvements; original story-editor approval semantics unchanged",
+  "imported_reference_docs": 2,
+  "line_ending_policy": "LF-normalized source on all operating systems; original semantic code unchanged"
+}

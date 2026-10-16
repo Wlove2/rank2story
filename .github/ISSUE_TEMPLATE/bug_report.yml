@@ -1,0 +1,40 @@
+name: 错误报告
+description: 反馈可复现的问题（请勿上传凭据或受限内容）
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        反馈前请清理 Cookie、API Key、浏览器登录态、签名 URL、本机私人路径和受限小说内容。
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 说明预期行为、实际行为及出错环节。
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: 涉及模块
+      options:
+        - 市场扫描 / novel-market-scan
+        - 候选组合 / novel-candidate-portfolio
+        - 路由工具 / novel-analyzer
+        - 安装、文档或离线示例
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤和环境
+      description: 包括操作系统、Python 版本、执行的脱敏命令。
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 已脱敏的错误日志
+      render: text

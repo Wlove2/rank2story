@@ -1,0 +1,968 @@
+{
+  "schema_version": "3.0",
+  "version": "2026-07-20.machine-enforced-acquisition-contracts",
+  "intent_routing": {
+    "short_examples": [
+      "短篇扫榜",
+      "扫短故事榜准备投稿"
+    ],
+    "long_examples": [
+      "长篇扫榜",
+      "扫长篇榜准备开书"
+    ],
+    "ambiguous_rule": "only ask long_or_short when lane is unknown",
+    "internal_flags_are_user_visible": false,
+    "production_fixtures_forbidden": true
+  },
+  "length_router": {
+    "official_short_rule": "official short/story surface is authoritative for short lane regardless of word count",
+    "official_long_rule": "official novel/long-form surface is authoritative for long lane",
+    "word_count_role": "descriptive capacity feature only; never a gate for official short items",
+    "capacity_bands": [
+      "under_10k",
+      "10k_30k",
+      "30k_80k",
+      "over_80k"
+    ],
+    "mixed_surface_unknown_rule": "keep as unknown context until title, work URL, or complete content proves lane"
+  },
+  "sampling_policy": {
+    "preserve_raw_first_page": true,
+    "base_top_n_per_list": 6,
+    "adaptive_max_top_n_per_list": 10,
+    "small_complete_source_max_unique": 25,
+    "small_complete_source_rule": "analyze all unique works",
+    "adaptive_expansion_rule": "expand ranks 7-10 only when at least half of base six duplicate prior lists on the same source",
+    "list_aggregation": "equal_weight_per_list_then_platform_cap",
+    "duplicate_rule": "deduplicate by platform book id; preserve appearances; cap cross-list bonus",
+    "app_web_relation": "independent surfaces; calculate overlap every batch",
+    "context_sources_add_heat_score": false
+  },
+  "source_mix_policy": {
+    "purpose": "deterministic influence caps for evidence synthesis; never acquisition quotas and never a substitute for required-source coverage",
+    "missing_required_source_rule": "block formal candidates; do not renormalize the missing source budget onto sources that happened to succeed",
+    "within_cohort_rule": "normalize within each platform first; equalize named rank lists; then apply the cohort cap",
+    "duplicate_rule": "one work or canonical URL keeps one evidence_id; repeated appearances preserve provenance but cannot create a second source budget",
+    "long": {
+      "fanqie_official": {
+        "cap": 0.4,
+        "source_ids": [
+          "fanqie_public_web_ranks",
+          "fanqie_reader_novel_rank_center"
+        ]
+      },
+      "qimao_official": {
+        "cap": 0.2,
+        "source_ids": [
+          "qimao_public_web_ranks",
+          "qimao_reader_rank_center"
+        ]
+      },
+      "paid_platform_corroboration": {
+        "cap": 0.2,
+        "source_ids": [
+          "zongheng_public_rank_snapshot",
+          "jjwxc_quarter_rank_snapshot",
+          "qidian_paid_trend_target"
+        ],
+        "allocation": "equal across successful named platforms after the all-required gate passes"
+      },
+      "xiaohongshu_demand": {
+        "cap": 0.1,
+        "source_ids": [
+          "xiaohongshu_novel_demand_shared"
+        ]
+      },
+      "bilibili_demand": {
+        "cap": 0.1,
+        "source_ids": [
+          "bilibili_novel_demand_shared"
+        ]
+      },
+      "historical_basis": "20260628 analytical priority: Fanqie 40%, Qimao 20%, Zongheng 10%, JJWXC 10%, Xiaohongshu 10%, Bilibili 10%; Qidian now shares the unchanged 20% paid-platform cohort"
+    },
+    "short": {
+      "fanqie_official_short": {
+        "cap": 0.4,
+        "source_ids": [
+          "fanqie_writer_hot_stories",
+          "fanqie_reader_short_rank_center"
+        ]
+      },
+      "qimao_official_story": {
+        "cap": 0.3,
+        "source_ids": [
+          "qimao_reader_story_rank_center"
+        ]
+      },
+      "xiaohongshu_demand": {
+        "cap": 0.15,
+        "source_ids": [
+          "xiaohongshu_novel_demand_shared"
+        ]
+      },
+      "bilibili_demand": {
+        "cap": 0.15,
+        "source_ids": [
+          "bilibili_novel_demand_shared"
+        ]
+      },
+      "rationale": "the old mixed-lane ratio cannot be copied mechanically; official short/story surfaces retain 70% while two independently verified reader-demand sources share 30%"
+    }
+  },
+  "lane_classification_policy": {
+    "official_short_surfaces": [
+      "fanqie_writer_hot_stories",
+      "fanqie_reader_short_rank_center",
+      "qimao_reader_story_rank_center"
+    ],
+    "official_long_surfaces": [
+      "fanqie_public_web_ranks",
+      "fanqie_reader_novel_rank_center",
+      "qimao_public_web_ranks",
+      "qimao_reader_rank_center",
+      "zongheng_public_rank_snapshot",
+      "jjwxc_quarter_rank_snapshot",
+      "qidian_paid_trend_target"
+    ],
+    "shared_context_surfaces": [
+      "fanqie_writer_activities",
+      "fanqie_writer_notices",
+      "qimao_writer_editorial_and_rules"
+    ],
+    "shared_social_surfaces": [
+      "xiaohongshu_novel_demand_shared",
+      "bilibili_novel_demand_shared"
+    ],
+    "mixed_social_rule": "complete generic xiaohongshu/bilibili novel recommendation or book-shortage content is tagged both when its lane cannot be verified; it is auxiliary evidence for either requested lane and is counted once",
+    "shared_social_dedup_rule": "collect one snapshot per platform per run; reuse the same evidence_id in either lane packet and never copy or sum it as separate short and long evidence",
+    "social_both_scoring_eligible": true,
+    "unknown_scoring_eligible": false,
+    "diagnostic_sources_never_satisfy_lane_coverage": true
+  },
+  "social_acquisition_policy": {
+    "min_discovered_unique_per_platform": 20,
+    "min_screened_per_platform": 10,
+    "min_signal_eligible_entries_per_platform": 5,
+    "min_unique_accounts_per_platform": 3,
+    "max_signal_entries_per_account": 2,
+    "required_primary_signal_type_counts": {
+      "current_hotspot_or_rank_scan": 1,
+      "curator_roundup": 1,
+      "reader_demand_or_book_shortage": 1,
+      "negative_or_avoidance": 1
+    },
+    "primary_signal_types": [
+      "current_hotspot_or_rank_scan",
+      "curator_roundup",
+      "reader_demand_or_book_shortage",
+      "negative_or_avoidance",
+      "creator_market_analysis"
+    ],
+    "query_families": [
+      "current platform rank scan",
+      "current hot novel or genre",
+      "book shortage and recommendations",
+      "curator list and roundup",
+      "reader complaints and abandonment",
+      "creator market analysis"
+    ],
+    "watchlist_rule": "a named account is a discovery route, not trusted evidence; verify its current item URL, date, engagement and complete content every run",
+    "official_rank_repost_rule": "when a social item only republishes an already acquired official rank, retain provenance but set signal_eligible=false and heat_increment=0; original commentary may be classified separately without duplicating the rank",
+    "search_summary_rule": "search results populate discovery and screening only; they never satisfy signal eligibility",
+    "source_specific_overrides": {
+      "xiaohongshu_novel_demand_shared": {
+        "reason": "Owner-approved 2026-10-09 reduced source sample quota; complete media and original source verifiability unchanged.",
+        "coverage_source_of_truth": "sources[id=xiaohongshu_novel_demand_shared].coverage"
+      }
+    }
+  },
+  "required_source_failure_policy": {
+    "transient_attempts": 3,
+    "fresh_transport_each_attempt": true,
+    "on_exhaustion": "degraded_and_formal_gate_closed",
+    "substitution_forbidden": true,
+    "forbidden_summary": "其他榜已足够分析"
+  },
+  "runtime_contract": {
+    "windows_python": "python",
+    "runtime_installs_forbidden": true,
+    "ad_hoc_collector_authoring_forbidden": true,
+    "scan_output_root": "./data/scans",
+    "file_dependencies": [],
+    "rank_input_policy": "current_run_only",
+    "previous_rank_inputs_allowed": false,
+    "preflight_profiles": {
+      "short_production": {
+        "commands": [
+          "opencli",
+          "agent-reach"
+        ],
+        "timeout_seconds": 10,
+        "endpoints": [
+          "https://fanqienovel.com/api/user/info/v2",
+          "https://api5-normal.fqnovel.com/reading/bookapi/bookmall/tab/v1/",
+          "https://api-bc.wtzw.com/api/v1/story/leader-board"
+        ]
+      },
+      "comprehensive_long_production": {
+        "commands": [
+          "opencli",
+          "agent-reach"
+        ],
+        "timeout_seconds": 10,
+        "endpoints": [
+          "https://fanqienovel.com/rank",
+          "https://www.qimao.com/paihang",
+          "https://api5-normal.fqnovel.com/reading/bookapi/bookmall/tab/v1/",
+          "https://api-bc.wtzw.com/api/v1/book-store/rank-tag"
+        ]
+      }
+    },
+    "built_in_fanqie_decoder": "scripts/fanqie_decoder.py",
+    "optional_external_decoder_env": "NOVEL_FANQIE_COLLECTOR"
+  },
+  "coverage_profiles": {
+    "short_production": {
+      "required_source_ids": [
+        "fanqie_writer_hot_stories",
+        "fanqie_reader_short_rank_center",
+        "qimao_reader_story_rank_center",
+        "xiaohongshu_novel_demand_shared",
+        "bilibili_novel_demand_shared"
+      ],
+      "candidate_context_source_ids": [
+        "fanqie_writer_activities",
+        "fanqie_writer_notices",
+        "qimao_writer_editorial_and_rules"
+      ],
+      "partial_run_rule": "diagnostic only; formal candidates forbidden"
+    },
+    "comprehensive_long_production": {
+      "required_source_ids": [
+        "fanqie_public_web_ranks",
+        "fanqie_reader_novel_rank_center",
+        "qimao_public_web_ranks",
+        "qimao_reader_rank_center",
+        "zongheng_public_rank_snapshot",
+        "jjwxc_quarter_rank_snapshot",
+        "qidian_paid_trend_target",
+        "xiaohongshu_novel_demand_shared",
+        "bilibili_novel_demand_shared"
+      ],
+      "candidate_context_source_ids": [
+        "fanqie_writer_activities",
+        "fanqie_writer_notices",
+        "qimao_writer_editorial_and_rules"
+      ],
+      "success_rule": "all sources succeed; social sources require complete content",
+      "partial_run_rule": "diagnostic only; formal candidates forbidden"
+    }
+  },
+  "sources": [
+    {
+      "id": "fanqie_writer_hot_stories",
+      "lanes": [
+        "short"
+      ],
+      "platform": "番茄",
+      "surface": "writer_web",
+      "role": "official_short_market_samples",
+      "acquisition_mode": "authenticated_reproducible",
+      "collector": "scripts/collect_fanqie_writer_hot.py",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "python_script",
+        "entrypoint": "scripts/collect_fanqie_writer_hot.py",
+        "target": "https://fanqienovel.com/api/author/short_article/douyin_hot_list/v0/",
+        "coverage_capability": "complete",
+        "verified_on": "2026-07-19"
+      },
+      "coverage": {
+        "required_list_ids": [
+          "all",
+          "dark_horse_increase",
+          "classic_hot"
+        ],
+        "analysis_sampling": "all_unique_small_complete_source"
+      },
+      "accepted_baseline": {
+        "batch": "20260718",
+        "rank_slots": 42,
+        "unique_books": 20,
+        "official_short_items": 20,
+        "capacity_bands_are_descriptive": true,
+        "under_10k_item": {
+          "title": "学霸她天生微醺，上学习综艺后爆红全网了",
+          "word_count": 9358
+        }
+      }
+    },
+    {
+      "id": "fanqie_reader_short_rank_center",
+      "lanes": [
+        "short"
+      ],
+      "platform": "番茄",
+      "surface": "reader_app_rank_center",
+      "role": "official_reader_short_rank",
+      "evidence_class": "realtime_heat_rank",
+      "acquisition_mode": "automated_public",
+      "collector": "scripts/collect_fanqie_reader_ranks.py",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "python_script",
+        "required_target": "番茄 App 排行榜中心的独立短篇榜",
+        "entrypoint": "scripts/collect_fanqie_reader_ranks.py",
+        "target": "https://api5-normal.fqnovel.com/reading/bookapi/bookmall/cell/change/v1/?algo_type=601&genre_tab=7",
+        "coverage_capability": "complete",
+        "repeat_semantics": "sample_expansion_not_reproducibility",
+        "repeat_note": "algo_type=601 is a realtime heat rank (cell_alias: 根据实时阅读热度排行); two repeats yield 0 overlap by design — each captures a different snapshot of live reading heat; merge both rounds as union, do not treat zero overlap as collection failure",
+        "verification": {
+          "verified_on": "2026-07-20",
+          "http_status": 200,
+          "algorithm": "601",
+          "list_name": "番茄短篇榜",
+          "records_per_repeat": 30,
+          "repeat_count": 2,
+          "cross_repeat_overlap": 0,
+          "protocol_discovery": "current common-rank-list-v1 deep-link",
+          "word_count_annotation_required": true
+        }
+      },
+      "coverage": {
+        "required_list_ids": [
+          "番茄短篇榜"
+        ],
+        "analysis_sampling": "adaptive_rank"
+      },
+      "accepted_baseline": {
+        "batch": "20260720-reader-ranks",
+        "status": "acquired",
+        "list_count": 1,
+        "rank_slots": 30,
+        "repeat_count": 2,
+        "merged_unique_books": 60
+      }
+    },
+    {
+      "id": "qimao_reader_story_rank_center",
+      "lanes": [
+        "short"
+      ],
+      "platform": "七猫",
+      "surface": "reader_app_story_rank_api",
+      "role": "official_story_rank",
+      "acquisition_mode": "automated_public_or_authenticated_reproducible",
+      "collector": "scripts/collect_qimao_reader_ranks.py",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "python_script",
+        "entrypoint": "scripts/collect_qimao_reader_ranks.py",
+        "target": "https://api-bc.wtzw.com/api/v1/story/leader-board",
+        "coverage_capability": "complete",
+        "verified_on": "2026-07-20",
+        "verification": {
+          "http_status": 200,
+          "rank_types": [
+            "story_rec_list",
+            "story_trend_list"
+          ],
+          "category_ids": [
+            "0",
+            "758",
+            "682",
+            "604",
+            "790",
+            "769",
+            "779",
+            "678",
+            "739",
+            "691",
+            "774",
+            "12",
+            "27"
+          ],
+          "acquired_matrix_list_count": 26,
+          "rank_slots_per_repeat": 1300,
+          "repeat_count": 2,
+          "exact_ordered_ids": true,
+          "word_count_available": false,
+          "query_signing": "independent_sorted_query_md5"
+        }
+      },
+      "coverage": {
+        "required_list_ids": [
+          "story_rec_list/all",
+          "story_trend_list/all"
+        ],
+        "category_taxonomy_required": true,
+        "required_category_ids": [
+          "0",
+          "758",
+          "682",
+          "604",
+          "790",
+          "769",
+          "779",
+          "678",
+          "739",
+          "691",
+          "774",
+          "12",
+          "27"
+        ],
+        "analysis_sampling": "adaptive_rank"
+      },
+      "accepted_baseline": {
+        "batch": "20260720-v34",
+        "status": "acquired",
+        "rank_types": 2,
+        "categories": 13,
+        "list_count": 26,
+        "rank_slots": 1300,
+        "unique_books": 681,
+        "repeat_count": 2,
+        "exact_ordered_ids": true,
+        "word_count_status": "unknown"
+      }
+    },
+    {
+      "id": "fanqie_reader_novel_rank_center",
+      "lanes": [
+        "long"
+      ],
+      "platform": "番茄",
+      "surface": "reader_app_rank_center",
+      "role": "complete_reader_novel_rank_surface",
+      "acquisition_mode": "automated_public",
+      "collector": "scripts/collect_fanqie_reader_ranks.py",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "python_script",
+        "required_target": "番茄 App 排行榜中心全部 11 个命名榜",
+        "entrypoint": "scripts/collect_fanqie_reader_ranks.py",
+        "target": "https://api5-normal.fqnovel.com/reading/bookapi/bookmall/cell/change/v1/",
+        "coverage_capability": "complete",
+        "verification": {
+          "verified_on": "2026-07-20",
+          "http_status": 200,
+          "algorithm_count": 11,
+          "repeat_count": 2,
+          "records_per_named_rank": 30,
+          "author_rank_records": 50,
+          "protocol_discovery": "current common-rank-list-v1 deep-link"
+        }
+      },
+      "coverage": {
+        "required_list_ids": [
+          "推荐榜",
+          "完本榜",
+          "新书榜",
+          "书友榜",
+          "追更榜",
+          "黑马榜",
+          "巅峰榜",
+          "书荒榜",
+          "礼物榜",
+          "阅读榜",
+          "作者榜"
+        ],
+        "analysis_sampling": "adaptive_rank"
+      },
+      "accepted_baseline": {
+        "batch": "20260720-reader-ranks",
+        "status": "acquired",
+        "list_count": 11,
+        "repeat_count": 2,
+        "screenshot_confirmed_list_count": 11
+      }
+    },
+    {
+      "id": "qimao_reader_rank_center",
+      "lanes": [
+        "long"
+      ],
+      "platform": "七猫",
+      "surface": "reader_app_rank_center",
+      "role": "complete_reader_rank_surface",
+      "acquisition_mode": "automated_public",
+      "collector": "scripts/collect_qimao_reader_ranks.py",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "python_script",
+        "required_target": "七猫 App 排行榜中心当前全部 29 个命名榜及分类展开",
+        "entrypoint": "scripts/collect_qimao_reader_ranks.py",
+        "target": "https://api-bc.wtzw.com/api/v1/leader-board",
+        "coverage_capability": "complete",
+        "verification": {
+          "verified_on": "2026-07-20",
+          "http_status": 200,
+          "current_named_list_count": 29,
+          "counts_by_tab": "12+12+5",
+          "category_expansion_list_count": 74,
+          "repeat_count": 2,
+          "nominal_legacy_count": 30,
+          "removed_or_unadvertised_legacy_list": "图书/推荐榜",
+          "alias_probe_result": "unknown recommendation aliases normalize to hot_list and are rejected"
+        }
+      },
+      "coverage": {
+        "required_list_ids": [
+          "男生/必读榜",
+          "男生/大热榜",
+          "男生/匠心榜",
+          "男生/新书榜",
+          "男生/完结榜",
+          "男生/飙升榜",
+          "男生/好评榜",
+          "男生/热搜榜",
+          "男生/礼物榜",
+          "男生/角色榜",
+          "男生/投票榜",
+          "男生/粉丝榜",
+          "女生/必读榜",
+          "女生/大热榜",
+          "女生/匠心榜",
+          "女生/新书榜",
+          "女生/完结榜",
+          "女生/飙升榜",
+          "女生/好评榜",
+          "女生/热搜榜",
+          "女生/礼物榜",
+          "女生/角色榜",
+          "女生/投票榜",
+          "女生/粉丝榜",
+          "图书/大热榜",
+          "图书/影视榜",
+          "图书/好评榜",
+          "图书/热搜榜",
+          "图书/投票榜"
+        ],
+        "category_taxonomy_required": true,
+        "analysis_sampling": "adaptive_rank",
+        "category_expansion": "every non-all category: hot+up for male/female; hot+ticket for books"
+      },
+      "accepted_baseline": {
+        "batch": "20260720-reader-ranks-complete-v2",
+        "status": "acquired",
+        "screenshot_confirmed_top_segments": [
+          "男生",
+          "女生",
+          "图书"
+        ],
+        "screenshot_confirmed_list_count": 30,
+        "current_api_list_count": 29,
+        "category_expansion_list_count": 74,
+        "repeat_count": 2
+      }
+    },
+    {
+      "id": "fanqie_reader_bookmall_tab_103",
+      "lanes": [
+        "short",
+        "long"
+      ],
+      "platform": "番茄",
+      "surface": "reader_app_bookmall_subcard",
+      "role": "diagnostic_only",
+      "acquisition_mode": "automated_public",
+      "collector": "scripts/collect_fanqie_reader_ranks.py",
+      "coverage": {
+        "observed_list_ids": [
+          "完本榜",
+          "推荐榜",
+          "番茄榜",
+          "黑马榜"
+        ]
+      },
+      "accepted_baseline": {
+        "batch": "20260718",
+        "rank_slots": 40,
+        "unique_books": 34,
+        "short_items": 0,
+        "long_items": 34
+      }
+    },
+    {
+      "id": "qimao_reader_default_hot_card",
+      "lanes": [
+        "long"
+      ],
+      "platform": "七猫",
+      "surface": "reader_app_default_subcard",
+      "role": "diagnostic_only",
+      "acquisition_mode": "automated_public",
+      "collector": "scripts/collect_qimao_reader_ranks.py",
+      "accepted_baseline": {
+        "batch": "20260718",
+        "items": 8
+      }
+    },
+    {
+      "id": "fanqie_public_web_ranks",
+      "lanes": [
+        "long"
+      ],
+      "platform": "番茄",
+      "surface": "public_web",
+      "role": "formal_long_rank_surface",
+      "acquisition_mode": "automated_public_with_local_decoder",
+      "collector": "scripts/fanqie_refresh.py",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "python_script",
+        "entrypoint": "scripts/fanqie_refresh.py",
+        "target": "https://fanqienovel.com/rank",
+        "coverage_capability": "complete",
+        "verified_on": "2026-07-19"
+      },
+      "coverage": {
+        "required_list_ids": [
+          "female/new_ranks",
+          "female/read_ranks",
+          "male/new_ranks",
+          "male/read_ranks"
+        ],
+        "category_taxonomy_required": true,
+        "analysis_sampling": "adaptive_rank"
+      },
+      "accepted_baseline": {
+        "batch": "20260717",
+        "channels": 4,
+        "categories": 74,
+        "rank_slots": 740
+      }
+    },
+    {
+      "id": "qimao_public_web_ranks",
+      "lanes": [
+        "long"
+      ],
+      "platform": "七猫",
+      "surface": "public_web",
+      "role": "formal_long_rank_surface",
+      "acquisition_mode": "automated_public",
+      "collector": "scripts/collect_qimao_web_ranks.py",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "python_script",
+        "entrypoint": "scripts/collect_qimao_web_ranks.py",
+        "target": "https://www.qimao.com/paihang",
+        "coverage_capability": "complete",
+        "verified_on": "2026-07-19"
+      },
+      "coverage": {
+        "required_list_ids": [
+          "male/hot",
+          "male/new",
+          "male/finished",
+          "male/favorites",
+          "male/updates",
+          "female/hot",
+          "female/new",
+          "female/finished",
+          "female/favorites",
+          "female/updates"
+        ],
+        "analysis_sampling": "adaptive_rank"
+      },
+      "accepted_baseline": {
+        "batch": "20260718",
+        "channels": 10,
+        "rank_slots": 200,
+        "unique_books": 168
+      }
+    },
+    {
+      "id": "fanqie_writer_activities",
+      "lanes": [
+        "short",
+        "long"
+      ],
+      "platform": "番茄",
+      "surface": "writer_official_activity",
+      "role": "submission_direction_and_deadline_context",
+      "acquisition_mode": "authenticated_reproducible_or_manual",
+      "collector": "https://fanqienovel.com/writer/zone/solicit-activity",
+      "coverage": {
+        "required_list_ids": []
+      },
+      "accepted_baseline": {
+        "batch": "20260716",
+        "status": "acquired_in_regression_notes_only"
+      }
+    },
+    {
+      "id": "fanqie_writer_notices",
+      "lanes": [
+        "short",
+        "long"
+      ],
+      "platform": "番茄",
+      "surface": "writer_official_notice",
+      "role": "policy_and_violation_gate",
+      "acquisition_mode": "authenticated_reproducible_or_manual",
+      "collector": "https://fanqienovel.com/writer/zone/notice",
+      "coverage": {
+        "required_list_ids": []
+      },
+      "accepted_baseline": {
+        "batch": "20260716",
+        "status": "acquired_in_regression_notes_only",
+        "known_item": "短故事极端违规治理公告"
+      }
+    },
+    {
+      "id": "qimao_writer_editorial_and_rules",
+      "lanes": [
+        "short",
+        "long"
+      ],
+      "platform": "七猫",
+      "surface": "writer_official_editorial_and_rules",
+      "role": "submission_direction_rules_and_rights_gate",
+      "acquisition_mode": "automated_public_or_manual",
+      "collector": "https://zhushou.qimao.com/become-author + https://m.qm989.com/publish.html",
+      "coverage": {
+        "required_list_ids": []
+      },
+      "accepted_baseline": {
+        "batch": "20260716",
+        "status": "acquired_in_regression_notes_only"
+      }
+    },
+    {
+      "id": "zongheng_public_rank_snapshot",
+      "lanes": [
+        "long"
+      ],
+      "platform": "纵横",
+      "surface": "public_web",
+      "role": "paid_platform_rank_corroboration",
+      "acquisition_mode": "automated_public",
+      "collector": "scripts/collect_paid_platform_ranks.py --platform zongheng",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "python_script",
+        "entrypoint": "scripts/collect_paid_platform_ranks.py",
+        "target": "https://www.zongheng.com/rank",
+        "coverage_capability": "complete",
+        "verified_on": "2026-07-20",
+        "invocation": "--platform zongheng",
+        "verification": {
+          "http_status": 200,
+          "list_count": 6,
+          "rank_slots": 57,
+          "unique_books": 33,
+          "repeat_count": 2,
+          "exact_ordered_ids": true
+        }
+      },
+      "coverage": {
+        "required_list_ids": [
+          "monthly_ticket",
+          "one_day_sales",
+          "new_book_male",
+          "new_book_female",
+          "click",
+          "recommendation"
+        ],
+        "analysis_sampling": "adaptive_rank"
+      },
+      "accepted_baseline": {
+        "batch": "20260720-v34",
+        "list_count": 6,
+        "rank_slots": 57,
+        "unique_books": 33,
+        "repeat_count": 2,
+        "exact_ordered_ids": true
+      }
+    },
+    {
+      "id": "jjwxc_quarter_rank_snapshot",
+      "lanes": [
+        "long"
+      ],
+      "platform": "晋江",
+      "surface": "public_web",
+      "role": "paid_platform_rank_corroboration",
+      "acquisition_mode": "automated_public",
+      "collector": "scripts/collect_paid_platform_ranks.py --platform jjwxc",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "python_script",
+        "entrypoint": "scripts/collect_paid_platform_ranks.py",
+        "target": "https://www.jjwxc.net/topten.php?orderstr=4",
+        "coverage_capability": "complete",
+        "verified_on": "2026-07-20",
+        "invocation": "--platform jjwxc",
+        "verification": {
+          "http_status": 200,
+          "list_count": 1,
+          "rank_slots": 200,
+          "unique_books": 200,
+          "repeat_count": 2,
+          "exact_ordered_ids": true
+        }
+      },
+      "coverage": {
+        "required_list_ids": [
+          "quarter_points"
+        ],
+        "analysis_sampling": "adaptive_rank"
+      },
+      "accepted_baseline": {
+        "batch": "20260720-v34",
+        "list_count": 1,
+        "rank_slots": 200,
+        "unique_books": 200,
+        "repeat_count": 2,
+        "exact_ordered_ids": true
+      }
+    },
+    {
+      "id": "qidian_paid_trend_target",
+      "lanes": [
+        "long"
+      ],
+      "platform": "起点",
+      "surface": "public_or_authenticated_rank",
+      "role": "paid_platform_rank_corroboration",
+      "acquisition_mode": "automated_public_or_manual",
+      "collector": "scripts/collect_qidian_browser_ranks.ps1",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "powershell_script",
+        "entrypoint": "scripts/collect_qidian_browser_ranks.ps1",
+        "target": "https://www.qidian.com/rank/",
+        "coverage_capability": "complete",
+        "verified_on": "2026-07-20",
+        "runtime_requirement": "opencli Chrome bridge",
+        "verification": {
+          "list_count": 5,
+          "rank_slots": 100,
+          "unique_books": 59,
+          "repeat_count": 2,
+          "exact_ordered_ids": true,
+          "acquisition": "fixed URLs and fixed DOM contract",
+          "numeric_metric_note": "dynamic font may remain obfuscated"
+        }
+      },
+      "coverage": {
+        "required_list_ids": [
+          "monthly_ticket",
+          "hot_sales",
+          "read_index",
+          "recommendation",
+          "new_book"
+        ],
+        "analysis_sampling": "adaptive_rank"
+      },
+      "accepted_baseline": {
+        "batch": "20260720-v34",
+        "status": "acquired",
+        "list_count": 5,
+        "rank_slots": 100,
+        "unique_books": 59,
+        "repeat_count": 2,
+        "exact_ordered_ids": true
+      }
+    },
+    {
+      "id": "xiaohongshu_novel_demand_shared",
+      "lanes": [
+        "short",
+        "long"
+      ],
+      "lane_scope": "both",
+      "platform": "小红书",
+      "surface": "original_posts",
+      "role": "shared_novel_demand_signal",
+      "acquisition_mode": "authenticated_reproducible_or_manual",
+      "collector": "agent-reach OpenCLI: discovery queries/watchlist -> note -> all images -> comments",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "registered_workflow",
+        "workflow_id": "agent-reach/xiaohongshu-original-evidence",
+        "commands": [
+          "opencli xiaohongshu search",
+          "opencli xiaohongshu note",
+          "opencli xiaohongshu comments"
+        ],
+        "reference": "references/social-evidence-extraction.md",
+        "coverage_capability": "complete",
+        "verified_on": "2026-07-20"
+      },
+      "signal_requires_complete_content": true,
+      "coverage": {
+        "min_discovered_unique_entries": 12,
+        "min_screened_entries": 6,
+        "min_signal_eligible_entries": 4,
+        "min_unique_accounts": 3,
+        "max_signal_entries_per_account": 2,
+        "required_primary_signal_type_counts": {
+          "reader_demand_or_book_shortage": 1
+        },
+        "collection_budget": "Discover >=12 independent public notes; screen >=6; obtain >=4 complete text-plus-all-images notes from >=3 authors. Keep every-image completeness mandatory; no search snippets accepted.",
+        "deduplicate_by": "canonical_url_or_note_id"
+      },
+      "accepted_baseline": {
+        "batch": "20260718",
+        "status": "search_results_only",
+        "sample": "metadata_only",
+        "signal_eligible_entries": 0
+      }
+    },
+    {
+      "id": "bilibili_novel_demand_shared",
+      "lanes": [
+        "short",
+        "long"
+      ],
+      "lane_scope": "both",
+      "platform": "B站",
+      "surface": "original_videos",
+      "role": "shared_novel_demand_signal",
+      "acquisition_mode": "automated_public_or_authenticated_reproducible",
+      "collector": "agent-reach OpenCLI: discovery queries/watchlist -> video -> subtitle/transcript -> comments",
+      "collection_contract": {
+        "status": "verified_executable",
+        "kind": "registered_workflow",
+        "workflow_id": "agent-reach/bilibili-original-evidence",
+        "commands": [
+          "opencli bilibili search",
+          "opencli bilibili video",
+          "opencli bilibili subtitle",
+          "opencli bilibili comments"
+        ],
+        "reference": "references/social-evidence-extraction.md",
+        "coverage_capability": "complete",
+        "verified_on": "2026-07-20"
+      },
+      "signal_requires_complete_content": true,
+      "coverage": {
+        "min_discovered_unique_entries": 20,
+        "min_screened_entries": 10,
+        "min_signal_eligible_entries": 5,
+        "min_unique_accounts": 3,
+        "max_signal_entries_per_account": 2,
+        "required_primary_signal_type_counts": {
+          "current_hotspot_or_rank_scan": 1,
+          "curator_roundup": 1,
+          "reader_demand_or_book_shortage": 1,
+          "negative_or_avoidance": 1
+        },
+        "collection_budget": "discover at least 20 unique results, screen at least 10, then retain at least 5 complete eligible videos per run",
+        "deduplicate_by": "canonical_url_or_bvid"
+      },
+      "accepted_baseline": {
+        "batch": "20260718",
+        "status": "not_acquired",
+        "sample": "metadata_only",
+        "signal_eligible_entries": 0
+      }
+    }
+  ],
+  "fallbacks": []
+}

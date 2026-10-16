@@ -1,0 +1,11 @@
+[project]
+name = "rank2story"
+version = "0.1.0"
+description = "Chinese webnovel trend research and AI-assisted story candidate workflow"
+requires-python = ">=3.11"
+license = "MIT"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+pythonpath = ["skills/novel-analyzer/scripts"]
+testpaths = ["skills/novel-analyzer/tests"]

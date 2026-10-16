@@ -1,0 +1,69 @@
+{
+  "description": "Historical completed candidate batch model-token usage from per-call response usage metadata only",
+  "run_date": "2026-09-05",
+  "run_scope": "short / qimao / male",
+  "model_reported": "not_disclosed",
+  "deployment": "not_disclosed",
+  "policy": "quality_strict",
+  "generation_count": 9,
+  "selected_count": 5,
+  "source_call_count": 36,
+  "totals": {
+    "prompt_tokens": 332861,
+    "completion_tokens": 104823,
+    "total_tokens": 437684,
+    "calls": 36
+  },
+  "stages": [
+    {
+      "stage": "evidence_atoms",
+      "prompt_tokens": 69514,
+      "completion_tokens": 20797,
+      "total_tokens": 90311,
+      "calls": 1
+    },
+    {
+      "stage": "branch_generation",
+      "prompt_tokens": 24801,
+      "completion_tokens": 10202,
+      "total_tokens": 35003,
+      "calls": 3
+    },
+    {
+      "stage": "candidate_mapping",
+      "prompt_tokens": 39400,
+      "completion_tokens": 27302,
+      "total_tokens": 66702,
+      "calls": 10
+    },
+    {
+      "stage": "story_creation",
+      "prompt_tokens": 71457,
+      "completion_tokens": 21998,
+      "total_tokens": 93455,
+      "calls": 10
+    },
+    {
+      "stage": "story_editing",
+      "prompt_tokens": 8968,
+      "completion_tokens": 5230,
+      "total_tokens": 14198,
+      "calls": 10
+    },
+    {
+      "stage": "market_review",
+      "prompt_tokens": 59437,
+      "completion_tokens": 12769,
+      "total_tokens": 72206,
+      "calls": 1
+    },
+    {
+      "stage": "originality_review",
+      "prompt_tokens": 59284,
+      "completion_tokens": 6525,
+      "total_tokens": 65809,
+      "calls": 1
+    }
+  ],
+  "boundary": "Token numbers reflect the 36 preserved model responses for this one historical candidate batch. They exclude source webpage retrieval, optional other model uses, and any requests not present in those response files. They are not a benchmark for 4.4.2 or another model. Reported token counts cannot be converted into a monetary cost without deployment and pricing details."
+}

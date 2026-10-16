@@ -1,0 +1,8 @@
+# Preserve byte-level release integrity for source-manifest verified files.
+* text=auto
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+skills/** -text diff
+# Keep optional controller source and attestation consistently LF across OS.
+variants/abc-branch-one/** text eol=lf

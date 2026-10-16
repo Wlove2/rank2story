@@ -1,0 +1,6 @@
+{
+  "books_per_category": 10,
+  "sleep_seconds": 0,
+  "navigation_timeout_ms": 20000,
+  "selector_timeout_ms": 6000
+}

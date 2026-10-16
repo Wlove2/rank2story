@@ -1,0 +1,24 @@
+name: 功能建议
+description: 新的采集来源、工作流改进或候选选题功能
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 目标使用场景
+      description: 你想解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 建议方案
+      description: 涉及第三方网站时请说明许可与可验证的访问途径。
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: 验收方式
+      description: 如何用离线示例或明确的指标验证？

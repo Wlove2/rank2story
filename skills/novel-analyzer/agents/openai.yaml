@@ -1,0 +1,4 @@
+interface:
+  display_name: "Novel Analyzer Router"
+  short_description: "Route novel scans and candidate portfolio work"
+  default_prompt: "Use $novel-analyzer to route this novel market or candidate request to the correct production skill."
