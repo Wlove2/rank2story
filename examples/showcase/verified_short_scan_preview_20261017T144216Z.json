@@ -1,0 +1,5200 @@
+{
+  "schema_version": 1,
+  "document_type": "privacy_safe_public_metadata_preview_not_raw_source",
+  "date": "2026-10-17",
+  "run_id": "20261017T144216Z-short",
+  "lane": "short",
+  "source_coverage": {
+    "required": 5,
+    "passed": 5,
+    "status": "passed"
+  },
+  "artifact_integrity": "passed",
+  "formal_candidate_generation": "allowed",
+  "evidence_frozen": true,
+  "evidence_packet_hash": "54b4c52b32ae1422cc03bc4c7912c3ac1147761e12e93d4481dd2267787fa018",
+  "normalized_catalog_items": 702,
+  "market_analysis_sample_works": 185,
+  "source_counts": {
+    "fanqie_writer_hot_stories": 22,
+    "fanqie_reader_short_rank_center": 60,
+    "qimao_reader_story_rank_center": 608,
+    "xiaohongshu_novel_demand_shared": 5,
+    "bilibili_novel_demand_shared": 7
+  },
+  "social_summary": {
+    "xiaohongshu_novel_demand_shared": {
+      "discovered_unique_entries": 69,
+      "screened_entries": 24,
+      "eligible_entries": 5
+    },
+    "bilibili_novel_demand_shared": {
+      "discovered_unique_entries": 126,
+      "screened_entries": 39,
+      "eligible_entries": 7
+    }
+  },
+  "meaning": "702 deduplicated market evidence records from this run, not all raw positions, not story candidates, and not the other historical run.",
+  "items": {
+    "fanqie_writer_hot_stories": [
+      {
+        "title": "女友家主动出一半首付，我妈却反对订婚：这家人有诈",
+        "author": "我美式哒",
+        "list": "writer_hot_stories/all",
+        "word_count": 10533,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "男生生活",
+          "推理",
+          "惊悚",
+          "家庭",
+          "现代"
+        ],
+        "url": "https://fanqienovel.com/reader/7692810950503563801"
+      },
+      {
+        "title": "庆功宴上妻子当众说我是小三？我反手抛售苏氏37%股份",
+        "author": "番茄酱爆小西红柿",
+        "list": "writer_hot_stories/all",
+        "word_count": 26530,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "男生生活",
+          "家庭",
+          "犯罪",
+          "打脸逆袭"
+        ],
+        "url": "https://fanqienovel.com/reader/7666274161978769944"
+      },
+      {
+        "title": "我满身鞭痕逃回府，却听见他说：除最后一步，手段都用",
+        "author": "口香糖粘上小番茄",
+        "list": "writer_hot_stories/all",
+        "word_count": 32889,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "古风世情",
+          "架空",
+          "打脸逆袭",
+          "复仇"
+        ],
+        "url": "https://fanqienovel.com/reader/7632883499648696856"
+      },
+      {
+        "title": "白月光抢走我功劳，太子却逼我跪雨中",
+        "author": "乐崽喆",
+        "list": "writer_hot_stories/all",
+        "word_count": 24370,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "古风世情",
+          "追妻火葬场",
+          "打脸逆袭",
+          "白月光",
+          "替身"
+        ],
+        "url": "https://fanqienovel.com/reader/7653771209154232894"
+      },
+      {
+        "title": "妻子为实习生扇我9耳光，我转身带走全公司",
+        "author": "木香果",
+        "list": "writer_hot_stories/all",
+        "word_count": 14271,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "男生生活",
+          "霸总",
+          "家庭",
+          "追夫火葬场"
+        ],
+        "url": "https://fanqienovel.com/reader/7658635139378840088"
+      },
+      {
+        "title": "三百万金条骗局后，我把全集团的假账都掀了",
+        "author": "刘佳佳佳佳永远",
+        "list": "writer_hot_stories/all",
+        "word_count": 11321,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "打脸逆袭",
+          "大女主",
+          "重生",
+          "系统"
+        ],
+        "url": "https://fanqienovel.com/reader/7692747807089754649"
+      },
+      {
+        "title": "夜里梦回时",
+        "author": "小奈miss",
+        "list": "writer_hot_stories/all",
+        "word_count": 9198,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "宫斗宅斗",
+          "架空",
+          "重生",
+          "打脸逆袭",
+          "复仇"
+        ],
+        "url": "https://fanqienovel.com/reader/7691205209481019966"
+      },
+      {
+        "title": "深流无声",
+        "author": "银渐层爷爷",
+        "list": "writer_hot_stories/all",
+        "word_count": 12095,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "悬疑惊悚",
+          "家庭"
+        ],
+        "url": "https://fanqienovel.com/reader/7624335537322590782"
+      },
+      {
+        "title": "知我晦暗，同我悲鸣",
+        "author": "秦琰",
+        "list": "writer_hot_stories/all",
+        "word_count": 11638,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "虐心婚恋",
+          "直播",
+          "婆媳",
+          "娱乐圈"
+        ],
+        "url": "https://fanqienovel.com/reader/7491611497437610521"
+      },
+      {
+        "title": "重生后，我没有在火场中救出嫂子跟侄子",
+        "author": "亦为天下",
+        "list": "writer_hot_stories/all",
+        "word_count": 10658,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "男生生活",
+          "重生",
+          "打脸逆袭",
+          "先虐后甜",
+          "家庭"
+        ],
+        "url": "https://fanqienovel.com/reader/7690638111935578686"
+      },
+      {
+        "title": "表姐拒九十九抬聘礼，我凑上前：公子，你看我成不成？",
+        "author": "番茄酱爆小西红柿",
+        "list": "writer_hot_stories/all",
+        "word_count": 35189,
+        "hot_groups": [
+          "all",
+          "dark_horse_increase"
+        ],
+        "categories": [
+          "古风世情",
+          "架空",
+          "打脸逆袭",
+          "先虐后甜"
+        ],
+        "url": "https://fanqienovel.com/reader/7630769487607775768"
+      },
+      {
+        "title": "重生不给美女师尊解毒之后，师尊和小师弟BE了？",
+        "author": "流浪暴走",
+        "list": "writer_hot_stories/all",
+        "word_count": 22937,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "玄幻仙侠",
+          "架空",
+          "重生",
+          "打脸逆袭",
+          "复仇"
+        ],
+        "url": "https://fanqienovel.com/reader/7693336867617374744"
+      },
+      {
+        "title": "卡里多了九个亿，我手贱存了五年死期",
+        "author": "云起听风砚",
+        "list": "writer_hot_stories/all",
+        "word_count": 19865,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "男生生活",
+          "打脸逆袭",
+          "爽文"
+        ],
+        "url": "https://fanqienovel.com/reader/7660843848741962302"
+      },
+      {
+        "title": "她救活了白月光，却再也回不了家",
+        "author": "李昂凉",
+        "list": "writer_hot_stories/all",
+        "word_count": 20261,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "男生生活",
+          "重生",
+          "追夫火葬场",
+          "打脸逆袭",
+          "白月光"
+        ],
+        "url": "https://fanqienovel.com/reader/7693736621149012505"
+      },
+      {
+        "title": "老公陪小三去三亚的7天，我把婚房卖了",
+        "author": "葭月拾八",
+        "list": "writer_hot_stories/all",
+        "word_count": 17116,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "婚姻家庭",
+          "爽文",
+          "家庭"
+        ],
+        "url": "https://fanqienovel.com/reader/7630307165701407256"
+      },
+      {
+        "title": "舍友想当全寝财务总监，我反手拒绝，她4年吸血梦碎了",
+        "author": "橙柚维C",
+        "list": "writer_hot_stories/all",
+        "word_count": 15588,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "女生生活",
+          "打脸逆袭",
+          "爽文",
+          "校园",
+          "现代"
+        ],
+        "url": "https://fanqienovel.com/reader/7693090488248697406"
+      },
+      {
+        "title": "开局抽到窝里横？我直接四海为家！",
+        "author": "pwupm",
+        "list": "writer_hot_stories/all",
+        "word_count": 13049,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "男频衍生",
+          "游戏动漫"
+        ],
+        "url": "https://fanqienovel.com/reader/7692008796951953982"
+      },
+      {
+        "title": "被大小姐赶出府后，我成了边关酒娘子",
+        "author": "蜜桃味咖啡",
+        "list": "writer_hot_stories/all",
+        "word_count": 9438,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "古风世情",
+          "大女主",
+          "甜宠",
+          "励志"
+        ],
+        "url": "https://fanqienovel.com/reader/7692249039508603454"
+      },
+      {
+        "title": "年代：我嫁了一个正常的知青家庭",
+        "author": "折耳根的猫",
+        "list": "writer_hot_stories/all",
+        "word_count": 9687,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "年代",
+          "赘婿",
+          "婆媳",
+          "甜宠",
+          "家庭"
+        ],
+        "url": "https://fanqienovel.com/reader/7694071459706061337"
+      },
+      {
+        "title": "宴会上被捉奸后，我杀疯了",
+        "author": "山桥遥",
+        "list": "writer_hot_stories/all",
+        "word_count": 10340,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "古风世情",
+          "架空",
+          "金手指",
+          "重生",
+          "女配"
+        ],
+        "url": "https://fanqienovel.com/reader/7690501485318128190"
+      },
+      {
+        "title": "我不吃醋后，霸总老婆急了，有用吗",
+        "author": "都市重生之隔壁老王",
+        "list": "writer_hot_stories/all",
+        "word_count": 18072,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "男生生活",
+          "打脸逆袭",
+          "救赎",
+          "爽文"
+        ],
+        "url": "https://fanqienovel.com/reader/7669978811101872665"
+      },
+      {
+        "title": "影帝爆心动瞬间，全网爆笑：气的心脏疼以为心动了",
+        "author": "风月不知心事",
+        "list": "writer_hot_stories/all",
+        "word_count": 12519,
+        "hot_groups": [
+          "all",
+          "classic_hot"
+        ],
+        "categories": [
+          "现言甜宠",
+          "暗恋",
+          "沙雕搞笑",
+          "甜宠"
+        ],
+        "url": "https://fanqienovel.com/reader/7691585623840277016"
+      }
+    ],
+    "fanqie_reader_short_rank_center": [
+      {
+        "title": "假戏真做后他永失所爱",
+        "author": "听容",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 1,
+        "word_count": 12121
+      },
+      {
+        "title": "嫁给傻子后，我天天被套路！",
+        "author": "真晚晚",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 2,
+        "word_count": 9813
+      },
+      {
+        "title": "霍少，太太又去打架了",
+        "author": "棠梨月863",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 3,
+        "word_count": 18225
+      },
+      {
+        "title": "嘘！别开门！",
+        "author": "中国驰名双标",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 4,
+        "word_count": 10047
+      },
+      {
+        "title": "闪婚糙汉后，他夜夜要抱抱",
+        "author": "踏秋霜",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 5,
+        "word_count": 11337
+      },
+      {
+        "title": "撩错人后，校霸把我堵在楼梯间叫宝宝",
+        "author": "星扎饼干",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 6,
+        "word_count": 10358
+      },
+      {
+        "title": "老公陪小三去三亚的7天，我把婚房卖了",
+        "author": "葭月拾八",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 7,
+        "word_count": 17116
+      },
+      {
+        "title": "掌心檀",
+        "author": "意小甜",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 8,
+        "word_count": 12779
+      },
+      {
+        "title": "分手后，前男友成了我上司",
+        "author": "十六爪章鱼",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 9,
+        "word_count": 19578
+      },
+      {
+        "title": "十六岁那年，我在山洞发现了个女人",
+        "author": "红红的奇妙冒险",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 10,
+        "word_count": 27903
+      },
+      {
+        "title": "入住凶宅的第一天，女鬼问我要WiFi密码",
+        "author": "风叙晚枕云边",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 11,
+        "word_count": 21364
+      },
+      {
+        "title": "隔壁14岁男孩来我家玩，儿子一句话，我当场懵了",
+        "author": "喜欢冬红的杨天若",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 12,
+        "word_count": 14204
+      },
+      {
+        "title": "金丝雀带球跑后，京圈大佬气疯了",
+        "author": "不要吃桃子",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 13,
+        "word_count": 11226
+      },
+      {
+        "title": "穿成暴君的病弱早死白月光后",
+        "author": "乌元",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 14,
+        "word_count": 9230
+      },
+      {
+        "title": "我那谋士出的全是馊主意，但每次都管用",
+        "author": "飞鸽传书满天飞",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 15,
+        "word_count": 14672
+      },
+      {
+        "title": "一次醉酒后，意外和青梅成了父母",
+        "author": "流沙老狗",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 16,
+        "word_count": 13211
+      },
+      {
+        "title": "闭关三千年，宗门破产了",
+        "author": "匿名雨夜",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 17,
+        "word_count": 8753
+      },
+      {
+        "title": "利己主义者万岁，万岁，万万岁！",
+        "author": "大饼初愈",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 18,
+        "word_count": 10900
+      },
+      {
+        "title": "我的小太阳竹马竟然是阴湿男鬼",
+        "author": "就就永永",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 19,
+        "word_count": 37177
+      },
+      {
+        "title": "芸芽",
+        "author": "香蕉啵拿拿",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 20,
+        "word_count": 14655
+      },
+      {
+        "title": "黄毛弟弟扶姐上青云",
+        "author": "超雄旺崽",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 21,
+        "word_count": 8583
+      },
+      {
+        "title": "婚姻中清醒的女人",
+        "author": "猫爱吃榴莲",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 22,
+        "word_count": 12642
+      },
+      {
+        "title": "嫡姐挑我做陪嫁，但我身有魅香啊",
+        "author": "泠泠泠鸢尾花",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 23,
+        "word_count": 10364
+      },
+      {
+        "title": "宝宝我们好像只是朋友关系",
+        "author": "笨狸",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 24,
+        "word_count": 10030
+      },
+      {
+        "title": "和夫君一起重生后，又白头偕老了",
+        "author": "炖蛋黄",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 25,
+        "word_count": 8830
+      },
+      {
+        "title": "亡国那天，将门出身的继母把我和她亲儿子丢猪圈了",
+        "author": "城中大漠孤烟",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 26,
+        "word_count": 26557
+      },
+      {
+        "title": "他装穷，我装傻，我们都有光明的未来",
+        "author": "偲偲yeah",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 27,
+        "word_count": 10091
+      },
+      {
+        "title": "石头缝里的星星",
+        "author": "薛丁谔的猫",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 28,
+        "word_count": 12886
+      },
+      {
+        "title": "青梅很野",
+        "author": "CHINUP",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 29,
+        "word_count": 11733
+      },
+      {
+        "title": "我被困在忠义侯府轮回七次",
+        "author": "铜钱儿狮",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 30,
+        "word_count": 17039
+      },
+      {
+        "title": "闪婚后，禁欲军官每天都在撒娇",
+        "author": "爱吃猪尾巴的安以沫",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 1,
+        "word_count": 17794
+      },
+      {
+        "title": "一缕青丝千年痴缠",
+        "author": "兰回舟",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 2,
+        "word_count": 14498
+      },
+      {
+        "title": "老板，要不我们躺平吧",
+        "author": "胡椒欧吉尔",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 3,
+        "word_count": 17758
+      },
+      {
+        "title": "为了吃瓜，我在顶流身边当助理",
+        "author": "卡里多斯",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 4,
+        "word_count": 9463
+      },
+      {
+        "title": "替同桌交三年学费，十六年后她的千亿集团只面试我一人",
+        "author": "自在安然哈一",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 5,
+        "word_count": 12994
+      },
+      {
+        "title": "爹跟皇帝吵了半辈子没赢，我一嗓子成太子妃，皇帝笑疯",
+        "author": "十三月种番茄",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 6,
+        "word_count": 12083
+      },
+      {
+        "title": "东北舅妈",
+        "author": "九九月",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 7,
+        "word_count": 10687
+      },
+      {
+        "title": "室友的疯批哥哥竟然暗恋我",
+        "author": "季皙",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 8,
+        "word_count": 9222
+      },
+      {
+        "title": "和影帝地下恋爱五年后，我不等他了",
+        "author": "岚祈",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 9,
+        "word_count": 28713
+      },
+      {
+        "title": "双胞胎拿我当赌注，我等这一天很久了",
+        "author": "偲偲yeah",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 10,
+        "word_count": 11900
+      },
+      {
+        "title": "怎么办啊，我怀了上司的孩子！",
+        "author": "爆辣鬼椒",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 11,
+        "word_count": 10783
+      },
+      {
+        "title": "我妈逼我娶个丑女，洞房夜我傻了",
+        "author": "爱带娃的奶爸",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 12,
+        "word_count": 8282
+      },
+      {
+        "title": "被男友的腹黑室友盯上后",
+        "author": "机智的根号三",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 13,
+        "word_count": 12085
+      },
+      {
+        "title": "校园头号凶杀案（整改版）",
+        "author": "我不是后妈",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 14,
+        "word_count": 12990
+      },
+      {
+        "title": "暴躁小狗他超爱",
+        "author": "碎皎皎",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 15,
+        "word_count": 12332
+      },
+      {
+        "title": "禁欲陆队，被娇俏大小姐撩疯了！",
+        "author": "闻见雪落",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 16,
+        "word_count": 51689
+      },
+      {
+        "title": "当哥哥发现黏人精妹妹是假千金后",
+        "author": "小羊贪睡",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 17,
+        "word_count": 11917
+      },
+      {
+        "title": "那一刀，是我能给你的最后一点温柔",
+        "author": "九死其犹未悔",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 18,
+        "word_count": 14838
+      },
+      {
+        "title": "网恋对象竟是公司总裁",
+        "author": "十里香飘香",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 19,
+        "word_count": 10484
+      },
+      {
+        "title": "小叔……",
+        "author": "希仙儿",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 20,
+        "word_count": 9798
+      },
+      {
+        "title": "沈医生的诊疗",
+        "author": "古法琉璃盏",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 21,
+        "word_count": 20203
+      },
+      {
+        "title": "听见竹马心声后，我反手撤资",
+        "author": "一颗忧郁西兰花",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 22,
+        "word_count": 8398
+      },
+      {
+        "title": "姐姐结婚，我也结",
+        "author": "墨墨不言",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 23,
+        "word_count": 8456
+      },
+      {
+        "title": "糙汉大佬的小甜糖",
+        "author": "爱吃素香松的万长儒",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 24,
+        "word_count": 20429
+      },
+      {
+        "title": "看见弹幕后，我和糙汉武夫he了",
+        "author": "路弯弯",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 25,
+        "word_count": 10377
+      },
+      {
+        "title": "清冷小叔蓄谋已久",
+        "author": "七大大的猫",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 26,
+        "word_count": 12148
+      },
+      {
+        "title": "重生不给美女师尊解毒之后，师尊和小师弟BE了？",
+        "author": "流浪暴走",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 27,
+        "word_count": 22937
+      },
+      {
+        "title": "规则怪谈里，只有我妈把它当家长群",
+        "author": "梦里码千字",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 28,
+        "word_count": 11341
+      },
+      {
+        "title": "捡了鬼王的聘礼后我躺平了",
+        "author": "一只浓浓",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 29,
+        "word_count": 16312
+      },
+      {
+        "title": "妻子背着我偷人，我让她和情人一起上路",
+        "author": "流光幻影",
+        "list": "reader_app_short_rank/番茄短篇榜",
+        "position": 30,
+        "word_count": 8972
+      }
+    ],
+    "qimao_reader_story_rank_center": [
+      {
+        "title": "甄嬛传：华妃重生",
+        "author": "虎鲸",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 1,
+        "category": "重生"
+      },
+      {
+        "title": "一诺九年终成空",
+        "author": "枕溪月",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 2,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "兰香如故",
+        "author": "木目糖",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 3,
+        "category": "第一人称"
+      },
+      {
+        "title": "买不到车票的家，那我不回了",
+        "author": "刚子爱吃荷包蛋",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 4,
+        "category": "都市"
+      },
+      {
+        "title": "我不再挤进你们的世界",
+        "author": "西西不偷懒",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 5,
+        "category": "短篇"
+      },
+      {
+        "title": "余生山海再无你",
+        "author": "一粒麦子",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 6,
+        "category": "系统"
+      },
+      {
+        "title": "余生你就不要想起我",
+        "author": "抹茶Matcha",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 7,
+        "category": "短篇"
+      },
+      {
+        "title": "他留寒冬，我赴暖春",
+        "author": "引渠",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 8,
+        "category": "毒舌"
+      },
+      {
+        "title": "梨枝向阳沐晴光",
+        "author": "终吟雪",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 9,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "他假结婚，我真分手",
+        "author": "小胖橘",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 10,
+        "category": "现实题材"
+      },
+      {
+        "title": "岁岁暖阳辞旧梦",
+        "author": "观颐",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 11,
+        "category": "现代言情"
+      },
+      {
+        "title": "离婚就是丢垃圾",
+        "author": "比奇堡一霸",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 12,
+        "category": "HE"
+      },
+      {
+        "title": "年夜饭上因为几片香菜，我把饭桌掀了",
+        "author": "苏丫丫",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 13,
+        "category": "现实题材"
+      },
+      {
+        "title": "重生后，我不再追妻",
+        "author": "白桑",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 14,
+        "category": "重生"
+      },
+      {
+        "title": "春风一度，山水一程",
+        "author": "桐榆",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 15,
+        "category": "后悔流"
+      },
+      {
+        "title": "女友为避嫌和兄弟坐一起，离开她悔疯了",
+        "author": "舟济",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 16,
+        "category": "都市"
+      },
+      {
+        "title": "辞去风雪宴余生",
+        "author": "胡罗北",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 17,
+        "category": "人间清醒"
+      },
+      {
+        "title": "结婚当天，未婚夫和宾客全都消失",
+        "author": "柠檬水",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 18,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "得知我全款买车后，相亲男让我过户给他弟当婚车",
+        "author": "星落",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 19,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "刷到男友的相亲求助帖，我果断分手",
+        "author": "三头猫",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 20,
+        "category": "都市"
+      },
+      {
+        "title": "为护儿子过失伤人入狱五年，竟是场骗局",
+        "author": "世界是一个巨大的西瓜",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 21,
+        "category": "现代言情"
+      },
+      {
+        "title": "房东涨租翻倍，我笑着签下对面新铺，他傻眼了",
+        "author": "椰子怕冻",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 22,
+        "category": "第一人称"
+      },
+      {
+        "title": "遗忘是你的谎言",
+        "author": "月流金",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 23,
+        "category": "现实题材"
+      },
+      {
+        "title": "为了销号，我把爷爷从太平间请来了",
+        "author": "小小板栗",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 24,
+        "category": "都市"
+      },
+      {
+        "title": "当他逃婚时",
+        "author": "良月迟迟",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 25,
+        "category": "都市"
+      },
+      {
+        "title": "霸总在我婚礼上哭成狗",
+        "author": "一支小笔尖",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 26,
+        "category": "豪门总裁"
+      },
+      {
+        "title": "爱意一日散尽",
+        "author": "一个三堇",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 27,
+        "category": "古代"
+      },
+      {
+        "title": "旧桥落雪，不见归人",
+        "author": "小兔出逃",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 28,
+        "category": "现实题材"
+      },
+      {
+        "title": "一纸荒唐，吹散了余温",
+        "author": "木果果",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 29,
+        "category": "第一人称"
+      },
+      {
+        "title": "被道德绑架那就创死她",
+        "author": "吃了你的大西瓜",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 30,
+        "category": "重生"
+      },
+      {
+        "title": "丑媳和离后，竹马后悔了",
+        "author": "叶子水珠",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 31,
+        "category": "残疾"
+      },
+      {
+        "title": "离婚后，前夫崩溃了",
+        "author": "小檀儿",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 32,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "梦中的婚礼",
+        "author": "千戏",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 33,
+        "category": "都市"
+      },
+      {
+        "title": "青蟒盘龙",
+        "author": "马铃薯炖肉",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 34,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "夏叶的重生",
+        "author": "方晓月",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 35,
+        "category": "第一人称"
+      },
+      {
+        "title": "爱已作废，我不再回头",
+        "author": "十五月",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 36,
+        "category": "美强惨"
+      },
+      {
+        "title": "叛军逼宫，我却阻止我爹进宫救驾",
+        "author": "凶狗睡大石",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 37,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "离婚后的第一天，我走上了人生巅峰",
+        "author": "夭夭",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 38,
+        "category": "马甲"
+      },
+      {
+        "title": "一夕雨落，惊春难留",
+        "author": "巧乐的兹",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 39,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "她逃婚后我娶了她的死对头",
+        "author": "千鹤",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 40,
+        "category": "第一人称"
+      },
+      {
+        "title": "沉船当天，我让未婚妻先救白月光",
+        "author": "发财",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 41,
+        "category": "爽文"
+      },
+      {
+        "title": "破镜未圆",
+        "author": "金桔加糖",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 42,
+        "category": "古代"
+      },
+      {
+        "title": "八年等待，白月光竟是我自己",
+        "author": "启蛰",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 43,
+        "category": "古代"
+      },
+      {
+        "title": "愿我与你平生不见",
+        "author": "拥夏",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 44,
+        "category": "短篇"
+      },
+      {
+        "title": "凶宅试睡员之惊魂",
+        "author": "落笔生花",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 45,
+        "category": "悬疑"
+      },
+      {
+        "title": "离港游轮，不等迟到的人",
+        "author": "zeroj",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 46,
+        "category": "现实题材"
+      },
+      {
+        "title": "微服回京，刁奴霸占长公主府后我诛了她九族",
+        "author": "亦梦",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 47,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "养不熟的养女不要也罢",
+        "author": "茜茜要暴富",
+        "list": "reader_story_leader_board/story_rec_list",
+        "position": 48,
+        "category": "现实题材"
+      },
+      {
+        "title": "瘦了八十斤挤不进这个家，我选择离开",
+        "author": "刚子爱吃荷包蛋",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 1,
+        "category": "现实题材"
+      },
+      {
+        "title": "遥远的救世主",
+        "author": "猪老板",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 2,
+        "category": "末世"
+      },
+      {
+        "title": "我与小狼狗联手虐渣",
+        "author": "凌子",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 3,
+        "category": "现代言情"
+      },
+      {
+        "title": "规则怪谈",
+        "author": "最66",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 4,
+        "category": "恐怖"
+      },
+      {
+        "title": "九千岁",
+        "author": "叙白",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 5,
+        "category": "公主"
+      },
+      {
+        "title": "他的火葬场，与我无关",
+        "author": "六弦音",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 6,
+        "category": "第一人称"
+      },
+      {
+        "title": "和闺蜜双穿后成为妯娌",
+        "author": "爆炸甜甜圈",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 7,
+        "category": "现实题材"
+      },
+      {
+        "title": "规则怪谈",
+        "author": "南风",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 8,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "黑棺",
+        "author": "土豆丝丶",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 9,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "川流无情，爱意逢零",
+        "author": "清欢111",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 10,
+        "category": "虐恋"
+      },
+      {
+        "title": "你未赴今生，我自有归人",
+        "author": "婉婉清风",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 11,
+        "category": "HE"
+      },
+      {
+        "title": "男友为避嫌和闺蜜坐一起，离开他悔疯了",
+        "author": "舟济",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 12,
+        "category": "都市"
+      },
+      {
+        "title": "幽魂出窍",
+        "author": "道士",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 13,
+        "category": "都市"
+      },
+      {
+        "title": "迟暮",
+        "author": "栗栗皆辛苦",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 14,
+        "category": "第一人称"
+      },
+      {
+        "title": "等不到爱意降落",
+        "author": "沅蓁",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 15,
+        "category": "都市"
+      },
+      {
+        "title": "死对头半夜挖了我的坟，我反手给他一巴掌",
+        "author": "余洲",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 16,
+        "category": "古代言情"
+      },
+      {
+        "title": "姗姗来迟的暗恋",
+        "author": "河清海晏",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 17,
+        "category": "扮猪吃虎"
+      },
+      {
+        "title": "和我爸互换身体后，我爸觉醒了",
+        "author": "顾胭的胭",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 18,
+        "category": "现实题材"
+      },
+      {
+        "title": "无法原谅",
+        "author": "无事小神仙",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 19,
+        "category": "现实题材"
+      },
+      {
+        "title": "如娣",
+        "author": "秋秋",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 20,
+        "category": "重生"
+      },
+      {
+        "title": "女帝手册",
+        "author": "星星糖果",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 21,
+        "category": "女强"
+      },
+      {
+        "title": "网恋奔现到了前男友",
+        "author": "私沉",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 22,
+        "category": "第一人称"
+      },
+      {
+        "title": "海归学长官宣我女友是他理想型后",
+        "author": "灯小引",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 23,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "前妻拿两千块赶走我干爹，我靠真秘方狂赚百亿",
+        "author": "麻初七",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 24,
+        "category": "都市"
+      },
+      {
+        "title": "嫦娥秘传",
+        "author": "猫腻",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 25,
+        "category": "仙侠"
+      },
+      {
+        "title": "风止意难平，我自平",
+        "author": "富婆",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 26,
+        "category": "重生"
+      },
+      {
+        "title": "爱，就此搁浅",
+        "author": "浅夜",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 27,
+        "category": "豪门总裁"
+      },
+      {
+        "title": "我和夫君一起重生了",
+        "author": "夜墨",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 28,
+        "category": "古代言情"
+      },
+      {
+        "title": "枪与玫瑰",
+        "author": "冰冰",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 29,
+        "category": "都市"
+      },
+      {
+        "title": "鬼叫人",
+        "author": "李万万",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 30,
+        "category": "第一人称"
+      },
+      {
+        "title": "她死在最爱我的那天",
+        "author": "小喇叭",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 31,
+        "category": "第一人称"
+      },
+      {
+        "title": "豪门千金爱上了黄毛",
+        "author": "悦九",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 32,
+        "category": "豪门总裁"
+      },
+      {
+        "title": "带哮喘的我徒步后，姐姐在停尸房悔疯了",
+        "author": "焕野",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 33,
+        "category": "后悔流"
+      },
+      {
+        "title": "你当像鸟飞向你的山",
+        "author": "悲伤的蓝色土豆",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 34,
+        "category": "现实题材"
+      },
+      {
+        "title": "大度让出领证号码后，清高未婚夫悔疯了",
+        "author": "池池池",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 35,
+        "category": "现代言情"
+      },
+      {
+        "title": "爸妈，我不想站在原地等你们了",
+        "author": "锦鲤崽崽",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 36,
+        "category": "现实题材"
+      },
+      {
+        "title": "无良师父逼我下山赚钱",
+        "author": "李小小逍遥",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 37,
+        "category": "悬疑"
+      },
+      {
+        "title": "暗恋",
+        "author": "微光",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 38,
+        "category": "第一人称"
+      },
+      {
+        "title": "买下大平层后，未婚妻要我给她妹妹买豪车",
+        "author": "别骂我我也是为了挣点窝囊废",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 39,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "却被相思误平生",
+        "author": "财财我是谁",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 40,
+        "category": "后悔流"
+      },
+      {
+        "title": "昭华从此，不在我心间",
+        "author": "金鲤乘霄",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 41,
+        "category": "赘婿"
+      },
+      {
+        "title": "风停在没有你的春天",
+        "author": "嘎嘎敌辣虾",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 42,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "我以纸扎渡亡魂，再见已是人非昨",
+        "author": "芸苒",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 43,
+        "category": "爽文"
+      },
+      {
+        "title": "傲雪不知情已负",
+        "author": "嘎嘎敌辣虾",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 44,
+        "category": "都市"
+      },
+      {
+        "title": "我每个月有五万生活费，却用冥币给父母养老",
+        "author": "玉兔仙丹制作中",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 45,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "放下助人情结后，我成全了弟媳的善良",
+        "author": "葡萄",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 46,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "我捐肾救他命，他却把心脏给了初恋",
+        "author": "见微",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 47,
+        "category": "BE"
+      },
+      {
+        "title": "惊悚游戏",
+        "author": "耕耘",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 48,
+        "category": "恐怖"
+      },
+      {
+        "title": "婆婆跟我同时怀孕",
+        "author": "舟舟",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 49,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "无人生还",
+        "author": "斯克瑞特",
+        "list": "reader_story_leader_board/story_trend_list",
+        "position": 50,
+        "category": "恐怖"
+      },
+      {
+        "title": "我不融入你们世界后，你们怎么不高兴了",
+        "author": "岳麓山下小可爱",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 22,
+        "category": "人间清醒"
+      },
+      {
+        "title": "被困在错路里的少年，终于抵达了远方",
+        "author": "大鲸鱼",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 23,
+        "category": "后悔流"
+      },
+      {
+        "title": "我带火托管小饭桌却被嫌规矩多，老板娘掀桌后悔疯了",
+        "author": "黄小芋",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 24,
+        "category": "现代言情"
+      },
+      {
+        "title": "她用左手画春天",
+        "author": "小兔出逃",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 25,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "十块钱的彩礼",
+        "author": "夭夭",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 26,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "男友错发消息后",
+        "author": "花小米",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 27,
+        "category": "复仇"
+      },
+      {
+        "title": "重生后，我和家人决裂",
+        "author": "嘉由",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 28,
+        "category": "重生"
+      },
+      {
+        "title": "保姆诈骗记",
+        "author": "良姜",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 29,
+        "category": "女强"
+      },
+      {
+        "title": "升学宴变认亲宴？女儿递上断绝书他疯了",
+        "author": "素哥",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 30,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "冬日灿阳",
+        "author": "无敌小狗",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 31,
+        "category": "第一人称"
+      },
+      {
+        "title": "端午假期，哀牢山死亡之旅",
+        "author": "铖一",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 32,
+        "category": "第一人称"
+      },
+      {
+        "title": "听老公的婚后AA制后，他怎么又不开心了呢",
+        "author": "钱钱可来相助",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 33,
+        "category": "第一人称"
+      },
+      {
+        "title": "她奔港岛，我向远疆",
+        "author": "十五月",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 34,
+        "category": "智商在线"
+      },
+      {
+        "title": "男友说我是免费保姆",
+        "author": "黑大海",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 35,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "瘸腿十年后，我决定离开这个家",
+        "author": "量给我起好了啊",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 36,
+        "category": "都市"
+      },
+      {
+        "title": "人间只剩一瞬风",
+        "author": "湫兮",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 37,
+        "category": "虐恋"
+      },
+      {
+        "title": "重生后，我在家族群看他们表演",
+        "author": "凌雨",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 38,
+        "category": "重生"
+      },
+      {
+        "title": "失忆五年的男友",
+        "author": "嘉有",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 39,
+        "category": "第一人称"
+      },
+      {
+        "title": "全家让我放弃清华上二本，我奔向旷野了",
+        "author": "葫芦溪",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 40,
+        "category": "后悔流"
+      },
+      {
+        "title": "舞蹈家妹妹",
+        "author": "奶茶",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 41,
+        "category": "第一人称"
+      },
+      {
+        "title": "明月偏偏不照我",
+        "author": "春长",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 42,
+        "category": "都市"
+      },
+      {
+        "title": "旧景不复春",
+        "author": "雨舟",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 43,
+        "category": "第一人称"
+      },
+      {
+        "title": "奇洛李维斯没有回信",
+        "author": "小淤青",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 44,
+        "category": "短篇"
+      },
+      {
+        "title": "时光错位，你我不逢",
+        "author": "渡隐",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 45,
+        "category": "短篇"
+      },
+      {
+        "title": "念念不见",
+        "author": "不系舟",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 46,
+        "category": "都市"
+      },
+      {
+        "title": "我摆烂后，恋爱脑姐姐后悔了",
+        "author": "小小",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 47,
+        "category": "复仇"
+      },
+      {
+        "title": "叔叔的遗产",
+        "author": "白圭",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 48,
+        "category": "第一人称"
+      },
+      {
+        "title": "终于舍得",
+        "author": "音塔",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 49,
+        "category": "都市"
+      },
+      {
+        "title": "末日高温，嫂子执意要去罗布泊沙漠旅行",
+        "author": "嘉嘉",
+        "list": "reader_story_leader_board/story_rec_list/12",
+        "position": 50,
+        "category": "爽文"
+      },
+      {
+        "title": "狐嫁女",
+        "author": "白榆",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 3,
+        "category": "都市"
+      },
+      {
+        "title": "邻居",
+        "author": "北漠",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 4,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "给奶奶送上三世心仪礼，结果惨死的都是我",
+        "author": "元一斤",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 5,
+        "category": "重生"
+      },
+      {
+        "title": "完美犯罪",
+        "author": "三月",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 6,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "收到老公转来的封口费后，我举报救护车冷箱藏尸",
+        "author": "梓杵",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 7,
+        "category": "BE"
+      },
+      {
+        "title": "幽山疯人院",
+        "author": "开挖掘机撩闲",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 8,
+        "category": "第一人称"
+      },
+      {
+        "title": "诱捕",
+        "author": "我是打更人",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 9,
+        "category": "复仇"
+      },
+      {
+        "title": "高考那天，我害死了1020名考生",
+        "author": "昭昭墨墨",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 10,
+        "category": "都市"
+      },
+      {
+        "title": "我凭空编造的男朋友开奔驰来接我",
+        "author": "小祖",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 11,
+        "category": "现实题材"
+      },
+      {
+        "title": "吃了妈妈做的减脂餐，我胖到了八百斤",
+        "author": "皮嘟",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 12,
+        "category": "脑洞"
+      },
+      {
+        "title": "床下有人",
+        "author": "东方旭",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 13,
+        "category": "现代言情"
+      },
+      {
+        "title": "精神病患者的伪装",
+        "author": "桥豆 麻袋",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 14,
+        "category": "都市"
+      },
+      {
+        "title": "分裂",
+        "author": "琴酒",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 15,
+        "category": "复仇"
+      },
+      {
+        "title": "第七封情信",
+        "author": "凡尘",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 16,
+        "category": "都市"
+      },
+      {
+        "title": "千年鬼王",
+        "author": "三仙茅草",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 17,
+        "category": "1V1"
+      },
+      {
+        "title": "消失的脚印",
+        "author": "么么儿",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 18,
+        "category": "都市"
+      },
+      {
+        "title": "谁是怪物",
+        "author": "一帧",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 19,
+        "category": "恐怖"
+      },
+      {
+        "title": "食母兽",
+        "author": "水湄伊人",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 20,
+        "category": "恐怖"
+      },
+      {
+        "title": "白昼狂欢",
+        "author": "顶级小糯米",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 21,
+        "category": "BE"
+      },
+      {
+        "title": "木偶嫂嫂",
+        "author": "茉年",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 22,
+        "category": "现代言情"
+      },
+      {
+        "title": "天黑以后别上山",
+        "author": "阿丘",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 23,
+        "category": "恐怖"
+      },
+      {
+        "title": "阴债",
+        "author": "大马林鱼",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 24,
+        "category": "第一人称"
+      },
+      {
+        "title": "神秘短信",
+        "author": "甘甘",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 25,
+        "category": "都市"
+      },
+      {
+        "title": "凶穴",
+        "author": "楼阙",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 26,
+        "category": "民国"
+      },
+      {
+        "title": "婴灵",
+        "author": "大福没有豆沙",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 28,
+        "category": "复仇"
+      },
+      {
+        "title": "饥渴空间",
+        "author": "九鱼亭",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 29,
+        "category": "烧脑"
+      },
+      {
+        "title": "游魂惊梦",
+        "author": "么么儿",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 30,
+        "category": "奇幻"
+      },
+      {
+        "title": "二月二剪头，被说成正月理头克死舅舅",
+        "author": "阿发发",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 32,
+        "category": "第一人称"
+      },
+      {
+        "title": "不存在的公交车",
+        "author": "见雪来",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 33,
+        "category": "第一人称"
+      },
+      {
+        "title": "毒闺蜜喊我去废弃学校探险，重生后我手撕她",
+        "author": "十七",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 34,
+        "category": "都市"
+      },
+      {
+        "title": "五一家人爬山遇难，当晚他们却让我开门",
+        "author": "周防尊",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 35,
+        "category": "第一人称"
+      },
+      {
+        "title": "我的高考分数为什么是错的？",
+        "author": "巧克力薄脆",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 37,
+        "category": "青春"
+      },
+      {
+        "title": "谁都能上黄泉车，就她不行",
+        "author": "沐锦",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 38,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "女儿回府省亲，却要找一个不存在的人",
+        "author": "薄荷水",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 39,
+        "category": "复仇"
+      },
+      {
+        "title": "被污害死船王妹夫，他却再次死在我面前",
+        "author": "月汣怜",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 40,
+        "category": "重生"
+      },
+      {
+        "title": "消失的小姨",
+        "author": "阿爽很OK",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 41,
+        "category": "现实题材"
+      },
+      {
+        "title": "与疯子同行",
+        "author": "元不圆",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 42,
+        "category": "现实题材"
+      },
+      {
+        "title": "狂飙：医院的秘密",
+        "author": "耕耘",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 43,
+        "category": "都市"
+      },
+      {
+        "title": "惊魂出租车",
+        "author": "耕耘",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 44,
+        "category": "都市"
+      },
+      {
+        "title": "梦境守则",
+        "author": "耕耘",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 45,
+        "category": "现实题材"
+      },
+      {
+        "title": "密室怪谈",
+        "author": "期许",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 47,
+        "category": "HE"
+      },
+      {
+        "title": "跟着男朋友回老家",
+        "author": "菡萏",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 48,
+        "category": "现实题材"
+      },
+      {
+        "title": "细思极恐，阴魂阳谋",
+        "author": "百指",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 49,
+        "category": "都市"
+      },
+      {
+        "title": "细思极恐：贩卖的爱情",
+        "author": "百指",
+        "list": "reader_story_leader_board/story_rec_list/27",
+        "position": 50,
+        "category": "现实题材"
+      },
+      {
+        "title": "十年一瞬，此后天各一方",
+        "author": "天天捡钱",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 11,
+        "category": "女强"
+      },
+      {
+        "title": "娘亲死后第五年，父皇说她给贵妃下毒了",
+        "author": "穗穗生长",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 12,
+        "category": "皇帝"
+      },
+      {
+        "title": "克夫之妻",
+        "author": "香梨呀",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 13,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "莫失莫忘",
+        "author": "重生",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 14,
+        "category": "古代言情"
+      },
+      {
+        "title": "一别两宽，各自欢喜",
+        "author": "七夜葳蕤",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 15,
+        "category": "公主"
+      },
+      {
+        "title": "宫墙外",
+        "author": "非不思他",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 16,
+        "category": "古代言情"
+      },
+      {
+        "title": "得知诞下四个死胎真相后，我死遁了",
+        "author": "甜樱",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 17,
+        "category": "短篇"
+      },
+      {
+        "title": "攀高枝",
+        "author": "蛋挞",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 18,
+        "category": "古代言情"
+      },
+      {
+        "title": "山月一相逢",
+        "author": "李小小逍遥",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 19,
+        "category": "治愈"
+      },
+      {
+        "title": "皇帝忘了救命之恩，我的枪记得所有爱恨",
+        "author": "人间烟火常客",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 20,
+        "category": "失忆"
+      },
+      {
+        "title": "重生后我放任嫡姐作死",
+        "author": "暗度",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 21,
+        "category": "宅斗"
+      },
+      {
+        "title": "春雪不归，白马无愿",
+        "author": "云了个云",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 22,
+        "category": "宅斗"
+      },
+      {
+        "title": "声声不息",
+        "author": "笑笑嘛",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 23,
+        "category": "单女主"
+      },
+      {
+        "title": "将军夫君的毒酒",
+        "author": "美少女战士哟",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 24,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "一人之下",
+        "author": "咖啡加奶加糖",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 25,
+        "category": "古代言情"
+      },
+      {
+        "title": "侯爷嫌我作，我留下傀儡回家了",
+        "author": "灼澜",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 26,
+        "category": "第一人称"
+      },
+      {
+        "title": "白莲花平妻要和我宅斗，可我是她婆母啊",
+        "author": "马上暴富",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 27,
+        "category": "宅斗"
+      },
+      {
+        "title": "海棠焚心",
+        "author": "雾野南山",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 28,
+        "category": "古代言情"
+      },
+      {
+        "title": "全家人都能听见我的心声",
+        "author": "周窈",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 29,
+        "category": "真假千金"
+      },
+      {
+        "title": "弃妇重生求下堂，迎娶小青梅的夫君却悔疯了",
+        "author": "咖啡糖很甜",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 30,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "换婚后我成了太子妃",
+        "author": "友囡囡",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 31,
+        "category": "HE"
+      },
+      {
+        "title": "八载春深不渡君",
+        "author": "玻璃云",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 32,
+        "category": "第一人称"
+      },
+      {
+        "title": "夫君让我喂养那条蛇后悔疯了",
+        "author": "风莫言",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 33,
+        "category": "古代言情"
+      },
+      {
+        "title": "再世不见旧时人",
+        "author": "第六日",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 34,
+        "category": "古代言情"
+      },
+      {
+        "title": "晚姝",
+        "author": "梨离",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 35,
+        "category": "古代言情"
+      },
+      {
+        "title": "缄口十年，一语诛心",
+        "author": "砚秋疏桐",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 36,
+        "category": "复仇"
+      },
+      {
+        "title": "明月不知离别苦",
+        "author": "友囡囡",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 37,
+        "category": "古代言情"
+      },
+      {
+        "title": "安得与君相决绝",
+        "author": "暗梅幽闻花",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 38,
+        "category": "人间清醒"
+      },
+      {
+        "title": "眼泪煮海，再不复见",
+        "author": "浪味仙",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 39,
+        "category": "古代言情"
+      },
+      {
+        "title": "此后山河不予君",
+        "author": "三七是三七",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 40,
+        "category": "虐恋"
+      },
+      {
+        "title": "不是笼中雀",
+        "author": "美少女战士哟",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 41,
+        "category": "单女主"
+      },
+      {
+        "title": "卿言",
+        "author": "福一洲",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 42,
+        "category": "庶女"
+      },
+      {
+        "title": "一枕黄粱，半生荒唐",
+        "author": "花匠的知更鸟",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 43,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "巾帼不让须眉",
+        "author": "美少女战士哟",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 44,
+        "category": "虐恋"
+      },
+      {
+        "title": "华章",
+        "author": "元七",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 45,
+        "category": "复仇"
+      },
+      {
+        "title": "嫡妹她过分绿茶",
+        "author": "陆酒酒",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 46,
+        "category": "双女主"
+      },
+      {
+        "title": "婉宁",
+        "author": "长歌",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 47,
+        "category": "古代言情"
+      },
+      {
+        "title": "庶妹抢我的剑，大军压境我不干了",
+        "author": "佚名",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 48,
+        "category": "将军"
+      },
+      {
+        "title": "竹马因我是假郡主要退婚，可我是真公主呀",
+        "author": "凶狗睡大石",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 49,
+        "category": "HE"
+      },
+      {
+        "title": "魂归不见旧长安",
+        "author": "爆款神",
+        "list": "reader_story_leader_board/story_rec_list/604",
+        "position": 50,
+        "category": "HE"
+      },
+      {
+        "title": "当你发现自己是女配怎么办",
+        "author": "水佩风裳",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 1,
+        "category": "异界"
+      },
+      {
+        "title": "虎系兽人收留我",
+        "author": "豆乳米麻薯",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 2,
+        "category": "现代言情"
+      },
+      {
+        "title": "剧情崩溃后he了",
+        "author": "年纸",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 3,
+        "category": "现代言情"
+      },
+      {
+        "title": "我DIY的修仙世界有了小人人",
+        "author": "桃源老树",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 4,
+        "category": "玄幻"
+      },
+      {
+        "title": "花命",
+        "author": "千九翌",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 6,
+        "category": "恐怖"
+      },
+      {
+        "title": "这个血族有点摆烂",
+        "author": "psyche",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 8,
+        "category": "可盐可甜"
+      },
+      {
+        "title": "玫瑰的复仇",
+        "author": "一颗葡萄",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 9,
+        "category": "第一人称"
+      },
+      {
+        "title": "和闺蜜一起穿进修仙文",
+        "author": "思晏清",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 11,
+        "category": "爽文"
+      },
+      {
+        "title": "追夫五年发现自己被下蛊后，我选择忘记他",
+        "author": "晓嘟",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 13,
+        "category": "虐恋"
+      },
+      {
+        "title": "高速上听到前车司机心声要废了我，可他不知道我运送的是绝密标本",
+        "author": "之月",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 14,
+        "category": "第一人称"
+      },
+      {
+        "title": "藏在心底的秘密",
+        "author": "青芜",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 16,
+        "category": "重生"
+      },
+      {
+        "title": "暗夜乐章",
+        "author": "碧落长歌",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 17,
+        "category": "杀手"
+      },
+      {
+        "title": "我要这读心术有何用",
+        "author": "咸鱼一条",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 18,
+        "category": "双洁"
+      },
+      {
+        "title": "不是吧？造物主是个恋爱脑？",
+        "author": "深夜Emo的艾导",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 19,
+        "category": "仙帝"
+      },
+      {
+        "title": "我的美丽，大你一码",
+        "author": "浅时光",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 20,
+        "category": "励志"
+      },
+      {
+        "title": "穿书后，我成了锦鲤灰姑娘",
+        "author": "咸鱼一条",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 21,
+        "category": "都市"
+      },
+      {
+        "title": "绿川花事",
+        "author": "恋恋恋恋酱",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 22,
+        "category": "都市"
+      },
+      {
+        "title": "帝君大人，脚下留情",
+        "author": "木何子",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 23,
+        "category": "虐恋"
+      },
+      {
+        "title": "薇薇我心",
+        "author": "楂楂气泡",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 24,
+        "category": "HE"
+      },
+      {
+        "title": "MH6请打开舱门",
+        "author": "余莫摸鱼",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 25,
+        "category": "烧脑"
+      },
+      {
+        "title": "我的竹马变成了女闺蜜",
+        "author": "释沫",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 26,
+        "category": "甜宠"
+      },
+      {
+        "title": "狐狸的小道士",
+        "author": "山月听晚",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 27,
+        "category": "治愈"
+      },
+      {
+        "title": "我是纸片人",
+        "author": "千未",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 28,
+        "category": "脑洞"
+      },
+      {
+        "title": "没想到一觉睡到20年后",
+        "author": "一只躺平的猫",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 29,
+        "category": "BE"
+      },
+      {
+        "title": "直播意外连线顶流见鬼",
+        "author": "木燃不止",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 30,
+        "category": "主播"
+      },
+      {
+        "title": "兑换人生",
+        "author": "木燃不止",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 31,
+        "category": "复仇"
+      },
+      {
+        "title": "我最后一个相亲对象",
+        "author": "杨廿七",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 32,
+        "category": "都市"
+      },
+      {
+        "title": "拂春恨：我嫁给了一只狐狸",
+        "author": "拾戒",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 33,
+        "category": "古代言情"
+      },
+      {
+        "title": "规则怪谈：魔修上场了，她在大杀特杀",
+        "author": "清醒之梦",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 34,
+        "category": "热血"
+      },
+      {
+        "title": "冒牌世子娶了狐狸上仙",
+        "author": "小枫丫头",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 35,
+        "category": "异界"
+      },
+      {
+        "title": "别墅求生",
+        "author": "绿色发财树",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 36,
+        "category": "悬疑"
+      },
+      {
+        "title": "血祭灵异小说后",
+        "author": "花小米",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 37,
+        "category": "BE"
+      },
+      {
+        "title": "赛博水鬼",
+        "author": "爱吃雪衣豆沙",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 38,
+        "category": "都市脑洞"
+      },
+      {
+        "title": "我捡的神龙夫君很傲娇",
+        "author": "猫耳卷卷",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 39,
+        "category": "异界"
+      },
+      {
+        "title": "血麒麟",
+        "author": "笙歌微凉",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 40,
+        "category": "架空历史"
+      },
+      {
+        "title": "联姻3年后我刻意放手了",
+        "author": "橙兮",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 41,
+        "category": "第一人称"
+      },
+      {
+        "title": "第三套剧本",
+        "author": "珍妮耐丝儿",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 42,
+        "category": "双重生"
+      },
+      {
+        "title": "平行时空的救赎",
+        "author": "空の心",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 43,
+        "category": "双女主"
+      },
+      {
+        "title": "月亮坏了",
+        "author": "安以",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 44,
+        "category": "玄幻脑洞"
+      },
+      {
+        "title": "桃之夭夭之九尾狐",
+        "author": "柳川和",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 45,
+        "category": "虐恋"
+      },
+      {
+        "title": "影魅",
+        "author": "过往不算",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 46,
+        "category": "恐怖"
+      },
+      {
+        "title": "春意知几许：我被小道士一剑穿心",
+        "author": "拾戒",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 47,
+        "category": "异界"
+      },
+      {
+        "title": "幻梦生涯",
+        "author": "禾口大仙",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 48,
+        "category": "烧脑"
+      },
+      {
+        "title": "他来自那片海",
+        "author": "余洲",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 49,
+        "category": "现代言情"
+      },
+      {
+        "title": "无根传记",
+        "author": "沨和",
+        "list": "reader_story_leader_board/story_rec_list/678",
+        "position": 50,
+        "category": "架空历史"
+      },
+      {
+        "title": "惊爆，联姻老公是赝品",
+        "author": "胖胖西子",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 10,
+        "category": "一见钟情"
+      },
+      {
+        "title": "星河失信，止步情深",
+        "author": "爪哇国之之",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 11,
+        "category": "虐恋"
+      },
+      {
+        "title": "烛残夜冷，我自赴风雪",
+        "author": "唯唯诺诺的帕尼",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 12,
+        "category": "现代言情"
+      },
+      {
+        "title": "渣男拿我首付养绿茶，我反手嫁给他顶头上司",
+        "author": "小小板栗",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 13,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "等不到月色回头，我自赴山河",
+        "author": "梓余",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 14,
+        "category": "爽文"
+      },
+      {
+        "title": "他选白莲花那天，我转身嫁给了病秧子",
+        "author": "西瓜",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 15,
+        "category": "HE"
+      },
+      {
+        "title": "摇橹船去无旧人",
+        "author": "二蛋",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 16,
+        "category": "都市"
+      },
+      {
+        "title": "我能听见你心里骂我的每一个字",
+        "author": "月上寒山",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 19,
+        "category": "现代言情"
+      },
+      {
+        "title": "冰岛没有绿幕",
+        "author": "水深归土自成林",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 21,
+        "category": "都市"
+      },
+      {
+        "title": "故人难寻旧时春",
+        "author": "Mohini",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 22,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "十年深情终难遇",
+        "author": "Mohini",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 23,
+        "category": "都市"
+      },
+      {
+        "title": "爱是天时地利的迷信",
+        "author": "友囡囡",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 24,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "无你余生徒悲凉",
+        "author": "贪吃饼饼",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 25,
+        "category": "女配"
+      },
+      {
+        "title": "离开他，海阔天空",
+        "author": "遇见晴天",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 26,
+        "category": "都市"
+      },
+      {
+        "title": "这次的太太考核，我不补考了",
+        "author": "大川大",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 27,
+        "category": "都市"
+      },
+      {
+        "title": "那场风停时，我们早已散场",
+        "author": "美人姒",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 28,
+        "category": "都市"
+      },
+      {
+        "title": "此去风月无归处",
+        "author": "落跑小煜",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 29,
+        "category": "人间清醒"
+      },
+      {
+        "title": "木槿花落，难再开",
+        "author": "佚名",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 30,
+        "category": "真假千金"
+      },
+      {
+        "title": "带白月光回家",
+        "author": "晓栀",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 31,
+        "category": "复仇"
+      },
+      {
+        "title": "别来无恙",
+        "author": "醉可可",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 32,
+        "category": "BE"
+      },
+      {
+        "title": "哭宝娇妻不装了后，渣男前夫悔疯了qy",
+        "author": "七月哇",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 33,
+        "category": "都市"
+      },
+      {
+        "title": "他敲门那晚，我已经写好了离婚协议书",
+        "author": "我不吃茄子",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 34,
+        "category": "现代言情"
+      },
+      {
+        "title": "装穷男朋友",
+        "author": "美少女战士哟",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 35,
+        "category": "单女主"
+      },
+      {
+        "title": "渣男出局，高富帅来袭",
+        "author": "良姜",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 36,
+        "category": "都市"
+      },
+      {
+        "title": "从此不念旧情深",
+        "author": "六叁",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 37,
+        "category": "现代言情"
+      },
+      {
+        "title": "他绝对控制",
+        "author": "蓝筝",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 38,
+        "category": "都市"
+      },
+      {
+        "title": "弹幕说男主要交换我和白月光的命格，可我是衰神转世啊",
+        "author": "七湫",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 39,
+        "category": "都市"
+      },
+      {
+        "title": "跨越山海奔向你",
+        "author": "大黄鱼",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 40,
+        "category": "现代言情"
+      },
+      {
+        "title": "从欺骗中生出的玫瑰",
+        "author": "葫芦溪",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 41,
+        "category": "HE"
+      },
+      {
+        "title": "天亮以前说再见",
+        "author": "三金",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 42,
+        "category": "现代言情"
+      },
+      {
+        "title": "小姑子爱吃汤圆，我提了离婚",
+        "author": "佚名",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 43,
+        "category": "虐恋"
+      },
+      {
+        "title": "爱意消散于晚风",
+        "author": "zone",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 44,
+        "category": "人间清醒"
+      },
+      {
+        "title": "旧楼春迟，晚意如灰",
+        "author": "幸运怡怡",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 45,
+        "category": "都市"
+      },
+      {
+        "title": "青山依旧，故人已非",
+        "author": "湫兮",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 46,
+        "category": "都市"
+      },
+      {
+        "title": "土妞改嫁竹马后，清冷教授悔青肠",
+        "author": "鲁班七号结婚",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 47,
+        "category": "都市"
+      },
+      {
+        "title": "我是他的不重要不紧急",
+        "author": "乱点桃蹊",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 48,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "长夜的尽头是黎明",
+        "author": "小雀不爱飞",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 49,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "闺蜜冒充霸总娇妻，我亲手送她进大牢",
+        "author": "折冬痕",
+        "list": "reader_story_leader_board/story_rec_list/682",
+        "position": 50,
+        "category": "复仇"
+      },
+      {
+        "title": "垫底学霸",
+        "author": "顾小染",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 3,
+        "category": "学霸"
+      },
+      {
+        "title": "穿书成为恋爱脑的闺蜜",
+        "author": "贺子",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 4,
+        "category": "治愈"
+      },
+      {
+        "title": "他从不选择我",
+        "author": "鱼鱼上",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 6,
+        "category": "现代言情"
+      },
+      {
+        "title": "不借月光，自有天明",
+        "author": "南桉",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 7,
+        "category": "现代言情"
+      },
+      {
+        "title": "维多利亚港的秘密",
+        "author": "镜程",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 8,
+        "category": "青梅竹马"
+      },
+      {
+        "title": "我的丑八怪女同桌",
+        "author": "盖世猪精",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 9,
+        "category": "第一人称"
+      },
+      {
+        "title": "P图装考公上岸后，室友举报我是五十万",
+        "author": "小桌子",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 10,
+        "category": "现代言情"
+      },
+      {
+        "title": "余生人海再无你",
+        "author": "爪哇国之之",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 11,
+        "category": "都市"
+      },
+      {
+        "title": "天空不再挂满湿的泪",
+        "author": "昭屿",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 12,
+        "category": "青春"
+      },
+      {
+        "title": "重生高考前",
+        "author": "星星没有秘密",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 13,
+        "category": "第一人称"
+      },
+      {
+        "title": "把你家炸了",
+        "author": "恋恋恋恋酱",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 14,
+        "category": "金手指"
+      },
+      {
+        "title": "思木棉",
+        "author": "一绘",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 15,
+        "category": "都市"
+      },
+      {
+        "title": "学长是天降竹马",
+        "author": "白夕鹿",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 17,
+        "category": "都市"
+      },
+      {
+        "title": "隐藏在日记本的秘密",
+        "author": "文签",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 18,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "青梅竹马",
+        "author": "可有可吴女士",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 19,
+        "category": "欢喜冤家"
+      },
+      {
+        "title": "装成小白花后被学人精copy了",
+        "author": "三三点水",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 20,
+        "category": "青春"
+      },
+      {
+        "title": "忘掉竹马后，我考上清北",
+        "author": "哈哦",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 21,
+        "category": "青春"
+      },
+      {
+        "title": "和竹马的死对头he了",
+        "author": "躺平咸鱼",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 22,
+        "category": "青春"
+      },
+      {
+        "title": "极品室友",
+        "author": "十柒十七",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 23,
+        "category": "现代言情"
+      },
+      {
+        "title": "盛夏暖暖",
+        "author": "幸运鱼",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 24,
+        "category": "现代言情"
+      },
+      {
+        "title": "春天会来的",
+        "author": "春长",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 25,
+        "category": "都市"
+      },
+      {
+        "title": "室友抢我女人，我不当温柔男神了",
+        "author": "钱满艺",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 27,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "雌竞女教师",
+        "author": "水珊瑚",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 28,
+        "category": "第一人称"
+      },
+      {
+        "title": "转身已是月照川",
+        "author": "洗清秋",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 29,
+        "category": "第一人称"
+      },
+      {
+        "title": "月照来时路，不见旧年人",
+        "author": "风过竹昀",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 30,
+        "category": "青春"
+      },
+      {
+        "title": "爱碎盛夏，星河无归期",
+        "author": "老竹抓鱼",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 31,
+        "category": "爽文"
+      },
+      {
+        "title": "我乘晚星渡旧人",
+        "author": "拥夏",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 32,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "他的第二杯半价",
+        "author": "爆炒一条咸鱼",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 33,
+        "category": "虐恋"
+      },
+      {
+        "title": "我观我的山，他看他的海",
+        "author": "沅蓁",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 34,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "不必牵强再说爱我",
+        "author": "晓木真",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 35,
+        "category": "青春"
+      },
+      {
+        "title": "是你们选了妹妹，我远赴北疆你们哭什么",
+        "author": "风过竹昀",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 36,
+        "category": "现代言情"
+      },
+      {
+        "title": "毕业旅行让我坐后备箱，我亲手撕碎亲情",
+        "author": "神罗彻",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 37,
+        "category": "第一人称"
+      },
+      {
+        "title": "从此你我全剧终",
+        "author": "晟寻月",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 38,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "四个人的终点，他们从没想过让我抵达",
+        "author": "大鲸鱼",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 39,
+        "category": "现代言情"
+      },
+      {
+        "title": "甜死我啦",
+        "author": "发呆的香辣蟹",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 41,
+        "category": "现代言情"
+      },
+      {
+        "title": "绿茶室友伪千金",
+        "author": "冰糖雪李",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 42,
+        "category": "青春"
+      },
+      {
+        "title": "我与校霸的甜甜恋爱笔记",
+        "author": "小甜豆",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 43,
+        "category": "甜宠"
+      },
+      {
+        "title": "校霸和他的兔子小姐",
+        "author": "一只小羊",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 44,
+        "category": "青春"
+      },
+      {
+        "title": "穿进青春疼痛文学后我选择发疯",
+        "author": "山隹",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 45,
+        "category": "现代言情"
+      },
+      {
+        "title": "暗恋竹马的第六年",
+        "author": "一只小笼包",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 46,
+        "category": "青梅竹马"
+      },
+      {
+        "title": "当我甩了校霸后",
+        "author": "小樱桃",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 47,
+        "category": "青春"
+      },
+      {
+        "title": "奶狗弟弟",
+        "author": "无恙",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 48,
+        "category": "姐弟恋"
+      },
+      {
+        "title": "青梅有点甜",
+        "author": "檐下雨",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 49,
+        "category": "青春"
+      },
+      {
+        "title": "我嫁给了我爸死对头的儿子",
+        "author": "七优优",
+        "list": "reader_story_leader_board/story_rec_list/691",
+        "position": 50,
+        "category": "现代言情"
+      },
+      {
+        "title": "年夜饭老婆给大家发年终奖，我只配一分钱",
+        "author": "鹿衔灯",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 18,
+        "category": "都市"
+      },
+      {
+        "title": "明庭春深，寒刃入骨",
+        "author": "钱钱可来相助",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 22,
+        "category": "弹幕文"
+      },
+      {
+        "title": "冷傲师姐替小师弟挡伤害，我走后她悔疯了",
+        "author": "糯卡大王",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 25,
+        "category": "第一人称"
+      },
+      {
+        "title": "没有家的女子",
+        "author": "渠山",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 27,
+        "category": "强者回归"
+      },
+      {
+        "title": "我转身向大洋彼岸",
+        "author": "唯小辞",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 30,
+        "category": "现代言情"
+      },
+      {
+        "title": "我去村里收腊肉，全村坐地起价",
+        "author": "热心网友",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 34,
+        "category": "都市"
+      },
+      {
+        "title": "表妹入职第一天，就在老板面前提了我的名字",
+        "author": "拾滩鸦",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 35,
+        "category": "第一人称"
+      },
+      {
+        "title": "娇气小狗离开走后，京圈名媛全疯了",
+        "author": "哆瑞咪发",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 36,
+        "category": "第一人称"
+      },
+      {
+        "title": "远山不念旧人",
+        "author": "蔓越莓奶绿",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 38,
+        "category": "第一人称"
+      },
+      {
+        "title": "澜起星沉处",
+        "author": "惜红衣",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 39,
+        "category": "都市"
+      },
+      {
+        "title": "订婚宴上，我亲手送闺蜜上路",
+        "author": "丹丹",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 41,
+        "category": "现实题材"
+      },
+      {
+        "title": "谈婚论嫁，爱吹牛的亲爹说我傍上了法拉利大款",
+        "author": "波杰克",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 43,
+        "category": "现实题材"
+      },
+      {
+        "title": "挖了一棵中草药后，药企继承人顾少吓疯了",
+        "author": "颗颗糖",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 44,
+        "category": "都市"
+      },
+      {
+        "title": "白昼不识我",
+        "author": "青鸟晴天",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 45,
+        "category": "都市"
+      },
+      {
+        "title": "奇葩同事逼我五一结婚？大小姐我不装了",
+        "author": "冇廿",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 46,
+        "category": "现代言情"
+      },
+      {
+        "title": "重生后，我主动把婚约让给真少爷",
+        "author": "鲁班七号结婚",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 47,
+        "category": "都市"
+      },
+      {
+        "title": "重生后我打脸善良护士",
+        "author": "霜满路",
+        "list": "reader_story_leader_board/story_rec_list/739",
+        "position": 48,
+        "category": "现代言情"
+      },
+      {
+        "title": "退出公平游戏后，他们都悔疯了",
+        "author": "月流金",
+        "list": "reader_story_leader_board/story_rec_list/758",
+        "position": 34,
+        "category": "BE"
+      },
+      {
+        "title": "重生后，我拒绝五一帮弟弟办婚礼",
+        "author": "生姜王",
+        "list": "reader_story_leader_board/story_rec_list/758",
+        "position": 41,
+        "category": "第一人称"
+      },
+      {
+        "title": "爱在黄昏后消散",
+        "author": "月流金",
+        "list": "reader_story_leader_board/story_rec_list/758",
+        "position": 43,
+        "category": "短篇"
+      },
+      {
+        "title": "重生后，我不再选择劳斯莱斯妈妈",
+        "author": "乌龟蛋面",
+        "list": "reader_story_leader_board/story_rec_list/758",
+        "position": 46,
+        "category": "第一人称"
+      },
+      {
+        "title": "因为青梅一个表情，我默默改了高考志愿",
+        "author": "理理",
+        "list": "reader_story_leader_board/story_rec_list/758",
+        "position": 48,
+        "category": "第一人称"
+      },
+      {
+        "title": "相亲局",
+        "author": "心事舒",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 5,
+        "category": "智商在线"
+      },
+      {
+        "title": "供不起的祖宗",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 7,
+        "category": "恐怖"
+      },
+      {
+        "title": "关灯后",
+        "author": "北漠",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 8,
+        "category": "恐怖"
+      },
+      {
+        "title": "烧纸",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 14,
+        "category": "都市"
+      },
+      {
+        "title": "向我招手的女人",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 15,
+        "category": "都市"
+      },
+      {
+        "title": "财运",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 16,
+        "category": "恐怖"
+      },
+      {
+        "title": "催命短信",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 17,
+        "category": "都市"
+      },
+      {
+        "title": "夜探凶宅",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 18,
+        "category": "恐怖"
+      },
+      {
+        "title": "助鬼为乐",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 19,
+        "category": "都市"
+      },
+      {
+        "title": "赊刀人",
+        "author": "落笔生花",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 25,
+        "category": "恐怖"
+      },
+      {
+        "title": "医院的3号床",
+        "author": "匆匆",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 26,
+        "category": "恐怖"
+      },
+      {
+        "title": "都市怪谈",
+        "author": "林浪",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 32,
+        "category": "第一人称"
+      },
+      {
+        "title": "黄鼠狼的复仇",
+        "author": "耕耘",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 33,
+        "category": "乡村"
+      },
+      {
+        "title": "凶宅试睡员",
+        "author": "黑色迪迦",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 35,
+        "category": "第一人称"
+      },
+      {
+        "title": "死亡印记",
+        "author": "默陌磨墨",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 36,
+        "category": "第一人称"
+      },
+      {
+        "title": "变成了一头驴",
+        "author": "乐乐",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 37,
+        "category": "恐怖"
+      },
+      {
+        "title": "废井",
+        "author": "吉光凤羽",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 38,
+        "category": "恐怖"
+      },
+      {
+        "title": "亡梯之诡宿舍",
+        "author": "海陆",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 39,
+        "category": "恐怖"
+      },
+      {
+        "title": "惊魂之夜",
+        "author": "安可",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 41,
+        "category": "第一人称"
+      },
+      {
+        "title": "异样的黑影",
+        "author": "布壳喵庶",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 42,
+        "category": "恐怖"
+      },
+      {
+        "title": "正当防卫",
+        "author": "安可",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 43,
+        "category": "复仇"
+      },
+      {
+        "title": "渡灵棺",
+        "author": "十之有八",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 44,
+        "category": "玄学"
+      },
+      {
+        "title": "深夜笔记：我能窥探人心",
+        "author": "白夕鹿",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 45,
+        "category": "无CP"
+      },
+      {
+        "title": "头发失踪案",
+        "author": "一帧",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 46,
+        "category": "都市"
+      },
+      {
+        "title": "殡仪馆员工守则",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 47,
+        "category": "恐怖"
+      },
+      {
+        "title": "捉迷藏",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 48,
+        "category": "第一人称"
+      },
+      {
+        "title": "招魂",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 49,
+        "category": "第一人称"
+      },
+      {
+        "title": "扎纸匠",
+        "author": "天下。",
+        "list": "reader_story_leader_board/story_rec_list/769",
+        "position": 50,
+        "category": "恐怖"
+      },
+      {
+        "title": "与凤吟",
+        "author": "食酒",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 2,
+        "category": "仙侠"
+      },
+      {
+        "title": "蛇妖小仙君",
+        "author": "槿意绵绵",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 5,
+        "category": "异界"
+      },
+      {
+        "title": "殓尸口红",
+        "author": "云朵1985",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 6,
+        "category": "恐怖"
+      },
+      {
+        "title": "重生后，我和小师妹交换师尊",
+        "author": "柿子不红",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 8,
+        "category": "仙侠"
+      },
+      {
+        "title": "被魔君抢婚后",
+        "author": "美少女战士哟",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 9,
+        "category": "仙侠"
+      },
+      {
+        "title": "道侣为了大义之谈使我魂飞魄散",
+        "author": "顾笙夕",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 10,
+        "category": "仙侠"
+      },
+      {
+        "title": "你夺我仙力，我毁你青梅！",
+        "author": "洮香小九",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 11,
+        "category": "契约婚姻"
+      },
+      {
+        "title": "前夫变孙子后，我诞下极品青龙蛋",
+        "author": "花微微",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 12,
+        "category": "龙"
+      },
+      {
+        "title": "重生回选婿那天，我诞下了双生朱雀",
+        "author": "是小南南啊丶",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 14,
+        "category": "仙侠"
+      },
+      {
+        "title": "穿越女代替我后，父子二人都疯了",
+        "author": "球球鼠",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 15,
+        "category": "虐恋"
+      },
+      {
+        "title": "穿成恋爱脑闺蜜本命剑后",
+        "author": "饥饿的哈士奇",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 16,
+        "category": "第一人称"
+      },
+      {
+        "title": "校园丧尸危机",
+        "author": "哇嚓嚓嚓",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 17,
+        "category": "末世"
+      },
+      {
+        "title": "废灵根？不！是魔法少女！",
+        "author": "秃头玛嘉烈",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 18,
+        "category": "异界"
+      },
+      {
+        "title": "直播赚钱后，生出反骨天天发大疯",
+        "author": "京都的巴夫曼",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 19,
+        "category": null
+      },
+      {
+        "title": "我在诡异世界里直播通关",
+        "author": "小沫1",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 20,
+        "category": "悬疑"
+      },
+      {
+        "title": "仙君那封情书不是我写的",
+        "author": "闲人不住",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 21,
+        "category": "暗恋"
+      },
+      {
+        "title": "百生百世万里油菜花",
+        "author": "咸鱼一条",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 22,
+        "category": "仙侠"
+      },
+      {
+        "title": "踹翻鹊桥，拯救织女",
+        "author": "未迟1",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 23,
+        "category": "多女主"
+      },
+      {
+        "title": "扈三娘不是工具人",
+        "author": "雪豹",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 24,
+        "category": "轻松"
+      },
+      {
+        "title": "废柴天妃",
+        "author": "灯小七",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 26,
+        "category": "仙侠"
+      },
+      {
+        "title": "粉色不爱",
+        "author": "昙空",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 27,
+        "category": "仙侠"
+      },
+      {
+        "title": "丧尸综艺",
+        "author": "三苏1001",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 28,
+        "category": "末世"
+      },
+      {
+        "title": "我死后，修仙界全员be了",
+        "author": "晨间岚烟",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 29,
+        "category": "异界"
+      },
+      {
+        "title": "玉兔历情劫",
+        "author": "一绘",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 30,
+        "category": "异界"
+      },
+      {
+        "title": "卑劣师尊正在洗白中",
+        "author": "伊二",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 31,
+        "category": "异界"
+      },
+      {
+        "title": "混乱姻缘线",
+        "author": "一帧",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 32,
+        "category": "仙侠"
+      },
+      {
+        "title": "不遥远的末日，我们去看海",
+        "author": "晴天霹雳爆米花",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 33,
+        "category": "未来世界"
+      },
+      {
+        "title": "重振翅膀",
+        "author": "战屠",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 34,
+        "category": "都市"
+      },
+      {
+        "title": "核污染下的反抗",
+        "author": "小万同学要上岸",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 36,
+        "category": "第一人称"
+      },
+      {
+        "title": "距离死亡最近的两分钟",
+        "author": "吃个苹果派",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 37,
+        "category": "快穿"
+      },
+      {
+        "title": "狐妖的白月光竟然是个渣男",
+        "author": "余莫摸鱼",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 38,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "狐狸阿魅",
+        "author": "瓶装柠檬水",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 39,
+        "category": "架空历史"
+      },
+      {
+        "title": "渔村怪谈",
+        "author": "森鸟",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 40,
+        "category": "医生"
+      },
+      {
+        "title": "我的道侣只想修仙",
+        "author": "丁尹",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 41,
+        "category": "虐恋"
+      },
+      {
+        "title": "末日降临，被丧尸咬了一口后，我无敌了",
+        "author": "风希希",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 43,
+        "category": "第一人称"
+      },
+      {
+        "title": "丧尸爆发后绑定了马原系统",
+        "author": "新亭小姐",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 44,
+        "category": "囤物资"
+      },
+      {
+        "title": "春尽荼蘼",
+        "author": "一念洲",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 45,
+        "category": "异界"
+      },
+      {
+        "title": "拯救自己",
+        "author": "沐阿飘",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 47,
+        "category": "科幻"
+      },
+      {
+        "title": "殡仪馆里变丧尸",
+        "author": "鹤望兰",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 48,
+        "category": "复仇"
+      },
+      {
+        "title": "机器人的拟人情感模式",
+        "author": "赢豆豆呀",
+        "list": "reader_story_leader_board/story_rec_list/774",
+        "position": 49,
+        "category": "单女主"
+      },
+      {
+        "title": "女星做饭毒翻评委，重生后我不背锅",
+        "author": "蜡笔",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 13,
+        "category": "都市"
+      },
+      {
+        "title": "重生后读心人淡如菊的捞女",
+        "author": "桃悠悠",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 20,
+        "category": "复仇"
+      },
+      {
+        "title": "自请驻守北疆后，替竹马邀功的她悔哭了",
+        "author": "凶狗睡大石",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 22,
+        "category": "架空历史"
+      },
+      {
+        "title": "重生后，我不再管作死的家人",
+        "author": "楚楚",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 27,
+        "category": "都市"
+      },
+      {
+        "title": "我和妹妹重生在同一天",
+        "author": "果果",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 28,
+        "category": "都市"
+      },
+      {
+        "title": "重生后不再当我姐嘴替",
+        "author": "甜酒咕唧",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 30,
+        "category": "律师"
+      },
+      {
+        "title": "救赎",
+        "author": "榴莲糖吖",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 31,
+        "category": "第一人称"
+      },
+      {
+        "title": "山花烂漫时",
+        "author": "柠檬水",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 34,
+        "category": "人间清醒"
+      },
+      {
+        "title": "投胎成了江浙沪独生女",
+        "author": "时花",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 37,
+        "category": "现实题材"
+      },
+      {
+        "title": "重生后，我在恋综上找人结婚",
+        "author": "好运来",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 40,
+        "category": "第一人称"
+      },
+      {
+        "title": "女儿成年后，我拿走了属于自己的一切",
+        "author": "啵啵",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 42,
+        "category": "都市"
+      },
+      {
+        "title": "重生之背着家人狂囤物资",
+        "author": "刺猬屁屁",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 43,
+        "category": "现实题材"
+      },
+      {
+        "title": "对他礼貌微笑后，立即被上门提亲",
+        "author": "春如许",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 45,
+        "category": "都市"
+      },
+      {
+        "title": "重生后，我送全家进火葬场",
+        "author": "花花呀",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 46,
+        "category": "现实题材"
+      },
+      {
+        "title": "恋爱脑的姐姐突然醒悟了",
+        "author": "福宝酱",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 47,
+        "category": "现实题材"
+      },
+      {
+        "title": "重生看着渣姐去找死",
+        "author": "哇达西仔仔",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 48,
+        "category": "复仇"
+      },
+      {
+        "title": "放弃恋爱脑女儿后，我成了人生赢家",
+        "author": "一喜",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 49,
+        "category": "都市"
+      },
+      {
+        "title": "重启人生",
+        "author": "闪电",
+        "list": "reader_story_leader_board/story_rec_list/779",
+        "position": 50,
+        "category": "复仇"
+      },
+      {
+        "title": "秦淮难洲梦故人",
+        "author": "卷卷不吃卷",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 5,
+        "category": "后悔流"
+      },
+      {
+        "title": "被交换的人生",
+        "author": "许可甜",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 11,
+        "category": "都市"
+      },
+      {
+        "title": "十五年前的秘密被揭开后",
+        "author": "白凤丸",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 12,
+        "category": "现实题材"
+      },
+      {
+        "title": "春山别后故人难寻",
+        "author": "十六画",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 15,
+        "category": "现实题材"
+      },
+      {
+        "title": "再也不见",
+        "author": "曾玲凤",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 21,
+        "category": "现实题材"
+      },
+      {
+        "title": "害我失业的女上司，成了我的准嫂子",
+        "author": "丹丹",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 22,
+        "category": "现实题材"
+      },
+      {
+        "title": "江月",
+        "author": "小火柴",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 25,
+        "category": "现实题材"
+      },
+      {
+        "title": "妾为断尾鱼",
+        "author": "甜糖泡泡",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 26,
+        "category": "女强"
+      },
+      {
+        "title": "囚雀",
+        "author": "沅沫",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 27,
+        "category": "现实题材"
+      },
+      {
+        "title": "爆红情侣村",
+        "author": "泡疼片",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 28,
+        "category": "现实题材"
+      },
+      {
+        "title": "把男友送进监狱",
+        "author": "青鱼",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 29,
+        "category": "都市"
+      },
+      {
+        "title": "重回五一高速逆行这天，我不再替闺蜜顶罪",
+        "author": "恶毒小姨",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 30,
+        "category": "现实题材"
+      },
+      {
+        "title": "港城十年",
+        "author": "虎虎不是鼠鼠",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 32,
+        "category": "都市"
+      },
+      {
+        "title": "盲婚",
+        "author": "晨月皎洁",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 34,
+        "category": "现实题材"
+      },
+      {
+        "title": "那年恨海情天难回首",
+        "author": "绿毛",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 35,
+        "category": "第一人称"
+      },
+      {
+        "title": "缠丝绕",
+        "author": "呦呦鹿鸣lu",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 36,
+        "category": "古代言情"
+      },
+      {
+        "title": "盛世景临",
+        "author": "摘桃丸子",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 37,
+        "category": "皇帝"
+      },
+      {
+        "title": "玉碎成欢月满楼",
+        "author": "7点准时帅醒",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 39,
+        "category": "人间清醒"
+      },
+      {
+        "title": "乔岑如",
+        "author": "啉啉啉",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 40,
+        "category": "女强"
+      },
+      {
+        "title": "重生后，我不试药了，全家哭着求我救命",
+        "author": "砚秋疏桐",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 41,
+        "category": "重生"
+      },
+      {
+        "title": "我不要迟来的深情",
+        "author": "ad忍忍先别上",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 43,
+        "category": "都市"
+      },
+      {
+        "title": "侯府主母她疯了",
+        "author": "千叶不熬夜",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 45,
+        "category": "古代言情"
+      },
+      {
+        "title": "傻霸总恢复记忆后，我听见男友心声炸了",
+        "author": "九月崽崽",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 46,
+        "category": "第一人称"
+      },
+      {
+        "title": "盲人琴师",
+        "author": "千叶不熬夜",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 47,
+        "category": "霸道"
+      },
+      {
+        "title": "重生后送继兄一份大礼",
+        "author": "清清子",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 49,
+        "category": "现实题材"
+      },
+      {
+        "title": "一别两宽",
+        "author": "uu",
+        "list": "reader_story_leader_board/story_rec_list/790",
+        "position": 50,
+        "category": "都市"
+      },
+      {
+        "title": "订婚宴上，他丢下了我",
+        "author": "小刺猬",
+        "list": "reader_story_leader_board/story_trend_list/12",
+        "position": 20,
+        "category": "都市"
+      },
+      {
+        "title": "系统攻略失败",
+        "author": "今天吃土豆了吗",
+        "list": "reader_story_leader_board/story_trend_list/12",
+        "position": 23,
+        "category": "系统"
+      },
+      {
+        "title": "女病",
+        "author": "瓜瓜乐",
+        "list": "reader_story_leader_board/story_trend_list/12",
+        "position": 39,
+        "category": "第一人称"
+      },
+      {
+        "title": "学乖的第一步，是瞒着全家远走高飞",
+        "author": "大鲸鱼",
+        "list": "reader_story_leader_board/story_trend_list/12",
+        "position": 40,
+        "category": "学霸"
+      },
+      {
+        "title": "她碎在极光漫起时",
+        "author": "麦爻",
+        "list": "reader_story_leader_board/story_trend_list/12",
+        "position": 44,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "拾年执恋",
+        "author": "晓棠",
+        "list": "reader_story_leader_board/story_trend_list/12",
+        "position": 49,
+        "category": "都市"
+      },
+      {
+        "title": "我家里住进了一只鬼",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 13,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "楚门的世界",
+        "author": "石榴",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 14,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "爱意迟来",
+        "author": "什么丢丢",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 15,
+        "category": "都市"
+      },
+      {
+        "title": "捞尸人",
+        "author": "雨有点凉",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 20,
+        "category": "复仇"
+      },
+      {
+        "title": "冬生不逢春",
+        "author": "莫惊春",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 23,
+        "category": "快节奏"
+      },
+      {
+        "title": "喜羊羊与灰太狼规则怪谈",
+        "author": "唐一阁",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 26,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "完美的犯罪表演",
+        "author": "肉包不吃肉",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 28,
+        "category": "现实题材"
+      },
+      {
+        "title": "规则怪谈：深夜食堂",
+        "author": "煜生",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 29,
+        "category": "扮猪吃虎"
+      },
+      {
+        "title": "迁坟",
+        "author": "因风飞过蔷薇",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 31,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "吃人的棺材",
+        "author": "甜蜜的守护",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 32,
+        "category": "幻想言情"
+      },
+      {
+        "title": "宿舍规则怪谈",
+        "author": "Yolo耶",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 33,
+        "category": "都市"
+      },
+      {
+        "title": "我和师姐都是戒指里的老师，天命之子却说我是唯一",
+        "author": "第六日",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 35,
+        "category": "第一人称"
+      },
+      {
+        "title": "恐怖宿舍规则怪谈",
+        "author": "圆圆独角兽",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 41,
+        "category": "恐怖"
+      },
+      {
+        "title": "完美妻子",
+        "author": "牛顿是我哥",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 42,
+        "category": "侦探"
+      },
+      {
+        "title": "失控的剧本杀",
+        "author": "鱼鱼",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 44,
+        "category": "智商在线"
+      },
+      {
+        "title": "诡异马拉松",
+        "author": "张小乐.",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 45,
+        "category": "第一人称"
+      },
+      {
+        "title": "恐怖野营",
+        "author": "落笔生花",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 46,
+        "category": "恐怖"
+      },
+      {
+        "title": "富二代让我做替身",
+        "author": "和平路王和平",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 47,
+        "category": "都市"
+      },
+      {
+        "title": "在恐怖游戏当月嫂",
+        "author": "花宁",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 48,
+        "category": "爽文"
+      },
+      {
+        "title": "伪人的阴谋",
+        "author": "小王酱",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 49,
+        "category": "都市"
+      },
+      {
+        "title": "重生后，妹妹被古曼童选中",
+        "author": "芝麻脆皮鸡腿",
+        "list": "reader_story_leader_board/story_trend_list/27",
+        "position": 50,
+        "category": "奇幻"
+      },
+      {
+        "title": "又一轮回？深宫入选既送命",
+        "author": "渐云欢",
+        "list": "reader_story_leader_board/story_trend_list/604",
+        "position": 36,
+        "category": "搞笑"
+      },
+      {
+        "title": "心似雨湿青苔",
+        "author": "小雀不爱飞",
+        "list": "reader_story_leader_board/story_trend_list/604",
+        "position": 40,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "三世京城雪",
+        "author": "晓栀",
+        "list": "reader_story_leader_board/story_trend_list/604",
+        "position": 44,
+        "category": "真假千金"
+      },
+      {
+        "title": "戏子扶江",
+        "author": "阿静爱吃香菜菜",
+        "list": "reader_story_leader_board/story_trend_list/604",
+        "position": 47,
+        "category": "爽文"
+      },
+      {
+        "title": "如愿换回攻略女，父子俩却悔哭了",
+        "author": "阮柿子",
+        "list": "reader_story_leader_board/story_trend_list/604",
+        "position": 48,
+        "category": "后悔流"
+      },
+      {
+        "title": "自带系统的穿越女靠拼好情将四个小公爷吊成翘嘴了",
+        "author": "万里",
+        "list": "reader_story_leader_board/story_trend_list/604",
+        "position": 49,
+        "category": "人间清醒"
+      },
+      {
+        "title": "替身她不干了",
+        "author": "三余",
+        "list": "reader_story_leader_board/story_trend_list/604",
+        "position": 50,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "等你千年又如何？",
+        "author": "椒麻鸡面条",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 11,
+        "category": "古代"
+      },
+      {
+        "title": "比赛前，他教我霸王拧",
+        "author": "橙亿",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 12,
+        "category": "读心术"
+      },
+      {
+        "title": "父母纵容假千金抢我投胎名额后，悔疯了",
+        "author": "知我意",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 13,
+        "category": "现代言情"
+      },
+      {
+        "title": "师尊还想再杀我一次",
+        "author": "千叶不熬夜",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 18,
+        "category": "虐恋"
+      },
+      {
+        "title": "好运难借",
+        "author": "八月青城",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 20,
+        "category": "现代言情"
+      },
+      {
+        "title": "猪妖四郎",
+        "author": "雪阵",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 29,
+        "category": "恐怖"
+      },
+      {
+        "title": "我的楚门世界",
+        "author": "难为水",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 30,
+        "category": "科幻"
+      },
+      {
+        "title": "假千金给我换命药膳，我给她换条狗命",
+        "author": "淼淼淼",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 31,
+        "category": "真假千金"
+      },
+      {
+        "title": "圣母绑定了大鼻窦系统",
+        "author": "葛耶斯拉",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 39,
+        "category": "都市"
+      },
+      {
+        "title": "美味的爱意",
+        "author": "方太太的猫",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 40,
+        "category": "异能"
+      },
+      {
+        "title": "因为喜欢李清照，所以穿越娶了她",
+        "author": "近水得月",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 41,
+        "category": "穿越"
+      },
+      {
+        "title": "总裁的恋爱管家",
+        "author": "小行星",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 42,
+        "category": "现代言情"
+      },
+      {
+        "title": "我男朋友非人哉.",
+        "author": "抚岁华",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 43,
+        "category": "现代言情"
+      },
+      {
+        "title": "真千金她是蠢萌穷财神",
+        "author": "yu不可及",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 44,
+        "category": "轻松"
+      },
+      {
+        "title": "借命救赎",
+        "author": "十一",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 45,
+        "category": "现代言情"
+      },
+      {
+        "title": "我失忆后，兽人与妹妹结契",
+        "author": "二玥昕",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 46,
+        "category": "第一人称"
+      },
+      {
+        "title": "玉鼠",
+        "author": "小小梨子",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 47,
+        "category": "悬疑"
+      },
+      {
+        "title": "衔云",
+        "author": "姜南笙",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 48,
+        "category": "1V1"
+      },
+      {
+        "title": "莲花穴",
+        "author": "弹涂鱼",
+        "list": "reader_story_leader_board/story_trend_list/678",
+        "position": 49,
+        "category": "乡村"
+      },
+      {
+        "title": "首富假死考验妻女，得知真相后他悔疯了",
+        "author": "君笑",
+        "list": "reader_story_leader_board/story_trend_list/682",
+        "position": 33,
+        "category": "都市"
+      },
+      {
+        "title": "假千金也能有真幸福",
+        "author": "爱啃土豆泥",
+        "list": "reader_story_leader_board/story_trend_list/682",
+        "position": 37,
+        "category": "都市"
+      },
+      {
+        "title": "漫漫长路",
+        "author": "将草",
+        "list": "reader_story_leader_board/story_trend_list/682",
+        "position": 38,
+        "category": "双重生"
+      },
+      {
+        "title": "你的爱，烂在了时光里",
+        "author": "岚初",
+        "list": "reader_story_leader_board/story_trend_list/682",
+        "position": 39,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "星陨暴雨夜，从此皆陌路",
+        "author": "昨夜又星辰",
+        "list": "reader_story_leader_board/story_trend_list/682",
+        "position": 41,
+        "category": "人间清醒"
+      },
+      {
+        "title": "骂我烂树叶？它值五亿",
+        "author": "书生",
+        "list": "reader_story_leader_board/story_trend_list/682",
+        "position": 42,
+        "category": "都市"
+      },
+      {
+        "title": "真假千金",
+        "author": "桃夭",
+        "list": "reader_story_leader_board/story_trend_list/682",
+        "position": 43,
+        "category": "都市"
+      },
+      {
+        "title": "妹妹为了美容，不惜逼我走上绝路",
+        "author": "66不六",
+        "list": "reader_story_leader_board/story_trend_list/682",
+        "position": 44,
+        "category": "都市"
+      },
+      {
+        "title": "长夜未明，恨亦难眠",
+        "author": "书窈",
+        "list": "reader_story_leader_board/story_trend_list/682",
+        "position": 50,
+        "category": "真假少爷"
+      },
+      {
+        "title": "接受你的暗恋",
+        "author": "战屠",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 9,
+        "category": "甜宠"
+      },
+      {
+        "title": "南，北",
+        "author": "土豆乖乖",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 10,
+        "category": "姐弟恋"
+      },
+      {
+        "title": "重生后，回头是爱",
+        "author": "懒月c",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 17,
+        "category": "双重生"
+      },
+      {
+        "title": "玛丽苏的姐姐",
+        "author": "落尘",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 23,
+        "category": "现代言情"
+      },
+      {
+        "title": "最好是永不到达",
+        "author": "江临晚照",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 27,
+        "category": "现实题材"
+      },
+      {
+        "title": "与他的三人旅行，我提前下了车",
+        "author": "沅蓁",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 28,
+        "category": "现代言情"
+      },
+      {
+        "title": "我暗恋了林小小十年",
+        "author": "橘子勋",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 30,
+        "category": "白月光"
+      },
+      {
+        "title": "听到校霸心声怎么办",
+        "author": "溪亭",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 31,
+        "category": "现代言情"
+      },
+      {
+        "title": "我死后，哥哥疯了",
+        "author": "莫欢",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 32,
+        "category": "青春"
+      },
+      {
+        "title": "规则怪谈：我的学校不正常",
+        "author": "恶战",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 34,
+        "category": "奇闻异事"
+      },
+      {
+        "title": "从此青春再无你",
+        "author": "耶耶爱吃瓜",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 37,
+        "category": "第一人称"
+      },
+      {
+        "title": "日记里写满了不可能的事",
+        "author": "遇见晴天",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 38,
+        "category": "后悔流"
+      },
+      {
+        "title": "从此无人扰清梦",
+        "author": "周窈",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 39,
+        "category": "追妻火葬场"
+      },
+      {
+        "title": "我爱上闺蜜的弟弟",
+        "author": "joyo家的猫",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 43,
+        "category": "青春"
+      },
+      {
+        "title": "一见倾心",
+        "author": "留白",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 44,
+        "category": "都市"
+      },
+      {
+        "title": "三人行能不能别带我",
+        "author": "开挖掘机撩闲",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 45,
+        "category": "现代言情"
+      },
+      {
+        "title": "恋恋七宗罪",
+        "author": "秃头玛嘉烈",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 46,
+        "category": "青春"
+      },
+      {
+        "title": "两百斤的旋风少女",
+        "author": "乐不思你",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 48,
+        "category": "励志"
+      },
+      {
+        "title": "午夜宿舍惊魂",
+        "author": "白夕鹿",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 49,
+        "category": "无CP"
+      },
+      {
+        "title": "隔壁蹲坑是校草",
+        "author": "盖被小熊　",
+        "list": "reader_story_leader_board/story_trend_list/691",
+        "position": 50,
+        "category": "青春"
+      },
+      {
+        "title": "玩你比我猜游戏后，我把全家送进局子",
+        "author": "鱼鱼小饼干",
+        "list": "reader_story_leader_board/story_trend_list/739",
+        "position": 42,
+        "category": "第一人称"
+      },
+      {
+        "title": "爱的人会错过",
+        "author": "文签",
+        "list": "reader_story_leader_board/story_trend_list/758",
+        "position": 14,
+        "category": "明星"
+      },
+      {
+        "title": "灵异小短篇合集",
+        "author": "发财的大美",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 23,
+        "category": "恐怖"
+      },
+      {
+        "title": "萤火：唾弃生母",
+        "author": "白饭鱼",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 24,
+        "category": "都市"
+      },
+      {
+        "title": "刚子的护身符",
+        "author": "赛牛",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 25,
+        "category": "恐怖"
+      },
+      {
+        "title": "恐怖噩梦",
+        "author": "月初鲤鱼",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 33,
+        "category": "恐怖"
+      },
+      {
+        "title": "我和顶流前男友一起上恋综",
+        "author": "折耳朵兰猫",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 34,
+        "category": "都市"
+      },
+      {
+        "title": "运尸委托",
+        "author": "背棺人",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 38,
+        "category": "第一人称"
+      },
+      {
+        "title": "第六根手指",
+        "author": "匆匆",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 42,
+        "category": "恐怖"
+      },
+      {
+        "title": "诡异工厂奇录记",
+        "author": "山复尔尔",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 43,
+        "category": "智商在线"
+      },
+      {
+        "title": "毁容男警告我后，我故意写错题杀疯了",
+        "author": "沙漠的鱼",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 47,
+        "category": "侦探"
+      },
+      {
+        "title": "阴阳馆",
+        "author": "喵喵扇",
+        "list": "reader_story_leader_board/story_trend_list/769",
+        "position": 50,
+        "category": "古代言情"
+      },
+      {
+        "title": "关于我和前任都被创进恐怖小说这件事",
+        "author": "西太红柿",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 9,
+        "category": "欢喜冤家"
+      },
+      {
+        "title": "怀璧其罪，何罪之有",
+        "author": "费加罗",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 10,
+        "category": "无CP"
+      },
+      {
+        "title": "糟糕，养错了龙",
+        "author": "岁时安",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 11,
+        "category": "强强"
+      },
+      {
+        "title": "黄粱一梦",
+        "author": "柠檬水",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 12,
+        "category": "男二上位"
+      },
+      {
+        "title": "我跳下诛仙台后，天界太子悔疯了",
+        "author": "凶狗睡大石",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 13,
+        "category": "HE"
+      },
+      {
+        "title": "苗疆少年",
+        "author": "清粥",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 15,
+        "category": "姐弟恋"
+      },
+      {
+        "title": "不见上仙三百年",
+        "author": "妤泠",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 16,
+        "category": "复仇"
+      },
+      {
+        "title": "绥绥",
+        "author": "白果子",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 19,
+        "category": "契约婚姻"
+      },
+      {
+        "title": "重生在丧尸爆发之前",
+        "author": "笠圆",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 21,
+        "category": "重生"
+      },
+      {
+        "title": "重生后我带着金龙重回巅峰",
+        "author": "附庸风雅",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 22,
+        "category": "第一人称"
+      },
+      {
+        "title": "双狐换生",
+        "author": "英俊",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 29,
+        "category": "异界"
+      },
+      {
+        "title": "重生到跟妹妹选兽夫这天",
+        "author": "一个橘子",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 30,
+        "category": "异界"
+      },
+      {
+        "title": "和闺蜜跳诛仙台后，男主们疯了",
+        "author": "美少女战士哟",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 32,
+        "category": "第一人称"
+      },
+      {
+        "title": "孽徒不让我飞升，我收个小师弟他们跪了",
+        "author": "九月崽崽",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 33,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "小师妹修成无情道",
+        "author": "听雨入眠",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 34,
+        "category": "复仇"
+      },
+      {
+        "title": "仙门绛雪",
+        "author": "瓜七七",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 44,
+        "category": "玄幻"
+      },
+      {
+        "title": "粉身碎骨后被死对头捡走了",
+        "author": "余洲",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 46,
+        "category": "玄幻"
+      },
+      {
+        "title": "小师妹为何那样？",
+        "author": "蛋包糯米",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 47,
+        "category": "异界"
+      },
+      {
+        "title": "混迹在丧尸中的小僵尸",
+        "author": "么么儿",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 48,
+        "category": "欢喜冤家"
+      },
+      {
+        "title": "满级师尊重回新手村",
+        "author": "十柒十七",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 49,
+        "category": "仙侠"
+      },
+      {
+        "title": "在游戏里捡了一个副本BOSS当老公",
+        "author": "杉灵竹",
+        "list": "reader_story_leader_board/story_trend_list/774",
+        "position": 50,
+        "category": "异界"
+      },
+      {
+        "title": "我和厂长千金离婚后",
+        "author": "虞非晚",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 30,
+        "category": "都市"
+      },
+      {
+        "title": "放下助人情节后我升华了",
+        "author": "棉花",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 31,
+        "category": "都市"
+      },
+      {
+        "title": "重生后，妹妹成了我的嘴替",
+        "author": "糖果",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 35,
+        "category": "都市"
+      },
+      {
+        "title": "妹妹想当小说女主",
+        "author": "阳光灿烂金元宝",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 38,
+        "category": "都市"
+      },
+      {
+        "title": "重生后打脸拜金贫困生",
+        "author": "今夜暴富",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 39,
+        "category": "第一人称"
+      },
+      {
+        "title": "重生后，我靠吃猪油撑死绿茶前女友",
+        "author": "南瓜",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 42,
+        "category": "复仇"
+      },
+      {
+        "title": "618宝宝病同事把全场改成一分钱，重生后我不管了",
+        "author": "泡泡鱼0",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 43,
+        "category": "现代言情"
+      },
+      {
+        "title": "彩礼风波",
+        "author": "彩色的沙漠",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 44,
+        "category": "打脸虐渣"
+      },
+      {
+        "title": "身为被收养的替身娃娃，死后，我和妹妹一起重生",
+        "author": "柚子",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 45,
+        "category": "替身"
+      },
+      {
+        "title": "重生归来，我亲手折断他的青云梯",
+        "author": "一支小笔尖",
+        "list": "reader_story_leader_board/story_trend_list/779",
+        "position": 47,
+        "category": "古代"
+      },
+      {
+        "title": "跟我分手后，顶流女友糊咖了　",
+        "author": "鱿鱼拌饭",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 30,
+        "category": "第一人称"
+      },
+      {
+        "title": "狩猎者",
+        "author": "喜欢梦见",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 33,
+        "category": "虐恋"
+      },
+      {
+        "title": "公平系统养老，全家都破防了",
+        "author": "是超人吖",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 37,
+        "category": "现实题材"
+      },
+      {
+        "title": "敛尽春色化故人",
+        "author": "7点准时帅醒",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 38,
+        "category": "第一人称"
+      },
+      {
+        "title": "七个哥哥拿命护假千金，可我是满级绿茶",
+        "author": "林间有风",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 39,
+        "category": "古代言情"
+      },
+      {
+        "title": "姜梨",
+        "author": "酸辣粉",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 42,
+        "category": "都市"
+      },
+      {
+        "title": "重生后替死神整顿职场",
+        "author": "七分棠",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 44,
+        "category": "职场"
+      },
+      {
+        "title": "十周年复仇",
+        "author": "靖江的猫",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 46,
+        "category": "扮猪吃虎"
+      },
+      {
+        "title": "我绣花供夫君高中，他却嫌我铜臭",
+        "author": "颜洛怡",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 47,
+        "category": "重生"
+      },
+      {
+        "title": "被恶毒动保表姐害死后，我以牙还牙",
+        "author": "僵尸",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 48,
+        "category": "都市"
+      },
+      {
+        "title": "我替姐姐承受虐待，她却要我死",
+        "author": "文墨生",
+        "list": "reader_story_leader_board/story_trend_list/790",
+        "position": 49,
+        "category": "第一人称"
+      }
+    ],
+    "xiaohongshu_novel_demand_shared": [
+      {
+        "title": "2026上半年我看过的网文TOP15",
+        "author": "枫夜（看文版）",
+        "list": "social/xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a58be4c000000001102c837",
+        "signal_type": "reader_demand_or_book_shortage",
+        "published_on": "2026-07-16"
+      },
+      {
+        "title": "🔥2026晋江言情人气榜单！9分以上合集【10】",
+        "author": "书荒救济站",
+        "list": "social/xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6abb1d4e000000001303c32a",
+        "signal_type": "reader_demand_or_book_shortage",
+        "published_on": "2026-09-29"
+      },
+      {
+        "title": "2026上半年书单，有很多惊喜文呀",
+        "author": "雪理不是璃",
+        "list": "social/xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6a65cbc8000000001002b3fc",
+        "signal_type": "reader_demand_or_book_shortage",
+        "published_on": "2026-07-26"
+      },
+      {
+        "title": "25年六大完结网文，看完只想说真话",
+        "author": "我有一块大冰",
+        "list": "social/xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/69a00642000000002800a769",
+        "signal_type": "reader_demand_or_book_shortage",
+        "published_on": "2026-02-26"
+      },
+      {
+        "title": "求升级流小白爽文推荐",
+        "author": "下江小春🎀",
+        "list": "social/xiaohongshu",
+        "url": "https://www.xiaohongshu.com/explore/6abce2790000000002029d71",
+        "signal_type": "reader_demand_or_book_shortage",
+        "published_on": "2026-09-30"
+      }
+    ],
+    "bilibili_novel_demand_shared": [
+      {
+        "title": "10月网文完结潮！锐评网文红黑榜~还有哪些佳作值得一看？！【月度书单010】",
+        "author": "网文比趣鸽",
+        "list": "social/bilibili",
+        "url": "https://www.bilibili.com/video/BV1qoht6dExu",
+        "signal_type": "curator_roundup",
+        "published_on": "2026-10-05"
+      },
+      {
+        "title": "新人作者必看！25 个小说平台优劣，一个视频带你了解",
+        "author": "耄耋教你写小说",
+        "list": "social/bilibili",
+        "url": "https://www.bilibili.com/video/BV19mh66nE8N",
+        "signal_type": "negative_or_avoidance",
+        "published_on": "2026-09-21"
+      },
+      {
+        "title": "【6.4新书数据】浅谈番茄的书荒机制，手把手教你如何推书荒",
+        "author": "阿离爱吃梨",
+        "list": "social/bilibili",
+        "url": "https://www.bilibili.com/video/BV1c1421y7xW",
+        "signal_type": "reader_demand_or_book_shortage",
+        "published_on": "2024-06-05"
+      },
+      {
+        "title": "【书荒看啥书】第一百零五期，再评《重生之官道》",
+        "author": "死宅的搬砖大叔",
+        "list": "social/bilibili",
+        "url": "https://www.bilibili.com/video/BV1KUhX6uE7c",
+        "signal_type": "reader_demand_or_book_shortage",
+        "published_on": "2026-09-26"
+      },
+      {
+        "title": "月入两万作者，大胆预言未来十年网文市场趋势，新人必看",
+        "author": "网文汽笛-功利写作版",
+        "list": "social/bilibili",
+        "url": "https://www.bilibili.com/video/BV1eFaY6PEDA",
+        "signal_type": "current_hotspot_or_rank_scan",
+        "published_on": "2026-09-28"
+      },
+      {
+        "title": "我统计了近7个月首订破千的起点新人，不知道写什么题材的新人作家有福了（都市篇）",
+        "author": "A想要成为人类",
+        "list": "social/bilibili",
+        "url": "https://www.bilibili.com/video/BV1UggQ6XEpf",
+        "signal_type": "curator_roundup",
+        "published_on": "2026-07-23"
+      },
+      {
+        "title": "知乎过稿复盘，榜单分析，出文步骤全流程。",
+        "author": "写网文的老刘",
+        "list": "social/bilibili",
+        "url": "https://www.bilibili.com/video/BV11ahW64EDH",
+        "signal_type": "current_hotspot_or_rank_scan",
+        "published_on": "2026-09-23"
+      }
+    ]
+  },
+  "privacy": "Only public metadata; no excerpts, images, video subtitles, credentials, signed links or machine locations."
+}

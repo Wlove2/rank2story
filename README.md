@@ -89,15 +89,15 @@ Rank2Story 支持**长篇 / 短篇 × 番茄 / 七猫 × 男频 / 女频**三个
 
 | 来源 | 真实采集内容 | 纳入市场证据目录 |
 | --- | --- | --- |
-| **番茄作者端** | 综合、黑马涨幅、经典热门短篇热榜 | **22 条去重作品** |
-| **番茄阅读端** | 独立短篇榜，两轮实时采集 | **60 条去重记录** |
-| **七猫阅读端** | 短故事推荐榜、趋势榜及分类扩展 | **98 条短故事榜单证据** |
-| **小红书** | 完整图文书单、书荒与求推 | **5 条合格笔记，5 位作者** |
-| **Bilibili** | 完整视频书单、热点、求推、避雷 | **10 条合格视频，8 位作者** |
+| **番茄作者端** | 综合、黑马涨幅、经典热门短篇热榜 | **22 部去重作品** |
+| **番茄阅读端** | 独立短篇榜，两轮实时采集 | **60 部去重作品** |
+| **七猫阅读端** | 短故事推荐榜、趋势榜 × 13 类，共 **26 榜、1,298 个榜位** | **608 部去重短故事** |
+| **小红书** | 完整图文和逐图实际读取 | **5 条合格笔记** |
+| **Bilibili** | 完整视频与读者信号 | **7 条合格视频** |
 
-这次短篇扫描整理出 **195 条规范化市场证据**，并形成 **55 条分析抽样作品记录**。195 是去重后选入证据目录的记录数，**不是全部原始榜位，也不是 195 个新生成的故事候选**。可查看番茄作者端全部 22 条公开作品及阅读端、七猫、社区的真实样本。
+这轮独立短篇运行保留了 **702 条规范化市场证据**，分析抽样 **185 条作品或信号记录**。702 是当前运行去重后的证据目录条目，**不是原始榜位总数，也不是 702 个新生成的故事候选**。七猫 26 榜均已纳入证据目录。
 
-**[查看短篇真实扫榜与作品样本 →](docs/SHORT_SCAN_SHOWCASE_20261017.md)**
+**[查看 702 条完整短篇证据与作品样本 →](docs/SHORT_SCAN_SHOWCASE_20261017T144216Z.md)** · [另一轮 195 条历史展示](docs/SHORT_SCAN_SHOWCASE_20261017.md)
 
 ### 扫榜一次，可以复用多次生成
 
@@ -279,7 +279,7 @@ Rank2Story/
 │   ├── POLICY_CONFIGURATION.md   # 策略配置
 │   ├── RESULTS.md                # 长短篇市场成果与候选案例
 │   ├── MULTIPLATFORM_SHOWCASE_20261009.md  # 长篇扫榜
-│   └── SHORT_SCAN_SHOWCASE_20261017.md     # 短篇扫榜
+│   └── SHORT_SCAN_SHOWCASE_20261017T144216Z.md     # 短篇扫榜
 └── .github/workflows/            # CI 自动测试
 ```
 
@@ -287,7 +287,7 @@ Rank2Story/
 
 通过 [Agent 安装指南](docs/INSTALL_FOR_AGENTS.md) 接入三个 Skills；[使用指南](docs/QUICKSTART.md) 包含模型配置、市场证据包复用及命令行操作。
 
-[实际成果与案例](docs/RESULTS.md) · [长篇七平台扫榜](docs/MULTIPLATFORM_SHOWCASE_20261009.md) · [短篇五类来源扫榜](docs/SHORT_SCAN_SHOWCASE_20261017.md) · [七批候选成果（29 张）](#故事候选七批真实交付) · [五张完整候选卡](docs/CANDIDATE_SHOWCASE_20260905.md) · [快速指南](docs/QUICKSTART.md) · [配置说明](docs/POLICY_CONFIGURATION.md) · [参与贡献](CONTRIBUTING.md) · [来源及版本说明](PROVENANCE.md)
+[实际成果与案例](docs/RESULTS.md) · [长篇七平台扫榜](docs/MULTIPLATFORM_SHOWCASE_20261009.md) · [短篇五类来源扫榜](docs/SHORT_SCAN_SHOWCASE_20261017T144216Z.md) · [七批候选成果（29 张）](#故事候选七批真实交付) · [五张完整候选卡](docs/CANDIDATE_SHOWCASE_20260905.md) · [快速指南](docs/QUICKSTART.md) · [配置说明](docs/POLICY_CONFIGURATION.md) · [参与贡献](CONTRIBUTING.md) · [来源及版本说明](PROVENANCE.md)
 
 **使用前请阅读：**[数据与隐私](docs/DATA_AND_RIGHTS.md) · [第三方许可](THIRD_PARTY.md) · [安全说明](SECURITY.md)。本项目不隶属于所涉及的网文及内容平台。
 
