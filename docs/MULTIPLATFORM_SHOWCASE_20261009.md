@@ -147,4 +147,4 @@
 - 不分发小说正文、完整简介、视频字幕、笔记全文、登录凭据、签名图片、模型私有回执。
 - 本轮九源清单 SHA-256：a57596c8db404dc5fb93cdc3e9c6304765c6e848e0a10afe59714ff70c48d0c3
 - [7 平台结构化真实元数据样本 JSON](../examples/showcase/verified_multiplatform_preview_20261009.json)
-- [故事候选案例库：五张入选卡与四张创意草案](CANDIDATE_SHOWCASE_20260905.md)。
+- [故事候选案例库：五张完整入选卡](CANDIDATE_SHOWCASE_20260905.md)。
