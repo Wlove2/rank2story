@@ -78,7 +78,7 @@ Rank2Story 支持**长篇 / 短篇 × 番茄 / 七猫 × 男频 / 女频**三个
 
 另外，番茄和七猫阅读端还保留了独立的分类榜与分页采集快照。公开展示了番茄 **74 类 × 每类前三本，共 222 条真实作品预览**，以及其他平台的榜单样本。
 
-**[查看长篇七平台真实扫榜 →](docs/MULTIPLATFORM_SHOWCASE_20261009.md)** · [番茄 222 条作品预览](docs/SCAN_SHOWCASE_20261009.md) · [长篇结构化样本（JSON）](examples/showcase/verified_multiplatform_preview_20261009.json)
+**[查看长篇七平台真实扫榜 →](docs/MULTIPLATFORM_SHOWCASE_20261009.md)**
 
 ### 短篇市场｜2026 年 10 月 17 日
 
@@ -94,7 +94,7 @@ Rank2Story 支持**长篇 / 短篇 × 番茄 / 七猫 × 男频 / 女频**三个
 
 这次短篇扫描整理出 **195 条规范化市场证据**，并形成 **55 条分析抽样作品记录**。195 是去重后选入证据目录的记录数，**不是全部原始榜位，也不是 195 个新生成的故事候选**。可查看番茄作者端全部 22 条公开作品及阅读端、七猫、社区的真实样本。
 
-**[查看短篇真实扫榜与作品样本 →](docs/SHORT_SCAN_SHOWCASE_20261017.md)** · [195 条短篇结构化数据（JSON）](examples/showcase/verified_short_scan_preview_20261017.json)
+**[查看短篇真实扫榜与作品样本 →](docs/SHORT_SCAN_SHOWCASE_20261017.md)**
 
 ### 扫榜一次，可以复用多次生成
 
