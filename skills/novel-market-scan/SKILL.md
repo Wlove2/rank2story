@@ -23,6 +23,11 @@ Build a verified scan run from registered sources. Stop at a sealed evidence pac
 5. Freeze the evidence packet with deterministic paths and hashes. Only report success after validator exit status 0.
 6. Return the packet path, hash, run ID, lane, coverage status and any failed sources. Do not invoke the candidate engine without a user instruction.
 
+
+### Xiaohongshu image reading
+
+For full-image Xiaohongshu notes, use the Agent's own vision capabilities when available; **Ollama is optional**, not a required installation for all Skill users. The shipped collector can stage actual images for the Agent and import descriptions only after verifying their saved SHA-256 hashes. Use a locally authorized Ollama multimodal model with `--vision-model` only when Agent-native vision cannot read the local images. Allow configured system/environment HTTPS proxy settings for public CDN reads. Resume from saved per-note checkpoints using `--resume` and keep every unread or failed image ineligible. Exact commands and onboarding checks: [docs/CONNECTORS.md](../../docs/CONNECTORS.md#小红书图文识别与断点续采).
+
 ## External collection access
 
 Supported platform adapters can require browser automation, `opencli`, `agent-reach`, or external collector scripts. No signed URL, login account, cookie, browser profile or scraped content is provided by this repository. Verify your access permissions and platform terms before running. Do not evade access controls, harvest credentials or publish private records.

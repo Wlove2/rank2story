@@ -97,3 +97,26 @@ Bilibili 扫描可复用既有筛查进度并对视频 ID 去重；同一作者�
 ## 真实结果与边界
 
 [查看 2026-10-09 已验证的 9/9 来源和 74/740 榜单汇总](RESULTS.md)。该页不再分发第三方书籍原始内容。模型连接、恢复机制分别见 [MODEL_CONNECTIVITY.md](MODEL_CONNECTIVITY.md)、[CANDIDATE_RUN_RECOVERY.md](CANDIDATE_RUN_RECOVERY.md)。
+
+
+## 小红书图文识别与断点续采
+
+小红书需要实际读取**笔记正文以及全部图片**。候选生成配置的模型 API 不负责此步骤。Agent 有自身识图能力时优先使用，不需要部署 Ollama；仅在 Agent 无法读图时，才考虑使用本机已有或用户同意安装的 Ollama 视觉模型。以下命令在仓库根目录运行，`<本次运行目录>` 必须替换为 `short_production` 或长篇扫描 `run_manifest.json` 指定的当次运行目录。
+
+**Agent 自身识图：**
+
+```bash
+python skills/novel-analyzer/scripts/collect_xiaohongshu_public_notes.py --output "<本次运行目录>/raw/xiaohongshu_novel_demand_shared" --agent-vision --max-gallery-images 2 --max-notes 12 --resume
+```
+
+上述步骤保存 `public_notes.json`、`agent_vision_queue.json` 和 `media/` 下的真实图片（不会写入带登录签名的 CDN URL）。Agent **实际打开并逐张读取**队列中 `image_path` 对应的图片，仅对已读图片填写同一队列条目的 `text` 字段，不得随意修改 `source_url`、`index`、`image_sha256` 或图片文件。然后执行：
+
+```bash
+python skills/novel-analyzer/scripts/collect_xiaohongshu_public_notes.py --output "<本次运行目录>/raw/xiaohongshu_novel_demand_shared" --apply-agent-vision
+```
+
+脚本会校验每张图片的本地 SHA-256 与来源、序号，未填写、图片缺失、哈希不符或部分图片未读的笔记继续保持不合格；之后仍必须通过仓库正式来源覆盖校验才能算完成。
+
+**可选 Ollama 路径：** 使用者已经安装并允许运行的本地多模态模型可通过 `--vision-model <已安装视觉模型的名称>` 指定，程序调用 `127.0.0.1:11434`。先检查服务和模型可用性；不会自动安装、拉取或预设 `qwen2.5vl:7b`。无需在没有 Agent 识图能力时强行启用图片下载后不读取的流程。
+
+**可恢复性与访问条件：** 普通或 Ollama 采集同样支持 `--resume`。逐条检查点保证中断后不重复计数，并优先选择实际可读取的小图笔记；如有必要设置 `--max-gallery-images 2`，大图集只记未完成，不得凑配额。图片下载使用用户现有 HTTP(S) 代理配置（无代理则直连）；小红书需要登录时，由使用者在自己的已授权浏览器内完成。全部原图、笔记、读取记录只保留在本地私有运行目录，不提交到 GitHub。

@@ -890,7 +890,7 @@
           "opencli xiaohongshu note",
           "opencli xiaohongshu comments"
         ],
-        "reference": "references/social-evidence-extraction.md",
+        "reference": "references/social-source-policy.md",
         "coverage_capability": "complete",
         "verified_on": "2026-07-20"
       },
@@ -936,7 +936,7 @@
           "opencli bilibili subtitle",
           "opencli bilibili comments"
         ],
-        "reference": "references/social-evidence-extraction.md",
+        "reference": "references/social-source-policy.md",
         "coverage_capability": "complete",
         "verified_on": "2026-07-20"
       },

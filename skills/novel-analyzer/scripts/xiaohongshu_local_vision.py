@@ -45,9 +45,7 @@ def safe_image_bytes(url: str) -> bytes:
         "User-Agent": "Mozilla/5.0",
         "Referer": "https://www.xiaohongshu.com/",
     })
-    with urllib.request.build_opener(urllib.request.ProxyHandler({})).open(
-        request, timeout=18
-    ) as response:
+    with urllib.request.urlopen(request, timeout=18) as response:
         if not str(response.headers.get("Content-Type", "")).startswith("image/"):
             raise ValueError("XHS_IMAGE_NOT_IMAGE")
         content = response.read(6_000_001)
@@ -123,3 +121,46 @@ def read_public_gallery(
             # The missing image cannot count toward 'images_read'.
             continue
     return records
+
+
+def stage_public_gallery(
+    prefix: list[str], session: str, run_cli: Any,
+    expected_images: int, media_dir: "Path",
+) -> list[dict[str, Any]]:
+    """Download real images for an Agent to read; never persist signed URLs."""
+    from pathlib import Path
+    status, response = run_cli(prefix, ["browser", session, "eval", GALLERY_DOM_JS], 45)
+    if status:
+        return []
+    try:
+        gallery = json.loads(response).get("gallery_items", [])
+    except (ValueError, TypeError):
+        return []
+    if not isinstance(gallery, list) or len(gallery) != expected_images:
+        return []
+    results = []
+    for media in gallery:
+        index = media.get("index")
+        if type(index) is not int or index < 0 or index >= expected_images:
+            continue
+        try:
+            if media.get("width", 0) < 100 or media.get("height", 0) < 100:
+                continue
+            contents = safe_image_bytes(str(media.get("src") or ""))
+            digest = hashlib.sha256(contents).hexdigest()
+            media_dir.mkdir(parents=True, exist_ok=True)
+            ext = (".jpg" if contents.startswith(b"\xff\xd8") else
+                   ".png" if contents.startswith(b"\x89PNG\r\n\x1a\n") else
+                   ".webp" if contents[:4] == b"RIFF" and contents[8:12] == b"WEBP" else None)
+            if ext is None:
+                continue
+            path = media_dir / (digest + ext)
+            if not path.is_file():
+                path.write_bytes(contents)
+            results.append({
+                "index": index, "image_sha256": digest,
+                "image_path": "media/" + path.name, "text": "",
+            })
+        except (OSError, ValueError, urllib.error.URLError, TimeoutError):
+            continue
+    return results
