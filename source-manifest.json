@@ -158,7 +158,7 @@
     {
       "file": "skills/novel-analyzer/scripts/collect_xiaohongshu_public_notes.py",
       "baseline_sha256": null,
-      "release_sha256": "f9dcd46161a7a75f015e539aeeac1892e8ee149976d21acef87374ed3ce7e49d",
+      "release_sha256": "1af392088eef33bfeca80476bdbf71d48a69a973092b94ca3d177fac1cd4b619",
       "changed": true,
       "origin": "new_release_only"
     },
@@ -579,7 +579,7 @@
     {
       "file": "skills/novel-analyzer/tests/test_xhs_agent_vision.py",
       "baseline_sha256": null,
-      "release_sha256": "b558ff84b21acfaa2a766d569dd9f7d73f7e4b2749fa740b9765aeb0426ec7f9",
+      "release_sha256": "5f22e67f3d105f5c91a46a4d46f2dfdcd013ddf6bec8db5dba004ae011307885",
       "changed": true,
       "origin": "new_release_only"
     },

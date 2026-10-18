@@ -37,20 +37,36 @@ def canonical_url(url: str) -> str:
     return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path.rstrip("/"), "", ""))
 
 
+def resolve_windows_opencli_shim(path: Path) -> list[str]:
+    """Resolve known Node.js .cmd shims without passing signed URLs through cmd.exe."""
+    wrapper = path.read_text(encoding="utf-8", errors="replace")
+    direct = re.search(r'"([^"]+node\.exe)"\s+"([^"]+\.js)"', wrapper, re.I)
+    if direct:
+        return list(direct.groups())
+
+    # npm's cmd-shim uses %_prog% and a %dp0%-relative JavaScript entrypoint.
+    npm = re.search(
+        r'"%_prog%"\s+"%(?:~)?dp0%[\\/]+([^"]+\.js)"\s+%\*',
+        wrapper, re.I,
+    )
+    if npm:
+        script = (path.parent / npm.group(1).replace("\\", "/")).resolve()
+        nearby_node = path.parent / "node.exe"
+        node = (str(nearby_node) if nearby_node.is_file()
+                else shutil.which("node.exe") or shutil.which("node"))
+        if node and script.is_file():
+            return [node, str(script)]
+    raise RuntimeError("OPENCLI_WINDOWS_WRAPPER_UNSAFE_OR_UNKNOWN")
+
+
 def opencli_argv() -> list[str]:
     executable = shutil.which("opencli")
     if not executable:
         raise RuntimeError("OPENCLI_NOT_INSTALLED")
     path = Path(executable)
     if os.name == "nt" and path.suffix.lower() in {".cmd", ".bat"}:
-        # Never pass signed query strings through cmd.exe (ampersands & etc.).
-        wrapper = path.read_text(encoding="utf-8", errors="replace")
-        match = re.search(r'"([^"]+node\.exe)"\s+"([^"]+\.js)"', wrapper, re.I)
-        if not match:
-            raise RuntimeError("OPENCLI_WINDOWS_WRAPPER_UNSAFE_OR_UNKNOWN")
-        return list(match.groups())
+        return resolve_windows_opencli_shim(path)
     return [executable]
-
 
 def run_cli(prefix: list[str], args: list[str], timeout: int) -> tuple[int, str]:
     try:

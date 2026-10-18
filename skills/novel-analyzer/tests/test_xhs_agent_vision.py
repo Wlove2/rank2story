@@ -103,5 +103,71 @@ class XhsAgentVisionTests(unittest.TestCase):
                 xhs.import_agent_vision(Path(d))
 
 
+class OpencliWindowsShimTests(unittest.TestCase):
+    def test_existing_direct_node_wrapper(self):
+        with tempfile.TemporaryDirectory() as folder:
+            base = Path(folder)
+            node = base / "node.exe"
+            script = base / "cli.js"
+            node.touch()
+            script.touch()
+            shim = base / "opencli.cmd"
+            shim.write_text(f'@echo off\n"{node}" "{script}" %*\n', encoding="utf-8")
+            self.assertEqual(xhs.resolve_windows_opencli_shim(shim), [str(node), str(script)])
+
+    def test_npm_cmd_shim_with_neighbor_node(self):
+        with tempfile.TemporaryDirectory() as folder:
+            base = Path(folder)
+            script = base / "node_modules" / "@jackwener" / "opencli" / "dist" / "main.js"
+            script.parent.mkdir(parents=True)
+            script.touch()
+            node = base / "node.exe"
+            node.touch()
+            shim = base / "opencli.cmd"
+            shim.write_text(
+                '@ECHO off\nSETLOCAL\nCALL :find_dp0\n'
+                'IF EXIST "%dp0%\\node.exe" (\n'
+                '  SET "_prog=%dp0%\\node.exe"\n'
+                ') ELSE (\n  SET "_prog=node"\n)\n'
+                'endLocal & goto #_undefined_# 2>NUL || title %COMSPEC% & '
+                '"%_prog%"  "%dp0%\\node_modules\\@jackwener\\opencli\\dist\\main.js" %*\n',
+                encoding="utf-8",
+            )
+            self.assertEqual(xhs.resolve_windows_opencli_shim(shim), [str(node), str(script)])
+
+    def test_npm_cmd_shim_falls_back_to_node_on_path(self):
+        with tempfile.TemporaryDirectory() as folder:
+            base = Path(folder)
+            script = base / "node_modules" / "opencli" / "main.js"
+            script.parent.mkdir(parents=True)
+            script.touch()
+            shim = base / "opencli.cmd"
+            shim.write_text(
+                '"%_prog%"  "%~dp0\\node_modules\\opencli\\main.js" %*\n',
+                encoding="utf-8",
+            )
+            with patch.object(xhs.shutil, "which", return_value="node-on-path"):
+                self.assertEqual(
+                    xhs.resolve_windows_opencli_shim(shim), ["node-on-path", str(script)]
+                )
+
+    def test_unknown_wrapper_is_rejected(self):
+        with tempfile.TemporaryDirectory() as folder:
+            shim = Path(folder) / "opencli.cmd"
+            shim.write_text("@echo off\nopencli %*\n", encoding="utf-8")
+            with self.assertRaisesRegex(RuntimeError, "WRAPPER_UNSAFE_OR_UNKNOWN"):
+                xhs.resolve_windows_opencli_shim(shim)
+
+    def test_signed_urls_stay_as_single_argument_without_shell(self):
+        url = "https://www.xiaohongshu.com/search_result?xsec_token=a&xsec_source=pc%25"
+        with patch.object(xhs.subprocess, "run") as call:
+            call.return_value.returncode = 0
+            call.return_value.stdout = "ok"
+            self.assertEqual(xhs.run_cli(["node", "main.js"], ["browser", "open", url], 10), (0, "ok"))
+            args, kwargs = call.call_args
+            self.assertEqual(args[0], ["node", "main.js", "browser", "open", url])
+            self.assertIs(kwargs["shell"], False)
+
+
 if __name__=="__main__":
     unittest.main()
