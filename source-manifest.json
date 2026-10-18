@@ -158,7 +158,7 @@
     {
       "file": "skills/novel-analyzer/scripts/collect_xiaohongshu_public_notes.py",
       "baseline_sha256": null,
-      "release_sha256": "1af392088eef33bfeca80476bdbf71d48a69a973092b94ca3d177fac1cd4b619",
+      "release_sha256": "f49e358ce41820a14f5e080639cde0311c322ab1ab33ade1e3e4155a047a7a03",
       "changed": true,
       "origin": "new_release_only"
     },

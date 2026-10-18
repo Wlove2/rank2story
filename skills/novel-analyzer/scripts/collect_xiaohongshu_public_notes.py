@@ -46,7 +46,7 @@ def resolve_windows_opencli_shim(path: Path) -> list[str]:
 
     # npm's cmd-shim uses %_prog% and a %dp0%-relative JavaScript entrypoint.
     npm = re.search(
-        r'"%_prog%"\s+"%(?:~)?dp0%[\\/]+([^"]+\.js)"\s+%\*',
+        r'"%_prog%"\s+"(?:%dp0%|%~dp0)[\\/]+([^"]+\.js)"\s+%\*',
         wrapper, re.I,
     )
     if npm:
