@@ -44,6 +44,13 @@
       "changed": false
     },
     {
+      "file": "skills/novel-analyzer/references/social-evidence-extraction.md",
+      "baseline_sha256": null,
+      "release_sha256": "c05e1c02be38d009711c6b7228dd12010b3cc648a36b8827967e50c3484bb982",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
       "file": "skills/novel-analyzer/references/social-source-policy.md",
       "baseline_sha256": null,
       "release_sha256": "6c5b089d34f97c5b1dace7f18133f872413ba3669782ea839265744cff15e3e6",
@@ -53,7 +60,7 @@
     {
       "file": "skills/novel-analyzer/references/source-registry.json",
       "baseline_sha256": "092cbb8f3cfefaa64f7db9db6da570eae130679228a675da315f128501828fe0",
-      "release_sha256": "5c829bcb5248b0343070ce5c6e76d1d0c5e1c4b6df362962290ef9ce3dc69259",
+      "release_sha256": "d598ada9dbb1ef7f9ac9a7ba15a3d495affb210d154fd5b758737989d75178dc",
       "changed": true
     },
     {
@@ -151,7 +158,7 @@
     {
       "file": "skills/novel-analyzer/scripts/collect_xiaohongshu_public_notes.py",
       "baseline_sha256": null,
-      "release_sha256": "c588ecebd4c76d5e34f6a25d2ee3ea6a0b303aefbb74afd6462e4f425b66d8d0",
+      "release_sha256": "f9dcd46161a7a75f015e539aeeac1892e8ee149976d21acef87374ed3ce7e49d",
       "changed": true,
       "origin": "new_release_only"
     },
@@ -317,7 +324,7 @@
     {
       "file": "skills/novel-analyzer/scripts/xiaohongshu_local_vision.py",
       "baseline_sha256": null,
-      "release_sha256": "199b871f21c0f7e1ad4e73a5e91f58f61d1060dc8a52a2dc3b44d58ffc7a80cc",
+      "release_sha256": "2b0f7a206dee9962b74a2cd372d31560516c04f876d7f3acd9c877427eebb985",
       "changed": true,
       "origin": "new_release_only"
     },
@@ -570,6 +577,13 @@
       "changed": true
     },
     {
+      "file": "skills/novel-analyzer/tests/test_xhs_agent_vision.py",
+      "baseline_sha256": null,
+      "release_sha256": "b558ff84b21acfaa2a766d569dd9f7d73f7e4b2749fa740b9765aeb0426ec7f9",
+      "changed": true,
+      "origin": "new_release_only"
+    },
+    {
       "file": "skills/novel-analyzer/tests/test_xhs_owner_policy.py",
       "baseline_sha256": null,
       "release_sha256": "fa4b04967f25f57e86260fcd20ee4a0ad68043e44a74ac20d129e66319c35f0f",
@@ -616,7 +630,7 @@
     {
       "file": "skills/novel-market-scan/SKILL.md",
       "baseline_sha256": "48f5363d7e46baf67db6328d827eefe0d8ee7e8deec29c875fd07e00bd7b2ed6",
-      "release_sha256": "f532f8095654fb0b8d6a2d76525f3f4e7b284597d8dc776cb1aab7d5d1f3e6d7",
+      "release_sha256": "886a26d0b312ffdec169e05bc739ba3ccabf08aef509c54204d8e34ebea318ee",
       "changed": true
     },
     {
