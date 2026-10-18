@@ -133,7 +133,7 @@ class OpencliWindowsShimTests(unittest.TestCase):
                 '"%_prog%"  "%dp0%\\node_modules\\@jackwener\\opencli\\dist\\main.js" %*\n',
                 encoding="utf-8",
             )
-            self.assertEqual(xhs.resolve_windows_opencli_shim(shim), [str(node), str(script)])
+            self.assertEqual(xhs.resolve_windows_opencli_shim(shim), [str(node), str(script.resolve())])
 
     def test_npm_cmd_shim_falls_back_to_node_on_path(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -148,7 +148,7 @@ class OpencliWindowsShimTests(unittest.TestCase):
             )
             with patch.object(xhs.shutil, "which", return_value="node-on-path"):
                 self.assertEqual(
-                    xhs.resolve_windows_opencli_shim(shim), ["node-on-path", str(script)]
+                    xhs.resolve_windows_opencli_shim(shim), ["node-on-path", str(script.resolve())]
                 )
 
     def test_unknown_wrapper_is_rejected(self):
