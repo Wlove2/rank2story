@@ -28,7 +28,6 @@ Rank2Story 的输出分为两部分：**市场情报**与**故事候选**。前�
 
 **[查看最新完整短篇成果 →](SHORT_SCAN_SHOWCASE_20261017T144216Z.md)** · [702 条公开元数据（JSON）](../examples/showcase/verified_short_scan_preview_20261017T144216Z.json)
 
-另保留 [另一轮短篇扫榜（195 条）](SHORT_SCAN_SHOWCASE_20261017.md) 与 [原 195 条元数据](../examples/showcase/verified_short_scan_preview_20261017.json) 供历史对照；两轮不能混为一次。这里统计的是证据条目，而不是全部榜位，更不是新生成的故事候选。
 
 **这次仅完成短篇扫榜与证据冻结，没有生成新候选。** 下方五张候选卡来自独立的历史任务。
 
