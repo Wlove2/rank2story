@@ -50,8 +50,8 @@ class ShowcaseSummaryTests(unittest.TestCase):
         self.assertFalse(any("intro" in b or "cover" in b or "cookie" in b for b in books))
         self.assertIn("222", (ROOT/"docs/SCAN_SHOWCASE_20261009.md").read_text(encoding="utf-8"))
 
-    def test_short_showcase_retains_original_book_ids_and_real_official_urls(self):
-        """Public short scan keeps platform IDs without fabricating Qimao web links."""
+    def test_short_showcase_retains_original_book_ids_without_reader_urls(self):
+        """Reader-app scans keep original IDs and do not add synthetic book URLs."""
         obj=json.loads((ROOT/"examples/showcase/verified_short_scan_preview_20261017T144216Z.json").read_text(encoding="utf-8"))
         groups=obj["items"]
         self.assertEqual(sum(map(len,groups.values())),702)
@@ -62,7 +62,7 @@ class ShowcaseSummaryTests(unittest.TestCase):
         self.assertEqual(qimao[0]["book_id"],"1720237")
         for record in reader:
             self.assertTrue(record["book_id"].isdigit())
-            self.assertEqual(record["url"],"https://fanqienovel.com/page/"+record["book_id"])
+            self.assertNotIn("url",record)
         for record in qimao:
             self.assertTrue(record["book_id"].isdigit())
             self.assertNotIn("url",record)
