@@ -50,6 +50,23 @@ class ShowcaseSummaryTests(unittest.TestCase):
         self.assertFalse(any("intro" in b or "cover" in b or "cookie" in b for b in books))
         self.assertIn("222", (ROOT/"docs/SCAN_SHOWCASE_20261009.md").read_text(encoding="utf-8"))
 
+    def test_short_showcase_retains_original_book_ids_and_real_official_urls(self):
+        """Public short scan keeps platform IDs without fabricating Qimao web links."""
+        obj=json.loads((ROOT/"examples/showcase/verified_short_scan_preview_20261017T144216Z.json").read_text(encoding="utf-8"))
+        groups=obj["items"]
+        self.assertEqual(sum(map(len,groups.values())),702)
+        reader=groups["fanqie_reader_short_rank_center"]
+        qimao=groups["qimao_reader_story_rank_center"]
+        self.assertEqual((len(reader),len(qimao)),(60,608))
+        self.assertEqual(reader[0]["book_id"],"7477118719643107864")
+        self.assertEqual(qimao[0]["book_id"],"1720237")
+        for record in reader:
+            self.assertTrue(record["book_id"].isdigit())
+            self.assertEqual(record["url"],"https://fanqienovel.com/page/"+record["book_id"])
+        for record in qimao:
+            self.assertTrue(record["book_id"].isdigit())
+            self.assertNotIn("url",record)
+
     def test_five_actual_cards_include_creative_detail_not_placeholder(self):
         obj=json.loads((ROOT/"examples/showcase/verified_candidate_cards_20260905.json").read_text(encoding="utf-8"))
         self.assertEqual(obj["source_run_id"],"cand-20260905-132200-11f9484c")
